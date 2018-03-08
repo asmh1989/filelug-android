@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Default application theme -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+		<item name="colorPrimary">@color/main_color_500</item>
+		<item name="colorPrimaryDark">@color/main_color_600</item>
+		<!--<item name="colorAccent">@color/main_color_A400</item>-->
+		<item name="colorAccent">@color/main_color_500</item>
+		<item name="android:textColorPrimary">@color/white</item>
+		<item name="android:textColor">@color/main_color_grey_900</item>
+		<item name="android:windowBackground">@color/white</item>
+		<item name="windowActionModeOverlay">true</item>
+		<item name="actionMenuTextColor">@color/white</item>
+		<item name="actionModeBackground">@color/main_color_500</item>
+		<item name="actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+		<item name="actionOverflowMenuStyle">@style/PopupMenuOverflowStyle</item>
+		<item name="android:windowTranslucentStatus">true</item>
+
+
+
+
+
+		<item name="md_dark_theme">false</item>
+		<item name="md_title_color">@color/main_color_500</item>
+	</style>
+
+	<!--<style name="AccountKitLoginTheme" parent="@style/Theme.AccountKit" />-->
+	<style name="AccountKitLoginTheme" parent="@style/Theme.AccountKit">
+		<item name="com_accountkit_status_bar_color">@color/main_color_600</item>
+		<item name="com_accountkit_primary_color">@color/main_color_500</item>
+		<item name="com_accountkit_primary_text_color">@color/white</item>
+		<item name="com_accountkit_secondary_color">@color/white</item>
+		<item name="com_accountkit_secondary_text_color">@color/main_color_grey_600</item>
+
+		<item name="com_accountkit_title_text_color">@color/black</item>
+		<item name="com_accountkit_input_accent_color">@color/main_color_500</item>
+		<item name="com_accountkit_input_border_color">@color/main_color_500</item>
+		<item name="com_accountkit_button_background_color">@color/main_color_500</item>
+		<item name="com_accountkit_button_text_color">@color/white</item>
+		<item name="com_accountkit_button_disabled_background_color">@color/main_color_grey_500</item>
+		<item name="com_accountkit_button_disabled_text_color">@color/white</item>
+	</style>
+
+	<style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="spinBars">true</item>
+		<item name="color">@android:color/white</item>
+	</style>
+
+	<style name="ActionOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+		<item name="android:src">@drawable/ic_action_overflow</item>
+	</style>
+
+	<style name="PopupMenuOverflowStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+		<item name="overlapAnchor">false</item>
+	</style>
+
+	<style name="ToolBarStyle" parent="">
+
+
+		<item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+		<item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="RippleStyle">
+		<item name="rippleOverlay">true</item>
+		<item name="rippleColor">@color/main_color_500</item>
+		<item name="rippleAlpha">0.7</item>
+		<item name="rippleDimension">45dp</item>
+		<item name="rippleHover">true</item>
+		<item name="rippleDuration">200</item>
+		<item name="rippleFadeDuration">50</item>
+		<item name="rippleBackground">@android:color/transparent</item>
+		<item name="rippleDelayClick">true</item>
+		<item name="ripplePersistent">false</item>
+		<item name="rippleInAdapter">false</item>
+	</style>
+
+	<declare-styleable name="ScrimInsetsView">
+		<attr name="insetForeground" format="reference|color" />
+	</declare-styleable>
+
+</resources>

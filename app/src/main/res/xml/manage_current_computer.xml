@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_category_computer_profile"
+        android:title="@string/label_pref_category_computer_profile" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_computer"
+            android:key="@string/pref_computer_name"
+            android:persistent="false"
+            android:title="@string/label_computer_name" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_category_download_settings"
+        android:title="@string/label_pref_category_download_settings" >
+
+        <com.filelug.android.ui.widget.LocalFolderPreference
+            android:icon="@drawable/ic_folder"
+            android:key="@string/pref_download_path"
+            android:title="@string/label_pref_download_path" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_new_folder"
+            android:entries="@array/subfolder_type_array"
+            android:entryValues="@array/subfolder_type_value_array"
+            android:key="@string/pref_download_subdir"
+            android:title="@string/label_subfolder_type" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_note"
+            android:entries="@array/description_type_array"
+            android:entryValues="@array/description_type_value_array"
+            android:key="@string/pref_download_description_type"
+            android:title="@string/label_download_description_type" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_notifications"
+            android:entries="@array/notification_type_array"
+            android:entryValues="@array/notification_type_value_array"
+            android:key="@string/pref_download_notification_type"
+            android:title="@string/label_download_notification_type" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_category_upload_settings"
+        android:title="@string/label_pref_category_upload_settings" >
+
+        <com.filelug.android.ui.widget.RemoteFolderPreference
+            android:icon="@drawable/ic_folder"
+            android:key="@string/pref_upload_path"
+            android:title="@string/label_pref_upload_path" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_new_folder"
+            android:entries="@array/subfolder_type_array"
+            android:entryValues="@array/subfolder_type_value_array"
+            android:key="@string/pref_upload_subdir"
+            android:title="@string/label_subfolder_type" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_note"
+            android:entries="@array/description_type_array"
+            android:entryValues="@array/description_type_value_array"
+            android:key="@string/pref_upload_description_type"
+            android:title="@string/label_upload_description_type" />
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:icon="@drawable/ic_notifications"
+            android:entries="@array/notification_type_array"
+            android:entryValues="@array/notification_type_value_array"
+            android:key="@string/pref_upload_notification_type"
+            android:title="@string/label_upload_notification_type" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_category_delete"
+        android:title="@string/label_pref_category_deletion" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_delete_computer"
+            android:key="@string/pref_delete_computer"
+            android:persistent="false"
+            android:title="@string/label_pref_delete_computer" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

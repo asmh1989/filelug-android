@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/init_wizard_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/getting_started_color_1"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/initial_wizard_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent" >
+
+            <com.filelug.android.ui.widget.RippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/skip_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_initial_wizard"
+                    android:gravity="center"
+                    android:minWidth="80dp"
+                    android:padding="16dp"
+                    android:text="@string/btn_label_skip"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/md_content_textsize"/>
+
+            </com.filelug.android.ui.widget.RippleLayout>
+
+            <TextView
+                android:id="@+id/wizard_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="0dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/md_button_textsize" />
+
+            <com.filelug.android.ui.widget.RippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/done_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_initial_wizard"
+                    android:gravity="center"
+                    android:minWidth="80dp"
+                    android:padding="16dp"
+                    android:text="@string/btn_label_done"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/md_content_textsize"
+                    android:visibility="gone"/>
+
+            </com.filelug.android.ui.widget.RippleLayout>
+
+            <com.filelug.android.ui.widget.RippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/next_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/selector_initial_wizard"
+                    android:gravity="center"
+                    android:minWidth="80dp"
+                    android:padding="0dp"
+                    android:text="&#9655;"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/md_content_textsize" />
+                <!--android:text="&#9655; &#9654; &#707; >"-->
+
+            </com.filelug.android.ui.widget.RippleLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

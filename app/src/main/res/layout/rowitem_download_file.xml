@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_local_file"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:minHeight="?android:attr/listPreferredItemHeightSmall"
+	android:orientation="vertical"
+	android:paddingTop="0dp"
+	android:paddingBottom="0dp"
+	android:paddingLeft="0dp"
+	android:paddingRight="0dp"
+	android:gravity="center|center_vertical">
+
+	<View
+		android:id="@+id/divider_top"
+		android:background="@color/material_grey_200"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp"
+		android:paddingLeft="@dimen/keyline_1_minus_8dp"
+		android:paddingRight="@dimen/keyline_1_minus_8dp"
+		android:gravity="center|center_vertical">
+
+		<FrameLayout
+			android:layout_width="?android:attr/listPreferredItemHeightSmall"
+			android:layout_height="?android:attr/listPreferredItemHeightSmall">
+
+			<ImageView
+                android:id="@+id/object_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_file"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"/>
+
+			<ImageView
+                android:id="@+id/object_selected_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_item_selected"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                tools:ignore="ContentDescription"/>
+
+		</FrameLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/keyline_1_minus_8dp"
+			android:paddingRight="0dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/display_name"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingBottom="0dp"
+				android:text="Name"
+				android:maxLines="2"
+				style="@style/CustomListItem.Name2"/>
+
+			<TextView
+				android:id="@+id/status"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="0dp"
+				android:text="Status"
+				android:maxLines="1"
+				style="@style/CustomListItem.Description"/>
+
+			<ProgressBar
+				android:id="@+id/progress"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="0dp"
+				android:paddingBottom="0dp"
+				android:max="100"
+				android:progress="0"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View
+		android:background="@color/material_grey_200"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"/>
+
+</LinearLayout>

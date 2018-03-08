@@ -1,0 +1,15 @@
+obfuscate     lineNumbers=keep
+              keepGenericsInfo=false
+              keepInnerClassInfo=false
+              methodParameters=obfuscate
+              changeLogFileOut="C:\Workspace\_ASProjects\Working\FilelugApp\obfuscator\mapping.txt"
+              obfuscateFlow=light
+              encryptStringLiterals=flowObfuscate
+              exceptionObfuscation=none
+              autoReflectionHandling=none
+              obfuscateReferences=none
+              randomize=true
+              preverify=false
+              mixedCaseClassNames=false
+              keepBalancedLocks=true
+;

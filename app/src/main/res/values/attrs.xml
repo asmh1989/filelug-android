@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="MultiSwipeRefreshLayout">
+		<attr name="foreground" format="reference" />
+	</declare-styleable>
+
+	<attr name="choiceMode" format="enum">
+		<enum name="none" value="0"/>
+		<enum name="oneFolder" value="1"/>
+		<enum name="multipleFiles" value="2"/>
+		<enum name="singleFile" value="3"/>
+	</attr>
+
+	<declare-styleable name="LocalFilesLayout">
+		<attr name="choiceMode" />
+	</declare-styleable>
+
+	<declare-styleable name="RemoteFilesLayout">
+		<attr name="choiceMode" />
+	</declare-styleable>
+
+	<declare-styleable name="WebViewDialogPreference">
+		<attr name="contentUrl" format="string" />
+	</declare-styleable>
+
+	<declare-styleable name="RippleLayout">
+		<attr name="rippleColor" format="color" localization="suggested" />
+		<attr name="rippleDimension" format="dimension" localization="suggested" />
+		<attr name="rippleOverlay" format="boolean" localization="suggested" />
+		<attr name="rippleAlpha" format="float" localization="suggested" />
+		<attr name="rippleDuration" format="integer" localization="suggested" />
+		<attr name="rippleFadeDuration" format="integer" localization="suggested" />
+		<attr name="rippleHover" format="boolean" localization="suggested" />
+		<attr name="rippleBackground" format="color" localization="suggested" />
+		<attr name="rippleDelayClick" format="boolean" localization="suggested" />
+		<attr name="ripplePersistent" format="boolean" localization="suggested" />
+		<attr name="rippleInAdapter" format="boolean" localization="suggested" />
+	</declare-styleable>
+
+	<declare-styleable name="RobotoTextView">
+		<attr name="typeface" format="enum">
+			<enum name="robotoBlack" value="0" />
+			<enum name="robotoBold" value="1" />
+			<enum name="robotoLight" value="2" />
+			<enum name="robotoMedium" value="3" />
+			<enum name="robotoRegular" value="4" />
+			<enum name="robotoThin" value="5" />
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="CircleNumberView">
+		<attr name="strokeWidth" format="dimension"/>
+		<attr name="strokeColor" format="color|reference"/>
+		<attr name="fillColor" format="color|reference"/>
+		<attr name="circleRadius" format="dimension"/>
+		<attr name="circleGap" format="dimension"/>
+	</declare-styleable>
+
+</resources>

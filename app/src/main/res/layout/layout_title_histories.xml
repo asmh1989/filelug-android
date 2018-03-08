@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+	android:layout_height="@dimen/layout_header_image_height"
+	android:orientation="vertical"
+	android:background="?colorPrimary"
+	android:gravity="center"
+	android:elevation="@dimen/toolbar_elevation">
+
+	<ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header_ic_download_history"
+        tools:ignore="ContentDescription"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="@dimen/keyline_1_minus_8dp"
+		android:paddingBottom="@dimen/keyline_1_minus_8dp"
+		android:paddingLeft="@dimen/keyline_1"
+		android:paddingRight="@dimen/keyline_1"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/searchType"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			style="@style/CustomSearchTextItem.SearchType"/>
+
+		<TextView
+			android:id="@+id/searchReport"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			style="@style/CustomSearchTextItem.SearchReport"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="@dimen/keyline_1_minus_8dp"
+	android:paddingBottom="@dimen/keyline_1_minus_8dp"
+	android:paddingLeft="@dimen/keyline_1"
+	android:paddingRight="@dimen/keyline_1"
+	android:orientation="vertical"
+	android:background="@color/main_color_500">
+
+	<TextView
+		android:id="@+id/searchType"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center|left"
+		style="@style/CustomSearchTextItem.SearchType"/>
+
+	<TextView
+		android:id="@+id/searchReport"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center|left"
+		style="@style/CustomSearchTextItem.SearchReport"/>
+
+</LinearLayout>
+-->

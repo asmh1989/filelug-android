@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="@string/pref_category_display_settings"
+        android:title="@string/label_pref_category_display_settings" >
+
+        <CheckBoxPreference
+            android:icon="@drawable/menu_ic_show_hidden_files"
+            android:defaultValue="false"
+            android:key="@string/pref_show_hidden_files"
+            android:title="@string/label_pref_show_hidden_files"
+            android:summary="@string/message_pref_show_hidden_files" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:icon="@drawable/menu_ic_show_system_folder"
+            android:defaultValue="false"
+            android:key="@string/pref_show_local_system_folder"
+            android:title="@string/label_pref_show_local_system_folder"
+            android:summary="@string/message_pref_show_local_system_folder" >
+        </CheckBoxPreference>
+
+        <!-- -->
+<!--
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_show_thumbnail"
+            android:enabled="false"
+            android:title="@string/label_pref_show_thumbnail"
+            android:summary="@string/message_pref_show_thumbnail" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_show_modified_date_and_permission"
+            android:enabled="false"
+            android:title="@string/label_pref_show_modified_date_and_permission"
+            android:summary="@string/message_pref_show_modified_date_and_permission" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_remember_recent_folder"
+            android:enabled="false"
+            android:title="@string/label_pref_remember_recent_folder"
+            android:summary="@string/message_pref_remember_recent_folder" >
+        </CheckBoxPreference>
+
+        <com.filelug.android.ui.widget.ListPreference
+            android:entries="@array/display_language_array"
+            android:entryValues="@array/display_language_value_array"
+            android:key="@string/pref_display_language"
+            android:title="@string/label_pref_display_language" />
+-->
+
+    </PreferenceCategory>
+
+<!-- -->
+<!--
+    <PreferenceCategory android:title="@string/label_pref_category_security_settings" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_app_open_password"
+            android:enabled="false"
+            android:title="@string/label_pref_app_open_password"
+            android:summary="@string/message_pref_app_open_password" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_transfer_password"
+            android:enabled="false"
+            android:title="@string/label_pref_transfer_password"
+            android:summary="@string/message_pref_transfer_password" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_file_open_password"
+            android:enabled="false"
+            android:title="@string/label_pref_file_open_password"
+            android:summary="@string/message_pref_file_open_password" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+-->
+
+    <PreferenceCategory android:title="@string/label_pref_category_others" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_delete_local_cached_data"
+            android:key="@string/pref_delete_local_cached_data"
+            android:persistent="false"
+            android:title="@string/label_pref_delete_local_cached_data" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_getting_started"
+            android:key="@string/pref_getting_started"
+            android:persistent="false"
+            android:title="@string/label_pref_getting_started" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_user_feedback"
+            android:key="@string/pref_send_feedback"
+            android:persistent="false"
+            android:title="@string/label_pref_send_feedback" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_share_app"
+            android:key="@string/pref_share_app_to_friends"
+            android:persistent="false"
+            android:title="@string/label_pref_share_app_to_friends" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_rate_us"
+            android:key="@string/pref_rate_us_on_google_play"
+            android:persistent="false"
+            android:title="@string/label_pref_rate_us_on_google_play" />
+
+<!--
+        <Preference
+            android:key="@string/pref_frequently_asked_questions"
+            android:enabled="false"
+            android:persistent="false"
+            android:title="@string/label_pref_frequently_asked_questions" />
+-->
+<!-- -->
+
+        <com.filelug.android.ui.widget.WebViewDialogPreference
+            android:icon="@drawable/menu_ic_terms_of_service"
+            android:key="@string/pref_terms_of_service"
+            android:persistent="false"
+            custom:contentUrl="@string/url_terms_of_service"
+            android:negativeButtonText=""
+            android:positiveButtonText="@android:string/ok"
+            android:title="@string/label_pref_terms_of_service" />
+
+        <com.filelug.android.ui.widget.WebViewDialogPreference
+            android:icon="@drawable/menu_ic_privacy_policy"
+            android:key="@string/pref_privacy_policy"
+            android:persistent="false"
+            custom:contentUrl="@string/url_privacy_policy"
+            android:negativeButtonText=""
+            android:positiveButtonText="@android:string/ok"
+            android:title="@string/label_pref_privacy_policy" />
+
+<!-- -->
+<!--
+        <Preference
+            android:key="@string/pref_third_party_notice"
+            android:enabled="false"
+            android:persistent="false"
+            android:title="@string/label_pref_third_party_notice" />
+-->
+<!-- -->
+
+        <com.filelug.android.ui.widget.AboutDialogPreference
+            android:icon="@drawable/menu_ic_about"
+            android:key="@string/pref_about"
+            android:persistent="false"
+            android:negativeButtonText=""
+            android:positiveButtonText="@android:string/ok"
+            android:title="@string/label_pref_about"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

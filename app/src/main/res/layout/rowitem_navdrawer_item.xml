@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.filelug.android.ui.widget.RippleLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RippleStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_background_empty" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:orientation="horizontal" >
+
+		<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon"
+            android:paddingLeft="@dimen/keyline_1"
+            tools:ignore="ContentDescription"/>
+
+        <com.filelug.android.ui.widget.RobotoTextView
+            android:id="@+id/title"
+            style="@style/TextViewAppearance.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/keyline_1"
+			android:paddingRight="@dimen/keyline_1"
+            android:textColor="@drawable/selector_text_empty"
+            app:typeface="robotoBold"/>
+
+		<TextView
+			android:id="@+id/tag"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+</com.filelug.android.ui.widget.RippleLayout>

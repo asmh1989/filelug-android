@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:minHeight="?android:attr/listPreferredItemHeightSmall"
+	android:orientation="horizontal"
+	android:paddingTop="2dp"
+	android:paddingBottom="2dp"
+	android:paddingLeft="@dimen/keyline_1_minus_8dp"
+	android:paddingRight="@dimen/keyline_1_minus_8dp"
+	android:gravity="center|center_vertical">
+
+	<FrameLayout
+		android:layout_width="?android:attr/listPreferredItemHeightSmall"
+		android:layout_height="?android:attr/listPreferredItemHeightSmall">
+
+		<ImageView
+            android:id="@+id/spinner_list_item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_folder"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription"/>
+
+		<ImageView
+            android:id="@+id/object_shortcut_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_file_shortcut"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            tools:ignore="ContentDescription"/>
+
+	</FrameLayout>
+
+	<TextView
+		android:id="@+id/spinner_list_item_display_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="2dp"
+		android:paddingRight="0dp"
+		android:text="Name"
+		android:maxLines="3"
+		android:ellipsize="middle"
+		style="@style/CustomSpinnerItem.Name"/>
+
+</LinearLayout>

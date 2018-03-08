@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="0dp"
+			android:padding="0dp"
+			android:elevation="5dp">
+
+			<Spinner
+				android:id="@+id/parentDirSpinner"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="?android:attr/listPreferredItemHeightSmall"
+				android:layout_gravity="center"
+				android:gravity="center|center_vertical"/>
+
+		</android.support.v7.widget.CardView>
+
+		<TextView
+			android:id="@+id/noFiles"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeightSmall"
+			android:text="@string/message_no_files"
+			android:gravity="center"
+			style="@style/CustomListItem.Name1"
+			android:visibility="gone"/>
+
+		<view
+			android:id="@+id/file_recycler_view"
+			class="android.support.v7.widget.RecyclerView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_centerInParent="true" />
+
+	</LinearLayout>
+
+	<com.melnykov.fab.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/fab_margin"
+		android:layout_gravity="bottom|right"
+		android:src="@drawable/ic_fab_transfer"
+		fab:fab_colorNormal="@color/main_color_400"
+		fab:fab_colorPressed="@color/main_color_500"
+		fab:fab_colorRipple="@color/white"
+		android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/selector_background_empty">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:orientation="vertical"
+			android:background="@drawable/selector_background_empty">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="?android:attr/listPreferredItemHeight"
+				android:orientation="horizontal"
+				android:gravity="center">
+
+				<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_human"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription"/>
+
+				<Space
+					android:layout_width="@dimen/keyline_1"
+					android:layout_height="fill_parent"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					style="@style/CustomListItem.Name2"
+					android:text="@string/permission_group_contacts"/>
+
+				<TextView
+					android:id="@+id/perm_state_contacts"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/permission_not_granted"
+					style="@style/CustomListItem.Description"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_desc_contacts"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:textColor="@color/material_red_500"
+				android:text="@string/permission_warning_description"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="@color/material_grey_300"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="@dimen/keyline_1"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/selector_background_empty">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:orientation="vertical"
+			android:background="@drawable/selector_background_empty">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="?android:attr/listPreferredItemHeight"
+				android:orientation="horizontal"
+				android:gravity="center">
+
+				<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_folder"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription"/>
+
+				<Space
+					android:layout_width="@dimen/keyline_1"
+					android:layout_height="fill_parent"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					style="@style/CustomListItem.Name2"
+					android:text="@string/permission_group_storage"/>
+
+				<TextView
+					android:id="@+id/perm_state_storage"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/permission_not_granted"
+					style="@style/CustomListItem.Description"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_desc_storage"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:textColor="@color/material_red_500"
+				android:text="@string/permission_warning_description"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="@color/material_grey_300"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="@dimen/keyline_1"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/selector_background_empty">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:orientation="vertical"
+			android:background="@drawable/selector_background_empty">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="?android:attr/listPreferredItemHeight"
+				android:orientation="horizontal"
+				android:gravity="center">
+
+				<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_message"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription"/>
+
+				<Space
+					android:layout_width="@dimen/keyline_1"
+					android:layout_height="fill_parent"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					style="@style/CustomListItem.Name2"
+					android:text="@string/permission_group_sms"/>
+
+				<TextView
+					android:id="@+id/perm_state_sms"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/permission_not_granted"
+					style="@style/CustomListItem.Description"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_desc_sms"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_warning_description_sms"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="@color/material_grey_300"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="@dimen/keyline_1"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/selector_background_empty">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:orientation="vertical"
+			android:background="@drawable/selector_background_empty">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="?android:attr/listPreferredItemHeight"
+				android:orientation="horizontal"
+				android:gravity="center">
+
+				<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_camera"
+                    android:layout_gravity="center"
+                    tools:ignore="ContentDescription"/>
+
+				<Space
+					android:layout_width="@dimen/keyline_1"
+					android:layout_height="fill_parent"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					style="@style/CustomListItem.Name2"
+					android:text="@string/permission_group_camera"/>
+
+				<TextView
+					android:id="@+id/perm_state_camera"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/permission_not_granted"
+					style="@style/CustomListItem.Description"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_desc_camera"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				style="@style/CustomListItem.Description"
+				android:text="@string/permission_warning_description_camera"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="@color/material_grey_300"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="@dimen/keyline_1"
+			/>
+
+	</LinearLayout>
+
+</LinearLayout>

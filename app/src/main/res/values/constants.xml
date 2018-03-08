@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="const_format_dateTime_YMDHM" translatable="false">yyyy/M/d HH:mm</string>
+	<string name="const_format_dateTime_YMDHMS" translatable="false">yyyy/M/d a HH:mm:ss</string>
+	<string name="const_format_dateTime_subdir" translatable="false">yyyy-MM-dd\'T\'HH-mm-ssZ</string>
+	<string name="const_format_dateTime_remote_file" translatable="false">yyyy/MM/dd HH:mm:ss \'GMT\'Z</string>
+	<string name="const_format_dateTime_download_response" translatable="false">EEE, dd MMM yyyy HH:mm:ss \'GMT\'</string>
+
+	<string name="const_styled_text_add_computer_step" translatable="false">&lt;font color=\"#007aff\">&lt;b>&lt;u>%1$s&lt;/u>&lt;/b>&lt;/font></string>
+
+	<integer name="const_sort_by_name" translatable="false">0</integer>
+	<integer name="const_sort_by_date" translatable="false">1</integer>
+	<integer name="const_sort_by_size" translatable="false">2</integer>
+	<integer name="const_sort_by_type" translatable="false">3</integer>
+	<integer name="const_sort_type_ascending" translatable="false">0</integer>
+	<integer name="const_sort_type_descending" translatable="false">1</integer>
+
+	<integer name="const_search_range_latest_20" translatable="false">0</integer>
+	<integer name="const_search_range_latest_week" translatable="false">1</integer>
+	<integer name="const_search_range_latest_month" translatable="false">2</integer>
+	<integer name="const_search_range_all" translatable="false">3</integer>
+
+	<string-array name="subfolder_type_value_array" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="description_type_value_array" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="notification_type_value_array" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string-array name="display_language_value_array" translatable="false">
+		<item>en</item>
+		<item>zh_CN</item>
+		<item>zh_TW</item>
+	</string-array>
+
+	<string name="pref_tos_accepted" translatable="false">tos_accepted</string>
+	<string name="pref_welcome_done" translatable="false">welcome_done</string>
+	<string name="pref_active_account" translatable="false">active_account</string>
+	<string name="pref_reload_remote_root_dir" translatable="false">reload_remote_root_dir</string>
+	<string name="pref_account_list_generated" translatable="false">account_list_generated</string>
+	<string name="pref_accounts" translatable="false">accounts</string>
+	<string name="pref_ulh_search_type" translatable="false">ulh_search_type</string>
+	<string name="pref_dlh_search_type" translatable="false">dlh_search_type</string>
+	<string name="pref_push_service_type" translatable="false">push_service_type</string>
+	<string name="pref_push_service_token" translatable="false">push_service_token</string>
+	<string name="pref_gcm_token_changed" translatable="false">gcm_token_changed</string>
+	<string name="pref_category_display_settings" translatable="false">category_display_settings</string>
+	<string name="pref_show_hidden_files" translatable="false">show_hidden_files</string>
+	<string name="pref_show_local_system_folder" translatable="false">show_local_system_folder</string>
+	<string name="pref_show_thumbnail" translatable="false">show_thumbnail</string>
+	<string name="pref_show_modified_date_and_permission" translatable="false">show_modified_date_and_permission</string>
+	<string name="pref_remember_recent_folder" translatable="false">remember_recent_folder</string>
+	<string name="pref_display_language" translatable="false">display_language</string>
+	<string name="pref_app_open_password" translatable="false">app_open_password</string>
+	<string name="pref_transfer_password" translatable="false">transfer_password</string>
+	<string name="pref_file_open_password" translatable="false">file_open_password</string>
+	<string name="pref_category_account_profile" translatable="false">category_account_profile</string>
+	<string name="pref_account_name" translatable="false">account_name</string>
+	<string name="pref_email" translatable="false">email</string>
+	<string name="pref_nickname" translatable="false">nickname</string>
+	<string name="pref_category_history" translatable="false">category_history</string>
+	<string name="pref_downloaded_files_history" translatable="false">downloaded_files_history</string>
+	<string name="pref_uploaded_files_history" translatable="false">uploaded_files_history</string>
+	<string name="pref_category_delete" translatable="false">category_delete</string>
+	<string name="pref_delete_account" translatable="false">delete_account</string>
+	<string name="pref_delete_computer" translatable="false">delete_computer</string>
+	<string name="pref_category_computer_profile" translatable="false">category_computer_profile</string>
+	<string name="pref_computer_name" translatable="false">computer_name</string>
+	<string name="pref_category_upload_settings" translatable="false">category_upload_settings</string>
+	<string name="pref_upload_path" translatable="false">upload_path</string>
+	<string name="pref_upload_subdir" translatable="false">upload_subdir</string>
+	<string name="pref_upload_subdir_value" translatable="false">upload_subdir_value</string>
+	<string name="pref_upload_description_type" translatable="false">upload_description_type</string>
+	<string name="pref_upload_description_value" translatable="false">upload_description_value</string>
+	<string name="pref_upload_notification_type" translatable="false">upload_notification_type</string>
+	<string name="pref_category_download_settings" translatable="false">category_download_settings</string>
+	<string name="pref_download_path" translatable="false">download_path</string>
+	<string name="pref_download_subdir" translatable="false">download_subdir</string>
+	<string name="pref_download_subdir_value" translatable="false">download_subdir_value</string>
+	<string name="pref_download_description_type" translatable="false">download_description_type</string>
+	<string name="pref_download_description_value" translatable="false">download_description_value</string>
+	<string name="pref_download_notification_type" translatable="false">download_notification_type</string>
+	<string name="pref_delete_local_cached_data" translatable="false">delete_local_cached_data</string>
+	<string name="pref_getting_started" translatable="false">getting_started</string>
+	<string name="pref_rate_us_on_google_play" translatable="false">rate_us_on_google_play</string>
+	<string name="pref_share_app_to_friends" translatable="false">share_app_to_friends</string>
+	<string name="pref_frequently_asked_questions" translatable="false">frequently_asked_questions</string>
+	<string name="pref_send_feedback" translatable="false">send_feedback</string>
+	<string name="pref_privacy_policy" translatable="false">privacy_policy</string>
+	<string name="pref_terms_of_service" translatable="false">terms_of_service</string>
+	<string name="pref_third_party_notice" translatable="false">third_party_notice</string>
+	<string name="pref_about" translatable="false">about</string>
+	<string name="pref_local_dir_sort_by" translatable="false">local_dir_sort_by</string>
+	<string name="pref_local_dir_sort_type" translatable="false">local_dir_sort_type</string>
+	<string name="pref_remote_dir_sort_by" translatable="false">remote_dir_sort_by</string>
+	<string name="pref_remote_dir_sort_type" translatable="false">remote_dir_sort_type</string>
+
+	<string name="const_facebook_app_id" translatable="false">XXXXXXXXXXXXXXXXXXXXX難</string>
+	<string name="const_account_kit_client_token" translatable="false">XXXXXXXXXXXXXXXXXXXXX難</string>
+	<string name="const_ak_login_protocol_scheme" translatable="false">XXXXXXXXXXXXXXXXXXXXX難</string>
+
+	<string name="const_url_filelug_website" translatable="false">https://filelug.com/</string>
+	<string name="const_url_facebook_fan_page" translatable="false">https://www.facebook.com/filelug//</string>
+	<string name="const_url_youtube_video" translatable="false">https://www.youtube.com/channel/UCG-0IEdwvVxttrid28ve4rA</string>
+	<string name="const_url_app_store" translatable="false">https://goo.gl/JkgHy7</string>
+	<string name="const_url_play_store" translatable="false">https://goo.gl/QxF5Fr</string>
+
+</resources>

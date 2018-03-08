@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="intent_save_to_filelug">保存到 Filelug</string>
+	<string name="intent_open_from_filelug">从 Filelug 打开</string>
+
+	<!-- Navigation Menu -->
+	<string name="drawer_section_main_task">主要任务</string>
+	<string name="drawer_section_download">下载</string>
+	<string name="drawer_title_download_file">下载文件</string>
+	<string name="drawer_title_downloaded_files_history">下载纪录</string>
+	<string name="drawer_section_upload">上传</string>
+	<string name="drawer_title_upload_file">上传文件</string>
+	<string name="drawer_title_uploaded_files_history">上传纪录</string>
+	<string name="drawer_section_browse">浏览文件</string>
+	<string name="drawer_title_browse_remote_root_folder">文件夹(远端)</string>
+	<string name="drawer_title_browse_local_folder">文件夹(本装置)</string>
+	<string name="drawer_title_bookmark">书签</string>
+	<string name="drawer_section_others">其他</string>
+	<string name="drawer_title_settings">设置</string>
+	<string name="drawer_account_section_account_and_computer">帐户与电脑</string>
+	<string name="drawer_account_title_current_account">目前帐户</string>
+	<string name="drawer_account_title_login">登录</string>
+	<string name="drawer_account_title_current_computer">目前电脑</string>
+	<string name="drawer_account_title_change_nickname">昵称</string>
+	<string name="drawer_account_title_change_email">电子邮件</string>
+	<string name="drawer_account_title_change_password">密码</string>
+	<string name="drawer_account_section_connect_to_others">其他帐戶</string>
+	<string name="drawer_account_title_login_with_another_account">使用其他帐戶登录</string>
+	<string name="drawer_account_title_getting_started">入门指南</string>
+	<string name="drawer_account_title_change_computer_name">變更电脑名称</string>
+	<string name="drawer_account_title_manage_current_account">管理目前帐戶</string>
+	<string name="drawer_account_title_manage_current_computer">管理目前电脑</string>
+
+	<string name="drawer_open">开启选单</string>
+	<string name="drawer_close">关闭选单</string>
+
+	<string name="label_phone_number">手机号码</string>
+	<string name="label_nickname">昵称</string>
+	<string name="label_email_address">电子邮件</string>
+	<string name="label_connected_computer">目前连接的电脑</string>
+	<string name="label_verify_code">在此输入验证码</string>
+	<string name="label_current_nickname">目前昵称</string>
+	<string name="label_change_to">更改为</string>
+	<string name="label_current_email_address">目前电子邮件地址</string>
+	<string name="label_new_email_address">新电子邮件地址</string>
+	<string name="label_connect_to_computer">欲连接的电脑</string>
+	<string name="label_current_country_region">目前国家或地区</string>
+	<string name="label_choose_computer_name">选择您要连接的电脑</string>
+	<string name="label_choose_account">选择您要使用的帐户</string>
+	<string name="label_other">其他</string>
+	<string name="label_files_to_upload">要上传的文件</string>
+	<string name="label_upload_to_folder">上传到文件夹</string>
+	<string name="label_subfolder_type">创建子文件夹名称</string>
+	<string name="label_upload_description_type">上传备忘说明</string>
+	<string name="label_upload_notification_type">上传结果通知</string>
+	<string name="label_files_to_download">要下载的文件</string>
+	<string name="label_download_to_folder">下载到文件夹</string>
+	<string name="label_download_description_type">下载备忘说明</string>
+	<string name="label_download_notification_type">下载结果通知</string>
+	<string name="label_current_account">目前连接的帐戶</string>
+	<string name="label_login_to_new_account">欲连接的新帐戶</string>
+	<string name="label_pref_category_display_settings">显示设置</string>
+	<string name="label_pref_category_security_settings">安全设置</string>
+	<string name="label_pref_category_others">其他</string>
+	<string name="label_pref_category_account_profile">配置文件</string>
+	<string name="label_pref_category_history">历史纪录</string>
+	<string name="label_pref_category_computer_profile">配置文件</string>
+	<string name="label_pref_category_upload_settings">文件上传</string>
+	<string name="label_pref_category_download_settings">文件下载</string>
+	<string name="label_pref_category_deletion">删除</string>
+	<string name="label_pref_show_hidden_files">显示隐藏文件</string>
+	<string name="label_pref_show_local_system_folder">显示系统文件夹</string>
+	<string name="label_pref_show_thumbnail">显示缩略图</string>
+	<string name="label_pref_show_modified_date_and_permission">显示文件日期和权限</string>
+	<string name="label_pref_remember_recent_folder">记住最近访问的文件夹</string>
+	<string name="label_pref_display_language">显示语言</string>
+	<string name="label_pref_app_open_password">App开启保护</string>
+	<string name="label_pref_transfer_password">文件上传下载保护</string>
+	<string name="label_pref_file_open_password">文件开启保护</string>
+	<string name="label_pref_upload_path">上传至文件夹</string>
+	<string name="label_pref_download_path">下载至文件夹</string>
+	<string name="label_pref_getting_started">入门指南</string>
+	<string name="label_pref_rate_us_on_google_play">在Play商店上打分支持</string>
+	<string name="label_pref_share_app_to_friends">介绍给朋友</string>
+	<string name="label_pref_frequently_asked_questions">常见问题</string>
+	<string name="label_pref_send_feedback">意见反馈</string>
+	<string name="label_pref_terms_of_service">用戶条款</string>
+	<string name="label_pref_privacy_policy">隠私权政策</string>
+	<string name="label_pref_third_party_notice">开源软件与第三方软件</string>
+	<string name="label_pref_about">关于Filelug</string>
+	<string name="label_pref_delete_account">删除帐戶</string>
+	<string name="label_pref_delete_computer">删除電腦</string>
+	<string name="label_pref_delete_local_cached_data">删除本地缓存数据</string>
+	<string name="label_save_as_default">保存为默认值</string>
+	<string name="label_transfer_group_section_1_file">（1 个文件）</string>
+	<string name="label_transfer_group_section_many_files">（%1$d 个文件）</string>
+	<string name="label_download_info">下载信息</string>
+	<string name="label_source_file_info">来源文件信息</string>
+	<string name="label_download_summary_info">下载摘要信息</string>
+	<string name="label_file_name">文件名称</string>
+	<string name="label_download_status">下载状态</string>
+	<string name="label_start_download_timestamp">开始下载时间</string>
+	<string name="label_end_download_timestamp">结束下载时间</string>
+	<string name="label_download_from_computer">从电脑下载</string>
+	<string name="label_source_file_path">来源文件路徑</string>
+	<string name="label_real_source_file_path">真实来源文件路徑</string>
+	<string name="label_content_type">文件类型</string>
+	<string name="label_file_downloaded_size">已下载文件大小</string>
+	<string name="label_upload_info">上传信息</string>
+	<string name="label_upload_summary_info">上传摘要信息</string>
+	<string name="label_upload_status">上传状态</string>
+	<string name="label_start_upload_timestamp">开始上传时间</string>
+	<string name="label_end_upload_timestamp">结束上传时间</string>
+	<string name="label_upload_to_computer">上传到电脑</string>
+	<string name="label_file_uploaded_size">已上传文件大小</string>
+	<string name="label_add_computer_step_1_install">①安装</string>
+	<string name="label_add_computer_step_2_startup">②启动</string>
+	<string name="label_add_computer_step_3_scan">③扫描</string>
+	<string name="label_current_computer_name">目前电脑名称</string>
+	<string name="label_computer_to_delete">欲删除的电脑</string>
+	<string name="label_choose_computer_to_delete">选择您要删除的电脑</string>
+	<string name="label_computer_name">电脑名称</string>
+	<string name="label_downloaded_files_history">已下载文件历程</string>
+	<string name="label_uploaded_files_history">已上传文件历程</string>
+
+	<string name="btn_label_send">发送</string>
+	<string name="btn_label_verify">验证</string>
+	<string name="btn_label_connect">连接</string>
+	<string name="btn_label_change">更改</string>
+	<string name="btn_label_send_me_security_code">寄送验证码给我</string>
+	<string name="btn_label_reset">重设</string>
+	<string name="btn_label_choose">选择</string>
+	<string name="btn_label_cancel">取消</string>
+	<string name="btn_label_delete_account_from_device">删除本机帐户</string>
+	<string name="btn_label_delete_account_from_remote_and_device">删除伺服器及本机帐户</string>
+	<string name="btn_label_delete">刪除</string>
+	<string name="btn_label_reload">重新加载</string>
+	<string name="btn_label_loading">加载中…</string>
+	<string name="btn_label_skip">略过</string>
+	<string name="btn_label_done">完成</string>
+	<string name="btn_label_sign_in">用戶登录</string>
+	<string name="btn_label_init_getting_started">入门指南</string>
+	<string name="btn_label_go_to_settings">前往设定</string>
+	<string name="btn_label_deny">拒绝</string>
+	<string name="btn_label_yes_deny">是的，拒绝</string>
+	<string name="btn_label_no_try_again">重新再试</string>
+	<string name="btn_label_transfer_choose_file">选择文件</string>
+	<string name="btn_label_stop_all_uploads">停止所有上传</string>
+	<string name="btn_label_stop_all_downloads">停止所有下载</string>
+	<string name="btn_label_stop">停止</string>
+	<string name="btn_label_open_file">开启文件</string>
+	<string name="btn_label_download_again">重新下载</string>
+	<string name="btn_label_cancel_download">取消下载</string>
+	<string name="btn_label_stop_download">停止下载</string>
+	<string name="btn_label_resume_download">恢复下载</string>
+	<string name="btn_label_upload_again">重新上传</string>
+	<string name="btn_label_cancel_upload">取消上传</string>
+	<string name="btn_label_stop_upload">停止上传</string>
+	<string name="btn_label_resume_upload">恢复上传</string>
+	<string name="btn_label_open_filelug">打开Filelug</string>
+	<string name="btn_label_add_new_computer">加入新电脑</string>
+	<string name="btn_label_add_new_account">加入新帐户</string>
+	<string name="btn_label_login">登录</string>
+	<string name="btn_label_yes_delete">是的，刪除</string>
+
+	<string name="page_login_filelug_header">用户个人资料</string>
+	<string name="page_login_filelug_message">请确认您的电邮地址与昵称后，点击「发送」以完成登入。</string>
+	<string name="page_verify_phone_number_header">验证手机号码</string>
+	<string name="page_verify_phone_number_message">请点击「验证」，确认手机号码是您本人所拥有。</string>
+	<string name="page_verify_email_message">验证码已寄送到指定的电子邮件地址。请在以下区域中输入此验证码，然后单击「确认」。</string>
+	<string name="page_change_nickname_header">更改昵称</string>
+	<string name="page_change_nickname_message_1">填写新的昵称后单击「更改」即可。</string>
+	<string name="page_change_email_header">更改电子邮件</string>
+	<string name="page_change_email_message_1">填写新的电子邮件地址，单击「寄送验证码给我」。我们将寄送验证码至此电子邮件地址。</string>
+	<string name="page_connect_to_computer_header">连接电脑</string>
+	<string name="page_connect_to_computer_message_1">选择您要连接的电脑后单击「连接」重新连接。</string>
+	<string name="page_change_computer_header">更改连接电脑</string>
+	<string name="page_change_computer_message_1">选择您要连接的电脑后单击「更改」重新连接。</string>
+	<string name="page_initial_page_message">「Filelug 档随传」是一个操作简单、跨越不同平台与行动设备、快速安全的文件互传服务。</string>
+	<string name="page_change_account_header">更改帐戶</string>
+	<string name="page_change_account_message_1">选择您要连接的新帐户后单击「更改」，登录Filelug。</string>
+	<string name="page_account_login_header">登录Filelug</string>
+	<string name="page_account_login_message_1">选择您要连接的帐户后单击「登录」，登录Filelug。</string>
+	<string name="page_add_new_computer">加入新电脑</string>
+	<string name="page_verify_email">验证电子邮件</string>
+	<string name="page_verify_email_message_1">填写目前电子邮件地址，单击「寄送验证码给我」。我们将寄送验证码至此电子邮件地址。</string>
+	<string name="page_enter_security_code">输入验证码</string>
+	<string name="page_change_computer_name_header">更改电脑名称</string>
+	<string name="page_change_computer_name_message_1">填写新的电脑名称后单击「更改」即可。</string>
+	<string name="page_delete_computer_header">删除电脑</string>
+	<string name="page_delete_computer_message_1">选择您要删除的电脑后单击「删除」，刪除远端连接的电脑。</string>
+
+	<string name="message_loading">加载中</string>
+	<string name="message_processing">处理中</string>
+	<string name="message_done">完成</string>
+	<string name="message_error">错误</string>
+	<string name="message_failed">失败</string>
+	<string name="message_field_can_not_be_empty">栏位不能为空</string>
+	<string name="message_field_can_not_be_empty_2">栏位「%1$s」不能为空！</string>
+	<string name="message_invalid_email">电子邮件格式不正确</string>
+	<string name="message_can_not_find_created_accounts">找不到已创建的帐户，按「添加新帐户」注册新的帐户或登录Filelug。</string>
+	<string name="message_can_not_find_available_computers">找不到可用的电脑。单击「添加新电脑」连接到新的电脑。</string>
+	<string name="message_registered_computer_not_found">找不到有注册连接的电脑！</string>
+	<string name="message_only_one_filelug_account">一个装置只能创建一个 Filelug 帐户！</string>
+	<string name="message_account_not_created">帐户未创建</string>
+	<string name="message_not_set">未设置</string>
+	<string name="message_account_logged_in">帐户「%1$s」已登录!</string>
+	<string name="message_account_logged_in_but_computer_not_set">帐户「%1$s」已登录。但电脑未设置！</string>
+	<string name="message_account_logged_in_but_computer_not_connected">帐户「%1$s」已登录。但电脑未连接！</string>
+	<string name="message_computer_not_connected">未连接</string>
+	<string name="message_email_not_verified">未验证</string>
+	<string name="message_auth_failure_error">帐号验证错误！</string>
+	<string name="message_parse_error">返回数据格式无法解析！</string>
+	<string name="message_server_error">伺服器错误，请稍后再试。</string>
+	<string name="message_timeout_error">伺服器连接逾时，请稍后再试。</string>
+	<string name="message_interrupted_error">服务被强行中断！</string>
+	<string name="message_account_or_password_error">帐号或密码错误！</string>
+	<string name="message_no_connection">无法连接至服务器，请检查网络是否可用。</string>
+	<string name="message_network_error">网络不可用，请检查网络是否可用。</string>
+	<string name="message_sign_in_failed">登录失败！请稍后再试。</string>
+	<string name="message_computer_not_logged_in">未登录</string>
+	<string name="message_successfully_sent_security_code_to">验证码已发送至：%1$s</string>
+	<string name="message_computer_has_been_connected">电脑「%1$s」已连接！</string>
+	<string name="message_phone_number_cannot_change">新手机号码已存在，无法更改！</string>
+	<string name="message_successfully_change_phone_number">电话号码成功更改为「%1$s」</string>
+	<string name="message_email_verified">电子邮件地址已验证！</string>
+	<string name="message_successfully_change_email">电子邮件地址成功更改为「%1$s」</string>
+	<string name="message_successfully_change_nickname">昵称成功更改为「%1$s」</string>
+	<string name="message_delete_account">「&lt;font color=\"#007aff\">%1$s&lt;/font>」会将本机上的帐户、相关设置、已下载的文件全部删除。&lt;br/>「&lt;font color=\"#007aff\">%2$s&lt;/font>」会将本机上的帐户、相关设置、已下载的文件与伺服器上的帐户、所有的上传下载纪录都会一并删除，其他设备也无法使用此帐户。</string>
+	<string name="message_success_deleting_account">帐户已删除。</string>
+	<string name="message_failed_to_delete_account">删除帐户失败。\n%1$s</string>
+	<string name="message_confirm_delete_this_account_2">删除帐户后，您须要到下列电脑重新开启并设置 Filelug 应用程序：&lt;br/>&lt;font color=\"#007aff\">%1$s&lt;/font></string>
+	<string name="message_account_deleted">请使用其他帐户连接或注册新帐户。</string>
+	<string name="message_account_has_been_deleted">帐户「%1$s」已经在系统设置中被删除！</string>
+	<string name="message_unable_to_send_security_code">无法寄送验证码！</string>
+	<string name="message_folder_or_file_can_not_be_read">文件夹或文件「%1$s」无法读取！</string>
+	<string name="message_no_files">没有文件</string>
+	<string name="message_back_to_parent_folder">(回上一层)</string>
+	<string name="message_no_file_selected">沒有选取文件！</string>
+	<string name="message_storage_usage">剩余 %1$s，共 %2$s</string>
+	<string name="message_no_records">没有纪录</string>
+	<string name="message_history_download_description">%1$s 于 %2$s 从 %3$s</string>
+	<string name="message_history_upload_description">%1$s 于 %2$s 至 %3$s</string>
+	<string name="message_history_search_type">搜寻：%1$s</string>
+	<string name="message_history_file_downloaded">%1$d 个文件成功下载，文件大小：%2$s</string>
+	<string name="message_history_files_downloaded">%1$d 个文件成功下载，文件大小合计：%2$s</string>
+	<string name="message_history_file_uploaded">%1$d 个文件成功上传，文件大小：%2$s</string>
+	<string name="message_history_files_uploaded">%1$d 个文件成功上传，文件大小合计：%2$s</string>
+	<string name="message_login_then_upload">请先登录，然后开始上传文件！</string>
+	<string name="message_login_then_save_to_filelug">请先登录，然后开始保存文件到 Filelug！</string>
+	<string name="message_login_then_download">请先登录，然后开始下载文件！</string>
+	<string name="message_file_prepare_to_upload_1">Filelug - 准备上传</string>
+	<string name="message_file_prepare_to_upload_2">文件「%1$s」。</string>
+	<string name="message_file_upload_error">Filelug - 上传失败</string>
+	<string name="message_file_upload_ping_error_1">Filelug - 上传失败「%1$s」</string>
+	<string name="message_file_upload_ping_error_2">无法连接到远端电脑！可能是电脑未开机、休眠、互联网不通或电脑应用程序未开启，请排除问题后再重新上传。</string>
+	<string name="message_file_uploading_1">Filelug - 上传中</string>
+	<string name="message_file_uploading_2">正在上传「%1$s」…</string>
+	<string name="message_file_upload_completed_1">Filelug - 上传完成「%1$s」</string>
+	<string name="message_file_upload_completed_2">等待远端电脑回复确认…</string>
+	<string name="message_file_upload_transfer_error_1">Filelug - 上传失败「%1$s」</string>
+	<string name="message_file_upload_transfer_error_2">文件存取或传输错误！请检视上传文件、本装置网络是否正常连接后再重新上传。</string>
+	<string name="message_file_upload_response_error_1">Filelug - 上传失败「%1$s」</string>
+	<string name="message_file_upload_response_error_2">远程回传错误！%1$s</string>
+	<string name="message_file_upload_canceled_1">Filelug - 取消上传</string>
+	<string name="message_file_upload_canceled_2">取消上传「%1$s」！</string>
+	<string name="message_file_prepare_to_download_1">Filelug - 准备下载</string>
+	<string name="message_file_prepare_to_download_2">文件「%1$s」。</string>
+	<string name="message_file_download_error">Filelug - 下载失败</string>
+	<string name="message_file_download_ping_error_1">Filelug - 下载失败「%1$s」</string>
+	<string name="message_file_download_ping_error_2">无法连接到远端电脑！可能是电脑未开机、休眠、互联网不通或电脑应用程序未开启，请排除问题后再重新下载。</string>
+	<string name="message_file_downloading_1">Filelug - 下载中</string>
+	<string name="message_file_downloading_2">正在下载「%1$s」…</string>
+	<string name="message_file_download_completed_1">Filelug - 下载完成「%1$s」</string>
+	<string name="message_file_download_completed_2">等待远端电脑回复确认…</string>
+	<string name="message_file_download_transfer_error_1">Filelug - 下载失败「%1$s」</string>
+	<string name="message_file_download_transfer_error_2">文件存取或传输错误！请检视下载文件、本装置网络是否正常连接后再重新下载。</string>
+	<string name="message_file_download_response_error_1">Filelug - 下载失败「%1$s」</string>
+	<string name="message_file_download_response_error_2">远程回传错误！%1$s</string>
+	<string name="message_file_download_canceled_1">Filelug - 取消下载</string>
+	<string name="message_file_download_canceled_2">取消下载「%1$s」！</string>
+	<string name="message_exceed_upload_size_limit">下列文件大小超过限制，无法上传：%1$s</string>
+	<string name="message_exceed_download_size_limit">下列文件大小超过限制，无法下载：%1$s</string>
+	<string name="message_gcm_device_token_refresh_failed">无法取得装置识别！</string>
+	<string name="message_failed_to_update_device_token">装置识别更新失败！\n%1$s</string>
+	<string name="message_failed_to_read_file">无法读取指定的文件！[%1$s]</string>
+	<string name="message_failed_to_read_files">无法读取指定的 %1$d 个文件！文件如下:\n%2$s</string>
+	<string name="message_pref_show_hidden_files">是否显示名称以 . 开头的文件夾和文件</string>
+	<string name="message_pref_show_local_system_folder">是否显示本装置上的系统文件夹</string>
+	<string name="message_pref_show_thumbnail">是否显示本装置图片、视频文件的缩略图</string>
+	<string name="message_pref_show_modified_date_and_permission">是否显示文件的修改日期和权限</string>
+	<string name="message_pref_remember_recent_folder">是否记住本裝置及远端电脑最近访问的文件夹</string>
+	<string name="message_pref_app_open_password">当App开启时是否需要输入密码</string>
+	<string name="message_pref_transfer_password">当文件上传下载时是否需要输入密码</string>
+	<string name="message_pref_file_open_password">当文件开启时是否需要输入密码</string>
+	<string name="message_app_version">版本：%1$s</string>
+	<string name="message_feedback_subject">反馈意见／錯誤通知</string>
+	<string name="message_feedback_text">请输入您的宝贵意见！</string>
+	<string name="message_share_app_to_friends_subject">试试看这个好用的APP</string>
+	<string name="message_share_app_to_friends_text_1">【影片介绍】</string>
+	<string name="message_share_app_to_friends_text_2">【Facebook主页】</string>
+	<string name="message_share_app_to_friends_text_3">【官方网站】</string>
+	<string name="message_share_app_to_friends_text_4">【免费下载】</string>
+	<string name="message_please_login_to_filelug">您必须先以 Filelug 帐号登录！</string>
+	<string name="message_press_back_again_to_exit">再按一次「返回」键退出</string>
+	<string name="message_permission_setup_description">单击「权限」选项后，授予App「存储空间」、「相机」、「短信」及「通讯录」权限。完成后单击「返回」图标回到App。</string>
+	<string name="message_deny_permission_setup">是否确定？ 如果拒绝授权，将无法使用App。</string>
+	<string name="message_cannot_find_any_app">找不到任何App可以打开此文件！</string>
+	<string name="message_unable_to_open_this_file">无法打开此文件！</string>
+	<string name="message_stop_all_upload_tasks">若单击「停止」，App将会停止目前上传中，及全部等待中的上传工作。</string>
+	<string name="message_stop_all_download_tasks">若单击「停止」，App将会停止目前下载中，及全部等待中的下载工作。</string>
+	<string name="message_download_file_save_as">%1$s 另存为 %2$s</string>
+	<string name="message_request_connection_1">等待电脑重新连接…</string>
+	<string name="message_request_connection_2">等待电脑「%1$s」重新连接…</string>
+	<string name="message_request_connection_failed_1">要求连接没有响应！电脑可能正在重新连接，请稍候再试。</string>
+	<string name="message_request_connection_failed_2">要求连接没有响应！电脑「%1$s」可能正在重新连接，请稍候再试。要求連線沒有回應！</string>
+	<string name="message_request_connection_failed_details">若重试几次后仍无法连接，可能是电脑未开机、休眠、互联网不通或电脑应用程序未开启，请排除问题后再重新连接。</string>
+	<string name="message_cannot_change_account">文件正在传输中，无法更改目前登录的账户！</string>
+	<string name="message_cannot_change_computer">文件正在传输中，无法更改目前连接的电脑！</string>
+	<string name="message_start_transfer_files">开始传送文件</string>
+	<string name="message_start_receiving_files">开始接收文件</string>
+	<string name="message_download_failed">下列文件下载失败！请重新再试。\n\n%1$s</string>
+	<string name="message_server_error_503">电脑端连接不存在。</string>
+	<string name="message_notify_file_download_success">文件「%1$s」已成功下载。</string>
+	<string name="message_notify_all_files_downloaded_successfully">%1$d个文件（%2$s …）全部成功下载。</string>
+	<string name="message_notify_all_files_downloaded_successfully_2">%1$d个文件全部成功下载。</string>
+	<string name="message_notify_all_files_uploaded_successfully_2">%1$d个文件全部成功上传。</string>
+	<string name="message_could_not_create_subdirectory">无法创建子文件夹！可能没有权限或其他原因。</string>
+	<string name="message_could_not_create_description_file">无法创建下载备忘说明文件！可能是没有权限或其他原因。</string>
+	<string name="message_specified_file_not_found">找不到指定的文件！</string>
+	<string name="message_unable_to_read_file">无法读取指定的文件！</string>
+	<string name="message_actions_for_download_success">文件已经成功下载。&lt;br/>&lt;br/>单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会打开已经下载的文件。&lt;br/>单击「&lt;font color=\"#007aff\">%2$s&lt;/font>」，会从远端电脑重新下载这个文件。&lt;br/>单击「&lt;font color=\"#007aff\">%3$s&lt;/font>」，会显示这个文件的下载信息。</string>
+	<string name="message_actions_for_downloading">文件正在下载中。单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会停止下载这个文件。</string>
+	<string name="message_actions_for_download_failed">文件下载失败或被取消。&lt;br/>&lt;br/>单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会从远端电脑重新下载这个文件。&lt;u>如果文件下载失败是被强制中断，则会接续下载。&lt;/u>&lt;br/>单击「&lt;font color=\"#007aff\">%2$s&lt;/font>」，会显示这个文件的下载信息。</string>
+	<string name="message_actions_for_wait_for_download">文件正在等待下载。单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会取消下载这个文件。</string>
+	<string name="message_actions_for_upload_success">文件已经成功上传。&lt;br/>&lt;br/>单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会重新上传这个文件到远端电脑。&lt;br/>单击「&lt;font color=\"#007aff\">%2$s&lt;/font>」，会显示这个文件的上传信息。</string>
+	<string name="message_actions_for_uploading">文件正在上传中。单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会停止上传这个文件。</string>
+	<string name="message_actions_for_upload_failed">文件上传失败或被取消。&lt;br/>&lt;br/>单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会重新上传这个文件到远端电脑。&lt;u>如果文件上传失败是被强迫中断，则会接续上传。&lt;/u>&lt;br/>单击「&lt;font color=\"#007aff\">%2$s&lt;/font>」，会显示这个文件的上传信息。</string>
+	<string name="message_actions_for_wait_for_upload">文件正在等待上传。单击「&lt;font color=\"#007aff\">%1$s&lt;/font>」，会取消上传这个文件。</string>
+	<string name="message_cannot_find_download_record">找不到指定的下载记录！</string>
+	<string name="message_cannot_find_upload_record">找不到指定的上传记录！</string>
+	<string name="message_google_play_services_not_available">Google Play 服务无法使用！这将使文件上传或下传完成时的通知功能无法运作！（%1$d—%2$s）</string>
+	<string name="message_read_shared_files">读取分享的文件…</string>
+	<string name="message_shared_file_not_found">找不到分享的文件！\n文件：%1$s</string>
+	<string name="message_failed_to_read_shared_file">无法读取分享的文件！\n文件：%1$s</string>
+	<string name="message_failed_to_create_upload_temporary">无法创建临时上传文件！\n文件：%1$s</string>
+	<string name="message_failed_to_write_upload_temporary">无法写入临时上传文件！\n文件：%1$s</string>
+	<string name="message_can_not_use_cameras">无法添加新电脑，因为App无法使用相机扫描电脑上显示的二维码！</string>
+	<string name="message_can_not_get_accounts">无法创建或查找设备上的Filelug帐户，因为App未被授予「通讯录」权限！</string>
+	<string name="message_add_new_computer_step_0">添加新电脑只需要几个步骤，让我们带着你完成。</string>
+	<string name="message_add_new_computer_step_1">在您的桌机或笔电浏览网页「filelug.com/p.html」，下载并安装应用程序。</string>
+	<string name="message_add_new_computer_step_2">启动您刚才安装的应用程序，等待显示二维码，如上方所示。</string>
+	<string name="message_add_new_computer_step_3">将下方扫描区对准电脑上的二维码，然后稍待一会儿。</string>
+	<string name="message_logging_in">登录中，请稍候！</string>
+	<string name="message_try_to_connect_to_computer">连接到「%1$s」，请稍候…</string>
+	<string name="message_filelug_permission_denied">未被授予「通讯录」或「存储空间」权限，App无法运行。</string>
+	<string name="message_session_not_exists">查无此帐户，请重新登录。</string>
+	<string name="message_verify_current_account">为确认您是此帐户的所有者，请再次验证您的手机号码！</string>
+	<string name="message_confirm_delete_local_account">确定删除本机帐户？</string>
+	<string name="message_confirm_delete_local_data">确定删除本地缓存数据？</string>
+	<string name="message_local_cached_data_delete">本地缓存数据已删除！</string>
+	<string name="message_confirm_delete_remote_computer">电脑「&lt;font color=\"#007aff\">%1$s&lt;/font>」上的 Filelug 应用程序将会恢复初始设置并关闭。您必须开启 Filelug 以重新设置。\n\n确定要删除？</string>
+	<string name="message_successfully_change_computer_name">电脑名称成功更改为「%1$s」</string>
+	<string name="message_computer_has_been_deleted">电脑「%1$s」已删除！</string>
+	<string name="message_computer_not_set">电脑未设置！</string>
+	<string name="message_expired_qrcode_and_need_refresh">此二维码已过期，请点击待连接电脑二维码视窗下方按键「重新产生二维码」以产生新的二维码，然后再扫描一次。</string>
+	<string name="message_describe_wrong_login_account">您想使用的帐户是「%1$s」，但却使用另一个帐户「%2$s」登录。请使用正确帐户登录。</string>
+	<string name="message_verification_error">验证错误！</string>
+
+	<string name="title_info">信息</string>
+	<string name="title_warning">警告</string>
+	<string name="title_error">错误</string>
+	<string name="title_delete_account">删除帐户 %1$s</string>
+	<string name="title_permissions_dialog">请授予下列权限</string>
+	<string name="title_permissions_step_description">设置步骤说明</string>
+	<string name="title_stop_all_uploads">停止所有上传工作？</string>
+	<string name="title_stop_all_downloads">停止所有下载工作？</string>
+	<string name="title_which_application">选择要使用的应用</string>
+	<string name="title_unable_to_connect_to_computer">无法连接到远端电脑</string>
+
+	<string name="hint_enter_customized_name">输入自订名称</string>
+	<string name="hint_enter_customized_description">输入自订说明</string>
+
+	<string name="content_header_file_upload_list">—— 上传文件列表 ——</string>
+	<string name="content_header_file_download_list">—— 下载文件列表 ——</string>
+
+	<string name="wizard_register">使用您的手机号码登录。</string>
+	<string name="wizard_download_desktop">在您的桌机或笔电访问网站「filelug.com/p.html」，下载并安装应用程序。</string>
+	<string name="wizard_setup_desktop">启动您安装的应用程序，等待显示二维码。</string>
+	<string name="wizard_connect_to_desktop">从手机或平板扫描二维码即可连接到您的桌机或笔电。</string>
+	<string name="wizard_start_to_transfer">开始上传与下载文件。</string>
+
+	<string name="permission_group_contacts">通讯录</string>
+	<string name="permission_group_storage">存储空间</string>
+	<string name="permission_group_sms">短信</string>
+	<string name="permission_group_camera">相机</string>
+	<string name="permission_desc_contacts">若授予此权限，App只会管理 Filelug 创建的帐戶，不会访问其他帐戶数据。</string>
+	<string name="permission_desc_storage">若授予此权限，App即可上传文件 (读取本设备的照片、 音乐、 视频、 文档) 至远程的电脑，或从远程的电脑下载文件(保存到本设备)。</string>
+	<string name="permission_desc_sms">若授予此权限，App即可于收到验证码短信后自动输入验证码。</string>
+	<string name="permission_desc_camera">若授予此权限，App只会在运行「添加新电脑」时才会使用相机扫描电脑上显示的二维码。</string>
+	<string name="permission_warning_description">若未授予此權限則App無法正常運作。</string>
+	<string name="permission_warning_description_sms">若未授予此权限，可于收到验证码短信后手动输入验证码。</string>
+	<string name="permission_warning_description_camera">若未授予此权限，App将无法运行「添加新电脑」连接至新的电脑。</string>
+	<string name="permission_granted">已授权</string>
+	<string name="permission_not_granted">未授权</string>
+
+	<!-- Local Files -->
+	<string name="action_select_all">全选</string>
+	<string name="action_invert_selection">反选</string>
+	<string name="action_details">属性</string>
+	<string name="action_open_file">打开</string>
+	<string name="action_cancel_selection">取消选择</string>
+	<string name="action_sort">排序</string>
+	<string name="sortDialog_title">排序方式</string>
+	<string name="sort_by_name">名称</string>
+	<string name="sort_by_date">日期</string>
+	<string name="sort_by_size">文件大小</string>
+	<string name="sort_by_type">类型</string>
+	<string name="sort_type_ascending">升序</string>
+	<string name="sort_type_descending">降序</string>
+	<string name="action_refresh">刷新</string>
+
+	<string name="fileItem_display_name">名称</string>
+	<string name="fileItem_path">路径</string>
+	<string name="fileItem_object_type">类别</string>
+	<string name="fileItem_real_name">原名称</string>
+	<string name="fileItem_real_path">原路径</string>
+	<string name="fileItem_size">文件大小</string>
+	<string name="fileItem_modified_date">最近修改日期</string>
+	<string name="fileItem_isHidden">是否隐藏</string>
+	<string name="fileItem_canRead">是否可读</string>
+	<string name="fileItem_canWrite">是否可写</string>
+
+	<string name="yn_yes">是</string>
+	<string name="yn_no">否</string>
+
+	<string name="fileType_device_root">本装置</string>
+	<string name="fileType_local_bookmarks">书签(手机/平板)</string>
+	<string name="fileType_local_images">图片</string>
+	<string name="fileType_local_music">音乐</string>
+	<string name="fileType_local_movies">视频</string>
+	<string name="fileType_local_documents">文档</string>
+	<!--<string name="fileType_local_dcim">相机</string>-->
+	<!--<string name="fileType_local_bluetooth">蓝芽</string>-->
+	<string name="fileType_local_downloads">下载</string>
+	<!--<string name="fileType_local_screenshot">屏幕截图</string>-->
+	<!--<string name="fileType_local_podcasts">Podcasts</string>-->
+	<!--<string name="fileType_local_ringtones">来电铃声</string>-->
+	<!--<string name="fileType_local_alarms">闹钟铃声</string>-->
+	<!--<string name="fileType_local_notifications">通知及短信铃声</string>-->
+
+	<string name="fileType_local_internal_storage">內存设备</string>
+	<string name="fileType_local_sdcard_storage">SD卡</string>
+	<string name="fileType_local_usb_storage">USB存储设备</string>
+	<string name="fileType_local_root">系统文件夹</string>
+
+	<string name="fileType_local_dir">文件夹</string>
+	<string name="fileType_local_file">文件</string>
+	<string name="fileType_local_symbolic_link_dir">文件夹链接</string>
+	<string name="fileType_local_symbolic_link_file">文件链接</string>
+
+	<string name="fileType_desktop_root">远端装置</string>
+	<string name="fileType_remote_bookmarks">书签(远端)</string>
+	<string name="fileType_remote_roots">文件夹(远端)</string>
+	<string name="fileType_remote_dir">远端文件夹</string>
+	<string name="fileType_remote_file">远端文件</string>
+	<string name="fileType_remote_windows_shortcut_dir">远端 Windows 文件夹捷径</string>
+	<string name="fileType_remote_windows_shortcut_file">远端 Windows 文件捷径</string>
+	<string name="fileType_remote_unix_symbolic_link_dir">远端 Unix 文件夹链接</string>
+	<string name="fileType_remote_unix_symbolic_link_file">远端 Unix 文件链接</string>
+	<string name="fileType_remote_mac_alias_dir">远端 Mac 文件夹替身</string>
+	<string name="fileType_remote_mac_alias_file">远端 Mac 文件替身</string>
+	<string name="fileType_parent_dir">回上一层</string>
+	<string name="fileType_windows_shortcut">捷径</string>
+	<string name="fileType_unix_symbolic_link">链接</string>
+	<string name="fileType_mac_alias">替身</string>
+
+	<string name="fileType_unknown">非文件或文件夹</string>
+
+	<string name="format_file_count_item">%,d 项</string>
+	<string name="format_file_count_items">%,d 项</string>
+	<string name="format_selected_file_count">已选取 %,d 個</string>
+	<string name="format_req_connect_timeout">%1$d 秒</string>
+
+	<string name="durationDays">%1$d 天</string>
+	<string name="durationDayHours">%1$d 天 %2$d 小时</string>
+	<string name="durationDayHour">%1$d 天 %2$d 小时</string>
+	<string name="durationHours">%1$d 小时</string>
+	<string name="durationHourMinutes">%1$d 小时 %2$d 分钟</string>
+	<string name="durationHourMinute">%1$d 小时 %2$d 分钟</string>
+	<string name="durationMinutes">%1$d 分钟</string>
+	<string name="durationMinute">%1$d 分钟</string>
+	<string name="durationMinuteSeconds">%1$d 分钟 %2$d 秒</string>
+	<string name="durationMinuteSecond">%1$d 分钟 %2$d 秒</string>
+	<string name="durationSeconds">"%1$d 秒</string>
+	<string name="durationSecond">"%1$d 秒</string>
+
+	<string name="openAsDialog_title">打开为</string>
+	<string name="fileOpenType_image">图片</string>
+	<string name="fileOpenType_music">音乐</string>
+	<string name="fileOpenType_movie">视频</string>
+	<string name="fileOpenType_document">文档</string>
+	<string name="fileOpenType_other">其他</string>
+
+	<!-- Download Histories -->
+	<string name="action_history_search_range">搜寻范围</string>
+	<string-array name="history_search_range_array">
+		<item>最近20笔</item>
+		<item>最近一周</item>
+		<item>最近一个月</item>
+		<item>全部</item>
+	</string-array>
+
+	<string-array name="upload_status_array">
+		<item>准备上传</item>
+		<item>文件上传中</item>
+		<item>文件已上传</item>
+		<item>文件上传失败</item>
+		<item>文件上传取消</item>
+		<item>查无上传记录</item>
+		<item>确认文件上传状态中</item>
+	</string-array>
+	<string-array name="download_status_array">
+		<item>准备下载</item>
+		<item>文件下载中</item>
+		<item>文件已下载</item>
+		<item>文件下载失败</item>
+		<item>文件下载取消</item>
+		<item>查无下载记录</item>
+		<item>确认文件下载状态中</item>
+	</string-array>
+	<string name="transfer_status_confirming">确认状态中</string>
+	<string name="transfer_progress">(%1$d％)</string>
+
+	<string-array name="subfolder_type_array">
+		<item>无 (不创建)</item>
+		<item>目前时间</item>
+		<item>自订名称</item>
+		<item>目前时间 + 自订名称</item>
+		<item>自订名称 + 目前时间</item>
+	</string-array>
+	<string-array name="description_type_array">
+		<item>无</item>
+		<item>文件名称清单</item>
+		<item>自订备忘说明</item>
+		<item>自订备忘说明 + 文件名称清单</item>
+	</string-array>
+	<string-array name="notification_type_array">
+		<item>不通知</item>
+		<item>个別通知</item>
+		<item>整批通知</item>
+	</string-array>
+
+	<string-array name="display_language_array">
+		<item>英文</item>
+		<item>简体中文</item>
+		<item>繁体中文</item>
+	</string-array>
+
+	<string name="url_terms_of_service">https://www.filelug.com/zh-hans/terms-of-use.html</string>
+	<string name="url_privacy_policy">https://www.filelug.com/zh-hans/privacy-policy.html</string>
+
+	<string name="file_download_group_description_base_name">说明</string>
+
+</resources>

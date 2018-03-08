@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:shareInterpolator="true"
+    android:duration="600">
+
+    <objectAnimator
+        android:propertyName="rotation"
+        android:valueFrom="90"
+        android:valueTo="180">
+    </objectAnimator>
+
+    <objectAnimator
+        android:propertyName="translationX"
+        android:valueFrom="0"
+        android:valueTo="@dimen/fab_translation_x">
+    </objectAnimator>
+
+    <objectAnimator
+        android:propertyName="rotation"
+        android:valueFrom="180"
+        android:valueTo="0"
+        android:duration="0">
+    </objectAnimator>
+
+</set>

@@ -1,0 +1,613 @@
+classpath     "C:\Android\sdk\platforms\android-25\android.jar"
+              "C:\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+              ;
+
+open          "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\commons\0.9.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.3.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.1.0\jars\classes.jar"
+              "C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+              "C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.4\jars\classes.jar"
+              "C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.marvinlabs\android-floatinglabel-widgets\1.6.1\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\transforms\mergeJavaRes\release\jars\2\1f\main.jar"
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\classes\release\*"
+              ;
+
+trimExclude   public com.google.vending.licensing.ILicensingService and 
+              public com.android.vending.licensing.ILicensingService and 
+              public com.google.android.vending.licensing.ILicensingService and 
+              public *.* extends android.view.View set*(?) and 
+              public *.* extends android.view.View get*() and 
+              *.* extends android.app.Activity public *(android.view.View) and 
+              enum *.* public static values() and 
+              enum *.* public static valueOf(java.lang.String) and 
+              *.* extends android.os.Parcelable public static final CREATOR and 
+              *.R$* public static * and 
+              *.* @android.webkit.JavascriptInterface *(*) and 
+              android.support.annotation.Keep and 
+              @android.support.annotation.Keep *.*^ * and 
+              @android.support.annotation.Keep *.*^ *(*) and 
+              @android.support.annotation.Keep *.* and 
+              *.*^ containing {@android.support.annotation.Keep *(*)} @android.support.annotation.Keep *(*) and 
+              *.*^ containing {@android.support.annotation.Keep *} @android.support.annotation.Keep * and 
+              *.*^ containing {@android.support.annotation.Keep <init>(*)} @android.support.annotation.Keep <init>(*) and 
+              com.filelug.android.service.NotificationConfig^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.NotificationConfig and 
+              com.filelug.android.service.FileToDownload^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.FileToDownload and 
+              com.filelug.android.service.FileToUpload^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.FileToUpload and 
+              com.filelug.android.service.NameValue^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.NameValue and 
+              com.filelug.android.ui.model.LocalFileObject^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.ui.model.LocalFileObject and 
+              com.filelug.android.ui.model.RemoteFileObject^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.ui.model.RemoteFileObject and 
+              android*.*^ * and 
+              android*.*^ *(*) and 
+              android*.* and 
+              interface android*.*^ * and 
+              interface android*.*^ *(*) and 
+              interface android*.* and 
+              android.support.v4*.*^ * and 
+              android.support.v4*.*^ *(*) and 
+              android.support.v4*.* and 
+              android.support.v4.app*.*^ * and 
+              android.support.v4.app*.*^ *(*) and 
+              android.support.v4.app*.* and 
+              interface android.support.v4.app*.*^ * and 
+              interface android.support.v4.app*.*^ *(*) and 
+              interface android.support.v4.app*.* and 
+              android.support.v7*.*^ * and 
+              android.support.v7*.*^ *(*) and 
+              android.support.v7*.* and 
+              android.support.v7.internal*.*^ * and 
+              android.support.v7.internal*.*^ *(*) and 
+              android.support.v7.internal*.* and 
+              interface android.support.v7.internal*.*^ * and 
+              interface android.support.v7.internal*.*^ *(*) and 
+              interface android.support.v7.internal*.* and 
+              *.*^ extends java.util.ListResourceBundle protected getContents() and 
+              *.*^ extends java.util.ListResourceBundle and 
+              com.google.android.gms*.*^ * and 
+              com.google.android.gms*.*^ *(*) and 
+              com.google.android.gms*.* and 
+              public *.*^ extends android.app.Activity and 
+              public *.*^ extends android.app.Application and 
+              public *.*^ extends android.app.Service and 
+              public *.*^ extends android.content.BroadcastReceiver and 
+              public *.*^ extends android.content.ContentProvider and 
+              public *.*^ extends android.preference.Preference and 
+              *.*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context,android.util.AttributeSet,int) and 
+              *.*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context,android.util.AttributeSet) and 
+              *.*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context) and 
+              *.* extends java.io.Serializable private static final java.io.ObjectStreamField[] serialPersistentFields and 
+              *.* extends java.io.Serializable private writeObject(java.io.ObjectOutputStream) and 
+              *.* extends java.io.Serializable private readObject(java.io.ObjectInputStream) and 
+              *.* extends java.io.Serializable writeReplace() and 
+              *.* extends java.io.Serializable readResolve() and 
+              com.android.volley*.*^ * and 
+              com.android.volley*.*^ *(*) and 
+              com.android.volley*.* and 
+              com.afollestad.materialdialogs*.*^ * and 
+              com.afollestad.materialdialogs*.*^ *(*) and 
+              com.afollestad.materialdialogs*.* and 
+              com.dd.processbutton*.*^ * and 
+              com.dd.processbutton*.*^ *(*) and 
+              com.dd.processbutton*.* and 
+              com.marvinlabs.widget.floatinglabel*.*^ * and 
+              com.marvinlabs.widget.floatinglabel*.*^ *(*) and 
+              com.marvinlabs.widget.floatinglabel*.* and 
+              com.melnykov.fab*.*^ * and 
+              com.melnykov.fab*.*^ *(*) and 
+              com.melnykov.fab*.* and 
+              com.nineoldandroids*.*^ * and 
+              com.nineoldandroids*.*^ *(*) and 
+              com.nineoldandroids*.* and 
+              com.nostra13.universalimageloader*.*^ * and 
+              com.nostra13.universalimageloader*.*^ *(*) and 
+              com.nostra13.universalimageloader*.* and 
+              me.zhanghai.android.materialprogressbar*.*^ * and 
+              me.zhanghai.android.materialprogressbar*.*^ *(*) and 
+              me.zhanghai.android.materialprogressbar*.* and 
+              public com.google.android.gms.common.internal.safeparcel.SafeParcelable^ public static final NULL and 
+              public com.google.android.gms.common.internal.safeparcel.SafeParcelable and 
+              com.google.android.gms.common.internal.ReflectedParcelable and 
+              annotation android.support.annotation.Keep and 
+              annotation com.google.android.gms.common.annotation.KeepName and 
+              annotation com.google.android.gms.common.util.DynamiteApi and 
+              @com.google.android.gms.common.util.DynamiteApi public *.*^ public * and 
+              @com.google.android.gms.common.util.DynamiteApi public *.*^ public *(*) and 
+              @com.google.android.gms.common.util.DynamiteApi public *.* and 
+              public *.*^ extends android.support.v7.widget.RecyclerView$LayoutManager public <init>(*) and 
+              public *.*^ extends android.support.v7.widget.RecyclerView$LayoutManager and 
+              android.support.graphics.drawable.VectorDrawableCompat$* set*(?) and 
+              android.support.graphics.drawable.VectorDrawableCompat$* get*() and 
+              android.support.v4.view.ViewPager^ <init>(*) and 
+              android.support.v4.view.ViewPager and 
+              android.support.v4.widget.DrawerLayout^ <init>(*) and 
+              android.support.v4.widget.DrawerLayout and 
+              android.support.v4.widget.NestedScrollView^ <init>(*) and 
+              android.support.v4.widget.NestedScrollView and 
+              android.support.v4.widget.Space^ <init>(*) and 
+              android.support.v4.widget.Space and 
+              android.support.v7.app.AlertController$RecycleListView^ <init>(*) and 
+              android.support.v7.app.AlertController$RecycleListView and 
+              android.support.v7.view.menu.ActionMenuItemView^ <init>(*) and 
+              android.support.v7.view.menu.ActionMenuItemView and 
+              android.support.v7.view.menu.ExpandedMenuView^ <init>(*) and 
+              android.support.v7.view.menu.ExpandedMenuView and 
+              android.support.v7.view.menu.ListMenuItemView^ <init>(*) and 
+              android.support.v7.view.menu.ListMenuItemView and 
+              android.support.v7.widget.ActionBarContainer^ <init>(*) and 
+              android.support.v7.widget.ActionBarContainer and 
+              android.support.v7.widget.ActionBarContextView^ <init>(*) and 
+              android.support.v7.widget.ActionBarContextView and 
+              android.support.v7.widget.ActionBarOverlayLayout^ <init>(*) and 
+              android.support.v7.widget.ActionBarOverlayLayout and 
+              android.support.v7.widget.ActionMenuView^ <init>(*) and 
+              android.support.v7.widget.ActionMenuView and 
+              android.support.v7.widget.ActivityChooserView$InnerLayout^ <init>(*) and 
+              android.support.v7.widget.ActivityChooserView$InnerLayout and 
+              android.support.v7.widget.AlertDialogLayout^ <init>(*) and 
+              android.support.v7.widget.AlertDialogLayout and 
+              android.support.v7.widget.AppCompatCheckBox^ <init>(*) and 
+              android.support.v7.widget.AppCompatCheckBox and 
+              android.support.v7.widget.AppCompatRadioButton^ <init>(*) and 
+              android.support.v7.widget.AppCompatRadioButton and 
+              android.support.v7.widget.ButtonBarLayout^ <init>(*) and 
+              android.support.v7.widget.ButtonBarLayout and 
+              android.support.v7.widget.CardView^ <init>(*) and 
+              android.support.v7.widget.CardView and 
+              android.support.v7.widget.ContentFrameLayout^ <init>(*) and 
+              android.support.v7.widget.ContentFrameLayout and 
+              android.support.v7.widget.DialogTitle^ <init>(*) and 
+              android.support.v7.widget.DialogTitle and 
+              android.support.v7.widget.FitWindowsFrameLayout^ <init>(*) and 
+              android.support.v7.widget.FitWindowsFrameLayout and 
+              android.support.v7.widget.FitWindowsLinearLayout^ <init>(*) and 
+              android.support.v7.widget.FitWindowsLinearLayout and 
+              android.support.v7.widget.RecyclerView^ <init>(*) and 
+              android.support.v7.widget.RecyclerView and 
+              android.support.v7.widget.SearchView$SearchAutoComplete^ <init>(*) and 
+              android.support.v7.widget.SearchView$SearchAutoComplete and 
+              android.support.v7.widget.Toolbar^ <init>(*) and 
+              android.support.v7.widget.Toolbar and 
+              android.support.v7.widget.ViewStubCompat^ <init>(*) and 
+              android.support.v7.widget.ViewStubCompat and 
+              com.afollestad.materialdialogs.color.FillGridView^ <init>(*) and 
+              com.afollestad.materialdialogs.color.FillGridView and 
+              com.afollestad.materialdialogs.internal.MDButton^ <init>(*) and 
+              com.afollestad.materialdialogs.internal.MDButton and 
+              com.afollestad.materialdialogs.internal.MDRootLayout^ <init>(*) and 
+              com.afollestad.materialdialogs.internal.MDRootLayout and 
+              com.dd.processbutton.iml.ActionProcessButton^ <init>(*) and 
+              com.dd.processbutton.iml.ActionProcessButton and 
+              com.filelug.android.MainApplication^ <init>(*) and 
+              com.filelug.android.MainApplication and 
+              com.filelug.android.auth.AccountWatcher^ <init>(*) and 
+              com.filelug.android.auth.AccountWatcher and 
+              com.filelug.android.auth.AuthService^ <init>(*) and 
+              com.filelug.android.auth.AuthService and 
+              com.filelug.android.docsprovider.RemoteFilesProvider^ <init>(*) and 
+              com.filelug.android.docsprovider.RemoteFilesProvider and 
+              com.filelug.android.fileprovider.LocalFilesProvider^ <init>(*) and 
+              com.filelug.android.fileprovider.LocalFilesProvider and 
+              com.filelug.android.messaging.GCMInstanceIDListenerService^ <init>(*) and 
+              com.filelug.android.messaging.GCMInstanceIDListenerService and 
+              com.filelug.android.messaging.GCMListenerService^ <init>(*) and 
+              com.filelug.android.messaging.GCMListenerService and 
+              com.filelug.android.messaging.GCMRegistrationIntentService^ <init>(*) and 
+              com.filelug.android.messaging.GCMRegistrationIntentService and 
+              com.filelug.android.provider.RepositoryContentProvider^ <init>(*) and 
+              com.filelug.android.provider.RepositoryContentProvider and 
+              com.filelug.android.service.DownloadNotificationService^ <init>(*) and 
+              com.filelug.android.service.DownloadNotificationService and 
+              com.filelug.android.service.DownloadService^ <init>(*) and 
+              com.filelug.android.service.DownloadService and 
+              com.filelug.android.service.DownloadStatusReceiver^ <init>(*) and 
+              com.filelug.android.service.DownloadStatusReceiver and 
+              com.filelug.android.service.UploadService^ <init>(*) and 
+              com.filelug.android.service.UploadService and 
+              com.filelug.android.service.UploadStatusReceiver^ <init>(*) and 
+              com.filelug.android.service.UploadStatusReceiver and 
+              com.filelug.android.sms.Receiver^ <init>(*) and 
+              com.filelug.android.sms.Receiver and 
+              com.filelug.android.ui.activity.ChangeAccountActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangeAccountActivity and 
+              com.filelug.android.ui.activity.ChangeComputerActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangeComputerActivity and 
+              com.filelug.android.ui.activity.ChangeEmailActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangeEmailActivity and 
+              com.filelug.android.ui.activity.ChangeNicknameActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangeNicknameActivity and 
+              com.filelug.android.ui.activity.ChangePasswordActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangePasswordActivity and 
+              com.filelug.android.ui.activity.ChangePhoneNumberActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ChangePhoneNumberActivity and 
+              com.filelug.android.ui.activity.ConfirmDownloadActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ConfirmDownloadActivity and 
+              com.filelug.android.ui.activity.ConfirmUploadActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ConfirmUploadActivity and 
+              com.filelug.android.ui.activity.GettingStartedActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.GettingStartedActivity and 
+              com.filelug.android.ui.activity.InitialPageActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.InitialPageActivity and 
+              com.filelug.android.ui.activity.LoginActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.LoginActivity and 
+              com.filelug.android.ui.activity.MainActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.MainActivity and 
+              com.filelug.android.ui.activity.OpenFromFilelugActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.OpenFromFilelugActivity and 
+              com.filelug.android.ui.activity.RegisterActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.RegisterActivity and 
+              com.filelug.android.ui.activity.ResetPasswordActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.ResetPasswordActivity and 
+              com.filelug.android.ui.activity.SettingsActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.SettingsActivity and 
+              com.filelug.android.ui.activity.SplashActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.SplashActivity and 
+              com.filelug.android.ui.activity.VerifyActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.VerifyActivity and 
+              com.filelug.android.ui.widget.AboutDialogPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.AboutDialogPreference and 
+              com.filelug.android.ui.widget.CountryPicker^ <init>(*) and 
+              com.filelug.android.ui.widget.CountryPicker and 
+              com.filelug.android.ui.widget.ListPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.ListPreference and 
+              com.filelug.android.ui.widget.LocalFilesLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.LocalFilesLayout and 
+              com.filelug.android.ui.widget.LocalFolderPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.LocalFolderPreference and 
+              com.filelug.android.ui.widget.MultiSwipeRefreshLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.MultiSwipeRefreshLayout and 
+              com.filelug.android.ui.widget.RemoteFilesLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.RemoteFilesLayout and 
+              com.filelug.android.ui.widget.RemoteFolderPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.RemoteFolderPreference and 
+              com.filelug.android.ui.widget.RippleLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.RippleLayout and 
+              com.filelug.android.ui.widget.RobotoTextView^ <init>(*) and 
+              com.filelug.android.ui.widget.RobotoTextView and 
+              com.filelug.android.ui.widget.ScrimInsetsScrollView^ <init>(*) and 
+              com.filelug.android.ui.widget.ScrimInsetsScrollView and 
+              com.filelug.android.ui.widget.WebViewDialogPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.WebViewDialogPreference and 
+              com.google.android.gms.common.api.GoogleApiActivity^ <init>(*) and 
+              com.google.android.gms.common.api.GoogleApiActivity and 
+              com.google.android.gms.gcm.GcmReceiver^ <init>(*) and 
+              com.google.android.gms.gcm.GcmReceiver and 
+              com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText^ <init>(*) and 
+              com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText and 
+              com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker^ <init>(*) and 
+              com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker and 
+              com.melnykov.fab.FloatingActionButton^ <init>(*) and 
+              com.melnykov.fab.FloatingActionButton
+              ;
+
+trim          deleteDeprecatedAttributes=true
+              deleteSourceFileAttributes=false //defaults to false
+              deleteAnnotationAttributes=false
+              deleteExceptionAttributes=true
+              //deleteUnknownAttributes=true
+              ;
+
+exclude       public com.google.vending.licensing.^ILicensingService and 
+              public com.android.vending.licensing.^ILicensingService and 
+              public com.google.android.vending.licensing.^ILicensingService and 
+              *.^*^ containing {native *(*)} native *(*) and 
+              public *.* extends android.view.View set*(?) and 
+              public *.* extends android.view.View get*() and 
+              *.* extends android.app.Activity public *(android.view.View) and 
+              enum *.* public static values() and 
+              enum *.* public static valueOf(java.lang.String) and 
+              *.* extends android.os.Parcelable public static final CREATOR and 
+              *.R$* public static * and 
+              *.* @android.webkit.JavascriptInterface *(*) and 
+              android.support.annotation.^Keep and 
+              @android.support.annotation.Keep *.^*^ * and 
+              @android.support.annotation.Keep *.^*^ *(*) and 
+              @android.support.annotation.Keep *.^* and 
+              *.^*^ containing {@android.support.annotation.Keep *(*)} @android.support.annotation.Keep *(*) and 
+              *.^*^ containing {@android.support.annotation.Keep *} @android.support.annotation.Keep * and 
+              *.^*^ containing {@android.support.annotation.Keep <init>(*)} @android.support.annotation.Keep <init>(*) and 
+              com.filelug.android.service.^NotificationConfig^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.^NotificationConfig and 
+              com.filelug.android.service.^FileToDownload^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.^FileToDownload and 
+              com.filelug.android.service.^FileToUpload^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.^FileToUpload and 
+              com.filelug.android.service.^NameValue^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.service.^NameValue and 
+              com.filelug.android.ui.model.^LocalFileObject^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.ui.model.^LocalFileObject and 
+              com.filelug.android.ui.model.^RemoteFileObject^ public static final android.os.Parcelable$Creator CREATOR and 
+              com.filelug.android.ui.model.^RemoteFileObject and 
+              android*.^*^ * and 
+              android*.^*^ *(*) and 
+              android*.^* and 
+              interface android*.^*^ * and 
+              interface android*.^*^ *(*) and 
+              interface android*.^* and 
+              android.support.v4*.^*^ * and 
+              android.support.v4*.^*^ *(*) and 
+              android.support.v4*.^* and 
+              android.support.v4.app*.^*^ * and 
+              android.support.v4.app*.^*^ *(*) and 
+              android.support.v4.app*.^* and 
+              interface android.support.v4.app*.^*^ * and 
+              interface android.support.v4.app*.^*^ *(*) and 
+              interface android.support.v4.app*.^* and 
+              android.support.v7*.^*^ * and 
+              android.support.v7*.^*^ *(*) and 
+              android.support.v7*.^* and 
+              android.support.v7.internal*.^*^ * and 
+              android.support.v7.internal*.^*^ *(*) and 
+              android.support.v7.internal*.^* and 
+              interface android.support.v7.internal*.^*^ * and 
+              interface android.support.v7.internal*.^*^ *(*) and 
+              interface android.support.v7.internal*.^* and 
+              *.^*^ extends java.util.ListResourceBundle protected getContents() and 
+              *.^*^ extends java.util.ListResourceBundle and 
+              com.google.android.gms*.^*^ * and 
+              com.google.android.gms*.^*^ *(*) and 
+              com.google.android.gms*.^* and 
+              public *.^*^ extends android.app.Activity and 
+              public *.^*^ extends android.app.Application and 
+              public *.^*^ extends android.app.Service and 
+              public *.^*^ extends android.content.BroadcastReceiver and 
+              public *.^*^ extends android.content.ContentProvider and 
+              public *.^*^ extends android.preference.Preference and 
+              *.^*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context,android.util.AttributeSet,int) and 
+              *.^*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context,android.util.AttributeSet) and 
+              *.^*^ containing {(public <init>(android.content.Context,android.util.AttributeSet,int) && public <init>(android.content.Context,android.util.AttributeSet) && public <init>(android.content.Context))} public <init>(android.content.Context) and 
+              *.* extends java.io.Serializable private static final java.io.ObjectStreamField[] serialPersistentFields and 
+              *.* extends java.io.Serializable private writeObject(java.io.ObjectOutputStream) and 
+              *.* extends java.io.Serializable private readObject(java.io.ObjectInputStream) and 
+              *.* extends java.io.Serializable writeReplace() and 
+              *.* extends java.io.Serializable readResolve() and 
+              *.^*^ extends android.os.Parcelable public static final CREATOR and 
+              *.^*^ extends android.os.Parcelable and 
+              com.android.volley*.^*^ * and 
+              com.android.volley*.^*^ *(*) and 
+              com.android.volley*.^* and 
+              com.afollestad.materialdialogs*.^*^ * and 
+              com.afollestad.materialdialogs*.^*^ *(*) and 
+              com.afollestad.materialdialogs*.^* and 
+              com.dd.processbutton*.^*^ * and 
+              com.dd.processbutton*.^*^ *(*) and 
+              com.dd.processbutton*.^* and 
+              com.marvinlabs.widget.floatinglabel*.^*^ * and 
+              com.marvinlabs.widget.floatinglabel*.^*^ *(*) and 
+              com.marvinlabs.widget.floatinglabel*.^* and 
+              com.melnykov.fab*.^*^ * and 
+              com.melnykov.fab*.^*^ *(*) and 
+              com.melnykov.fab*.^* and 
+              com.nineoldandroids*.^*^ * and 
+              com.nineoldandroids*.^*^ *(*) and 
+              com.nineoldandroids*.^* and 
+              com.nostra13.universalimageloader*.^*^ * and 
+              com.nostra13.universalimageloader*.^*^ *(*) and 
+              com.nostra13.universalimageloader*.^* and 
+              me.zhanghai.android.materialprogressbar*.^*^ * and 
+              me.zhanghai.android.materialprogressbar*.^*^ *(*) and 
+              me.zhanghai.android.materialprogressbar*.^* and 
+              public com.google.android.gms.common.internal.safeparcel.^SafeParcelable^ public static final NULL and 
+              public com.google.android.gms.common.internal.safeparcel.^SafeParcelable and 
+              com.google.android.gms.common.internal.^ReflectedParcelable and 
+              *.^*^ extends com.google.android.gms.common.internal.ReflectedParcelable and 
+              annotation android.support.annotation.^Keep and 
+              annotation com.google.android.gms.common.annotation.^KeepName and 
+              @com.google.android.gms.common.annotation.KeepName *.^* and 
+              *.* @com.google.android.gms.common.annotation.KeepName * and 
+              *.* @com.google.android.gms.common.annotation.KeepName *(*) and 
+              annotation com.google.android.gms.common.util.^DynamiteApi and 
+              @com.google.android.gms.common.util.DynamiteApi public *.^*^ public * and 
+              @com.google.android.gms.common.util.DynamiteApi public *.^*^ public *(*) and 
+              @com.google.android.gms.common.util.DynamiteApi public *.^* and 
+              public *.^*^ extends android.support.v7.widget.RecyclerView$LayoutManager public <init>(*) and 
+              public *.^*^ extends android.support.v7.widget.RecyclerView$LayoutManager and 
+              android.support.graphics.drawable.VectorDrawableCompat$* set*(?) and 
+              android.support.graphics.drawable.VectorDrawableCompat$* get*() and 
+              android.support.v4.view.^ViewPager^ <init>(*) and 
+              android.support.v4.view.^ViewPager and 
+              android.support.v4.widget.^DrawerLayout^ <init>(*) and 
+              android.support.v4.widget.^DrawerLayout and 
+              android.support.v4.widget.^NestedScrollView^ <init>(*) and 
+              android.support.v4.widget.^NestedScrollView and 
+              android.support.v4.widget.^Space^ <init>(*) and 
+              android.support.v4.widget.^Space and 
+              android.support.v7.app.^AlertController$RecycleListView^ <init>(*) and 
+              android.support.v7.app.^AlertController$RecycleListView and 
+              android.support.v7.view.menu.^ActionMenuItemView^ <init>(*) and 
+              android.support.v7.view.menu.^ActionMenuItemView and 
+              android.support.v7.view.menu.^ExpandedMenuView^ <init>(*) and 
+              android.support.v7.view.menu.^ExpandedMenuView and 
+              android.support.v7.view.menu.^ListMenuItemView^ <init>(*) and 
+              android.support.v7.view.menu.^ListMenuItemView and 
+              android.support.v7.widget.^ActionBarContainer^ <init>(*) and 
+              android.support.v7.widget.^ActionBarContainer and 
+              android.support.v7.widget.^ActionBarContextView^ <init>(*) and 
+              android.support.v7.widget.^ActionBarContextView and 
+              android.support.v7.widget.^ActionBarOverlayLayout^ <init>(*) and 
+              android.support.v7.widget.^ActionBarOverlayLayout and 
+              android.support.v7.widget.^ActionMenuView^ <init>(*) and 
+              android.support.v7.widget.^ActionMenuView and 
+              android.support.v7.widget.^ActivityChooserView$InnerLayout^ <init>(*) and 
+              android.support.v7.widget.^ActivityChooserView$InnerLayout and 
+              android.support.v7.widget.^AlertDialogLayout^ <init>(*) and 
+              android.support.v7.widget.^AlertDialogLayout and 
+              android.support.v7.widget.^AppCompatCheckBox^ <init>(*) and 
+              android.support.v7.widget.^AppCompatCheckBox and 
+              android.support.v7.widget.^AppCompatRadioButton^ <init>(*) and 
+              android.support.v7.widget.^AppCompatRadioButton and 
+              android.support.v7.widget.^ButtonBarLayout^ <init>(*) and 
+              android.support.v7.widget.^ButtonBarLayout and 
+              android.support.v7.widget.^CardView^ <init>(*) and 
+              android.support.v7.widget.^CardView and 
+              android.support.v7.widget.^ContentFrameLayout^ <init>(*) and 
+              android.support.v7.widget.^ContentFrameLayout and 
+              android.support.v7.widget.^DialogTitle^ <init>(*) and 
+              android.support.v7.widget.^DialogTitle and 
+              android.support.v7.widget.^FitWindowsFrameLayout^ <init>(*) and 
+              android.support.v7.widget.^FitWindowsFrameLayout and 
+              android.support.v7.widget.^FitWindowsLinearLayout^ <init>(*) and 
+              android.support.v7.widget.^FitWindowsLinearLayout and 
+              android.support.v7.widget.^RecyclerView^ <init>(*) and 
+              android.support.v7.widget.^RecyclerView and 
+              android.support.v7.widget.^SearchView$SearchAutoComplete^ <init>(*) and 
+              android.support.v7.widget.^SearchView$SearchAutoComplete and 
+              android.support.v7.widget.^Toolbar^ <init>(*) and 
+              android.support.v7.widget.^Toolbar and 
+              android.support.v7.widget.^ViewStubCompat^ <init>(*) and 
+              android.support.v7.widget.^ViewStubCompat and 
+              com.afollestad.materialdialogs.color.^FillGridView^ <init>(*) and 
+              com.afollestad.materialdialogs.color.^FillGridView and 
+              com.afollestad.materialdialogs.internal.^MDButton^ <init>(*) and 
+              com.afollestad.materialdialogs.internal.^MDButton and 
+              com.afollestad.materialdialogs.internal.^MDRootLayout^ <init>(*) and 
+              com.afollestad.materialdialogs.internal.^MDRootLayout and 
+              com.dd.processbutton.iml.^ActionProcessButton^ <init>(*) and 
+              com.dd.processbutton.iml.^ActionProcessButton and 
+              com.filelug.android.^MainApplication^ <init>(*) and 
+              com.filelug.android.^MainApplication and 
+              com.filelug.android.auth.^AccountWatcher^ <init>(*) and 
+              com.filelug.android.auth.^AccountWatcher and 
+              com.filelug.android.auth.^AuthService^ <init>(*) and 
+              com.filelug.android.auth.^AuthService and 
+              com.filelug.android.docsprovider.^RemoteFilesProvider^ <init>(*) and 
+              com.filelug.android.docsprovider.^RemoteFilesProvider and 
+              com.filelug.android.fileprovider.^LocalFilesProvider^ <init>(*) and 
+              com.filelug.android.fileprovider.^LocalFilesProvider and 
+              com.filelug.android.messaging.^GCMInstanceIDListenerService^ <init>(*) and 
+              com.filelug.android.messaging.^GCMInstanceIDListenerService and 
+              com.filelug.android.messaging.^GCMListenerService^ <init>(*) and 
+              com.filelug.android.messaging.^GCMListenerService and 
+              com.filelug.android.messaging.^GCMRegistrationIntentService^ <init>(*) and 
+              com.filelug.android.messaging.^GCMRegistrationIntentService and 
+              com.filelug.android.provider.^RepositoryContentProvider^ <init>(*) and 
+              com.filelug.android.provider.^RepositoryContentProvider and 
+              com.filelug.android.service.^DownloadNotificationService^ <init>(*) and 
+              com.filelug.android.service.^DownloadNotificationService and 
+              com.filelug.android.service.^DownloadService^ <init>(*) and 
+              com.filelug.android.service.^DownloadService and 
+              com.filelug.android.service.^DownloadStatusReceiver^ <init>(*) and 
+              com.filelug.android.service.^DownloadStatusReceiver and 
+              com.filelug.android.service.^UploadService^ <init>(*) and 
+              com.filelug.android.service.^UploadService and 
+              com.filelug.android.service.^UploadStatusReceiver^ <init>(*) and 
+              com.filelug.android.service.^UploadStatusReceiver and 
+              com.filelug.android.sms.^Receiver^ <init>(*) and 
+              com.filelug.android.sms.^Receiver and 
+              com.filelug.android.ui.activity.^ChangeAccountActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangeAccountActivity and 
+              com.filelug.android.ui.activity.^ChangeComputerActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangeComputerActivity and 
+              com.filelug.android.ui.activity.^ChangeEmailActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangeEmailActivity and 
+              com.filelug.android.ui.activity.^ChangeNicknameActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangeNicknameActivity and 
+              com.filelug.android.ui.activity.^ChangePasswordActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangePasswordActivity and 
+              com.filelug.android.ui.activity.^ChangePhoneNumberActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ChangePhoneNumberActivity and 
+              com.filelug.android.ui.activity.^ConfirmDownloadActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ConfirmDownloadActivity and 
+              com.filelug.android.ui.activity.^ConfirmUploadActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ConfirmUploadActivity and 
+              com.filelug.android.ui.activity.^GettingStartedActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^GettingStartedActivity and 
+              com.filelug.android.ui.activity.^InitialPageActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^InitialPageActivity and 
+              com.filelug.android.ui.activity.^LoginActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^LoginActivity and 
+              com.filelug.android.ui.activity.^MainActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^MainActivity and 
+              com.filelug.android.ui.activity.^OpenFromFilelugActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^OpenFromFilelugActivity and 
+              com.filelug.android.ui.activity.^RegisterActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^RegisterActivity and 
+              com.filelug.android.ui.activity.^ResetPasswordActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^ResetPasswordActivity and 
+              com.filelug.android.ui.activity.^SettingsActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^SettingsActivity and 
+              com.filelug.android.ui.activity.^SplashActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^SplashActivity and 
+              com.filelug.android.ui.activity.^VerifyActivity^ <init>(*) and 
+              com.filelug.android.ui.activity.^VerifyActivity and 
+              com.filelug.android.ui.widget.^AboutDialogPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.^AboutDialogPreference and 
+              com.filelug.android.ui.widget.^CountryPicker^ <init>(*) and 
+              com.filelug.android.ui.widget.^CountryPicker and 
+              com.filelug.android.ui.widget.^ListPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.^ListPreference and 
+              com.filelug.android.ui.widget.^LocalFilesLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.^LocalFilesLayout and 
+              com.filelug.android.ui.widget.^LocalFolderPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.^LocalFolderPreference and 
+              com.filelug.android.ui.widget.^MultiSwipeRefreshLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.^MultiSwipeRefreshLayout and 
+              com.filelug.android.ui.widget.^RemoteFilesLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.^RemoteFilesLayout and 
+              com.filelug.android.ui.widget.^RemoteFolderPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.^RemoteFolderPreference and 
+              com.filelug.android.ui.widget.^RippleLayout^ <init>(*) and 
+              com.filelug.android.ui.widget.^RippleLayout and 
+              com.filelug.android.ui.widget.^RobotoTextView^ <init>(*) and 
+              com.filelug.android.ui.widget.^RobotoTextView and 
+              com.filelug.android.ui.widget.^ScrimInsetsScrollView^ <init>(*) and 
+              com.filelug.android.ui.widget.^ScrimInsetsScrollView and 
+              com.filelug.android.ui.widget.^WebViewDialogPreference^ <init>(*) and 
+              com.filelug.android.ui.widget.^WebViewDialogPreference and 
+              com.google.android.gms.common.api.^GoogleApiActivity^ <init>(*) and 
+              com.google.android.gms.common.api.^GoogleApiActivity and 
+              com.google.android.gms.gcm.^GcmReceiver^ <init>(*) and 
+              com.google.android.gms.gcm.^GcmReceiver and 
+              com.marvinlabs.widget.floatinglabel.edittext.^FloatingLabelEditText^ <init>(*) and 
+              com.marvinlabs.widget.floatinglabel.edittext.^FloatingLabelEditText and 
+              com.marvinlabs.widget.floatinglabel.itempicker.^FloatingLabelItemPicker^ <init>(*) and 
+              com.marvinlabs.widget.floatinglabel.itempicker.^FloatingLabelItemPicker and 
+              com.melnykov.fab.^FloatingActionButton^ <init>(*) and 
+              com.melnykov.fab.^FloatingActionButton
+              ;
+
+obfuscate     lineNumbers=keep //can specify delete, scramble or keep
+              keepGenericsInfo=false
+              keepInnerClassInfo=true
+              methodParameters=obfuscate //can specify delete, keepVisible, keepVisibleIfNotObfuscated, obfuscate or keep
+              changeLogFileOut="C:\Workspace\_ASProjects\Working\FilelugApp\obfuscator\ZKM_Log_Mapping.txt"
+              obfuscateFlow=light //can change from none to light, normal, aggressive or extraAggressive
+              encryptStringLiterals=flowObfuscate //can change from none to normal, aggressive, flowObfuscate or enhanced
+              exceptionObfuscation=none //can change from none to light or heavy
+              autoReflectionHandling=none //can change from none to normal
+              obfuscateReferences=none //can change from none to normal
+              randomize=true //can change from false to true
+              preverify=false
+              mixedCaseClassNames=false
+              keepBalancedLocks=true
+              ;
+
+saveAll       archiveCompression=all
+              "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar"
+              ;

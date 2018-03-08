@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">Filelug</string>
+	<string name="intent_save_to_filelug">Save to Filelug</string>
+	<string name="intent_open_from_filelug">Open from Filelug</string>
+
+	<!-- Navigation Menu -->
+	<string name="drawer_section_main_task">MAIN TASK</string>
+	<string name="drawer_section_download">DOWNLOAD</string>
+	<string name="drawer_title_download_file">Download File</string>
+	<string name="drawer_title_downloaded_files_history">Downloaded Files History</string>
+	<string name="drawer_section_upload">UPLOAD</string>
+	<string name="drawer_title_upload_file">Upload File</string>
+	<string name="drawer_title_uploaded_files_history">Uploaded Files History</string>
+	<string name="drawer_section_browse">BROWSE</string>
+	<string name="drawer_title_browse_remote_root_folder">Remote Folder</string>
+	<string name="drawer_title_browse_local_folder">Local Folder</string>
+	<string name="drawer_title_bookmark">Bookmark</string>
+	<string name="drawer_section_others">OTHERS</string>
+	<string name="drawer_title_settings">Settings</string>
+	<string name="drawer_account_section_account_and_computer">ACCOUNT AND COMPUTER</string>
+	<string name="drawer_account_title_current_account">Current Account</string>
+	<string name="drawer_account_title_login">Login</string>
+	<string name="drawer_account_title_current_computer">Current Computer</string>
+	<string name="drawer_account_title_change_nickname">Nickname</string>
+	<string name="drawer_account_title_change_email">E-mail Address</string>
+	<string name="drawer_account_title_change_password">Password</string>
+	<string name="drawer_account_section_connect_to_others">OTHER ACCOUNTS</string>
+	<string name="drawer_account_title_login_with_another_account">Login With Another Account</string>
+	<string name="drawer_account_title_getting_started">Getting Started with Filelug</string>
+	<string name="drawer_account_title_change_computer_name">Change Computer Name</string>
+	<string name="drawer_account_title_manage_current_account">Manage Current Account</string>
+	<string name="drawer_account_title_manage_current_computer">Manage Current Computer</string>
+
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+
+	<string name="label_phone_number">Phone Number</string>
+	<string name="label_nickname">Nickname</string>
+	<string name="label_email_address">E-mail Address</string>
+	<string name="label_connected_computer">Connected Computer</string>
+	<string name="label_verify_code">Enter security code here.</string>
+	<string name="label_current_nickname">Current Nickname</string>
+	<string name="label_change_to">Change To</string>
+	<string name="label_current_email_address">Current E-mail Address</string>
+	<string name="label_new_email_address">New E-mail Address</string>
+	<string name="label_connect_to_computer">Connect To Computer</string>
+	<string name="label_current_country_region">Current Country/Region</string>
+	<string name="label_choose_computer_name">Choose Computer Name</string>
+	<string name="label_choose_account">Choose Account</string>
+	<string name="label_other">Other</string>
+	<string name="label_files_to_upload">Files To Upload</string>
+	<string name="label_upload_to_folder">To Folder</string>
+	<string name="label_subfolder_type">Subfolder Name to Create</string>
+	<string name="label_upload_description_type">Description</string>
+	<string name="label_upload_notification_type">Notification</string>
+	<string name="label_files_to_download">Files To Download</string>
+	<string name="label_download_to_folder">To Folder</string>
+	<string name="label_download_description_type">Description</string>
+	<string name="label_download_notification_type">Notification</string>
+	<string name="label_current_account">Current Account</string>
+	<string name="label_login_to_new_account">Login To New Account</string>
+	<string name="label_pref_category_display_settings">Display Settings</string>
+	<string name="label_pref_category_security_settings">Security Settings</string>
+	<string name="label_pref_category_others">Others</string>
+	<string name="label_pref_category_account_profile">Profiles</string>
+	<string name="label_pref_category_history">History</string>
+	<string name="label_pref_category_computer_profile">Profiles</string>
+	<string name="label_pref_category_upload_settings">Upload File</string>
+	<string name="label_pref_category_download_settings">Download File</string>
+	<string name="label_pref_category_deletion">Delete</string>
+	<string name="label_pref_show_hidden_files">Show Hidden Files</string>
+	<string name="label_pref_show_local_system_folder">Show Local System Folder</string>
+	<string name="label_pref_show_thumbnail">Show Thumbnails</string>
+	<string name="label_pref_show_modified_date_and_permission">Show Date &#38; Permission</string>
+	<string name="label_pref_remember_recent_folder">Note The Last Folder Browsed</string>
+	<string name="label_pref_display_language">Display Language</string>
+	<string name="label_pref_app_open_password">App Open Protection</string>
+	<string name="label_pref_transfer_password">File Upload &#38; Download Protection</string>
+	<string name="label_pref_file_open_password">File Open Protection</string>
+	<string name="label_pref_upload_path">Upload To Folder</string>
+	<string name="label_pref_download_path">Download To Folder</string>
+	<string name="label_pref_getting_started">Getting Started with Filelug</string>
+	<string name="label_pref_rate_us_on_google_play">Rate Us On Google Play</string>
+	<string name="label_pref_share_app_to_friends">Share App To Friends</string>
+	<string name="label_pref_frequently_asked_questions">FAQ</string>
+	<string name="label_pref_send_feedback">Send Feedback</string>
+	<string name="label_pref_terms_of_service">Terms Of Service</string>
+	<string name="label_pref_privacy_policy">Privacy Policy</string>
+	<string name="label_pref_third_party_notice">Open Source &#38; 3rd Party Software</string>
+	<string name="label_pref_about">About Filelug</string>
+	<string name="label_pref_delete_account">Delete Account</string>
+	<string name="label_pref_delete_computer">Delete Computer</string>
+	<string name="label_pref_delete_local_cached_data">Delete Local Cached Data</string>
+	<string name="label_save_as_default">Save as default</string>
+	<string name="label_transfer_group_section_1_file">(1 File)</string>
+	<string name="label_transfer_group_section_many_files">(%1$d Files)</string>
+	<string name="label_download_info">Download Information</string>
+	<string name="label_source_file_info">Source File Information</string>
+	<string name="label_download_summary_info">Download Summary Information</string>
+	<string name="label_file_name">File Name</string>
+	<string name="label_download_status">Download Status</string>
+	<string name="label_start_download_timestamp">Start Download Timestamp</string>
+	<string name="label_end_download_timestamp">End Download Timestamp</string>
+	<string name="label_download_from_computer">Download From Computer</string>
+	<string name="label_source_file_path">Source File Path</string>
+	<string name="label_real_source_file_path">Real Source File Path</string>
+	<string name="label_content_type">Content Type</string>
+	<string name="label_file_downloaded_size">Downloaded Size</string>
+	<string name="label_upload_info">Upload Information</string>
+	<string name="label_upload_summary_info">Upload Summary Information</string>
+	<string name="label_upload_status">Upload Status</string>
+	<string name="label_start_upload_timestamp">Start Upload Timestamp</string>
+	<string name="label_end_upload_timestamp">End Upload Timestamp</string>
+	<string name="label_upload_to_computer">Upload To Computer</string>
+	<string name="label_file_uploaded_size">Uploaded Size</string>
+	<string name="label_add_computer_step_1_install">①INSTALL</string>
+	<string name="label_add_computer_step_2_startup">②STARTUP</string>
+	<string name="label_add_computer_step_3_scan">③SCAN</string>
+	<string name="label_current_computer_name">Current Computer Name</string>
+	<string name="label_computer_to_delete">Computer To Delete</string>
+	<string name="label_choose_computer_to_delete">Choose Computer To Delete</string>
+	<string name="label_computer_name">Computer Name</string>
+	<string name="label_downloaded_files_history">Downloaded Files History</string>
+	<string name="label_uploaded_files_history">Uploaded Files History</string>
+
+	<string name="btn_label_send">SEND</string>
+	<string name="btn_label_verify">VERIFY</string>
+	<string name="btn_label_connect">CONNECT</string>
+	<string name="btn_label_change">CHANGE</string>
+	<string name="btn_label_send_me_security_code">SEND ME SECURITY CODE</string>
+	<string name="btn_label_reset">RESET</string>
+	<string name="btn_label_choose">CHOOSE</string>
+	<string name="btn_label_cancel">CANCEL</string>
+	<string name="btn_label_delete_account_from_device">DELETE FROM DEVICE</string>
+	<string name="btn_label_delete_account_from_remote_and_device">DELETE FROM REMOTE &#38; DEVICE</string>
+	<string name="btn_label_delete">DELETE</string>
+	<string name="btn_label_reload">Reload</string>
+	<string name="btn_label_loading">Loading...</string>
+	<string name="btn_label_skip">SKIP</string>
+	<string name="btn_label_done">DONE</string>
+	<string name="btn_label_sign_in">Sign In</string>
+	<string name="btn_label_init_getting_started">Getting Started with Filelug</string>
+	<string name="btn_label_go_to_settings">Go to SETTINGS</string>
+	<string name="btn_label_deny">Deny</string>
+	<string name="btn_label_yes_deny">Yes, deny</string>
+	<string name="btn_label_no_try_again">Try again</string>
+	<string name="btn_label_transfer_choose_file">Choose File</string>
+	<string name="btn_label_stop_all_uploads">Stop All Uploads</string>
+	<string name="btn_label_stop_all_downloads">Stop All Downloads</string>
+	<string name="btn_label_stop">Stop</string>
+	<string name="btn_label_open_file">Open File</string>
+	<string name="btn_label_download_again">Download Again</string>
+	<string name="btn_label_cancel_download">Cancel Download</string>
+	<string name="btn_label_stop_download">Stop Download</string>
+	<string name="btn_label_resume_download">Resume Download</string>
+	<string name="btn_label_upload_again">Upload Again</string>
+	<string name="btn_label_cancel_upload">Cancel Upload</string>
+	<string name="btn_label_stop_upload">Stop Upload</string>
+	<string name="btn_label_resume_upload">Resume Upload</string>
+	<string name="btn_label_open_filelug">Open Filelug</string>
+	<string name="btn_label_add_new_computer">ADD NEW COMPUTER</string>
+	<string name="btn_label_add_new_account">ADD NEW ACCOUNT</string>
+	<string name="btn_label_login">LOGIN</string>
+	<string name="btn_label_yes_delete">Yes, delete</string>
+
+	<string name="page_login_filelug_header">User Profiles</string>
+	<string name="page_login_filelug_message">Confirm your e-mail and nickname, and tap \"SEND\" to complete login process.</string>
+	<string name="page_verify_phone_number_header">Verify Phone Number</string>
+	<string name="page_verify_phone_number_message">Please click \"VERIFY\" to confirm the phone number is yours.</string>
+	<string name="page_verify_email_message">Security code has been successfully sent to the specified e-mail address. Please enter this security code in the following area and then press \"VERIFY\".</string>
+	<string name="page_change_nickname_header">Change Nickname</string>
+	<string name="page_change_nickname_message_1">Please enter new nickname, then press \"CHANGE\" to change your nickname.</string>
+	<string name="page_change_email_header">Change E-mail Address</string>
+	<string name="page_change_email_message_1">Enter your new e-mail address and press \"SEND ME SECURITY CODE\". We will send you a security code to the e-mail address.</string>
+	<string name="page_connect_to_computer_header">Connect To Computer</string>
+	<string name="page_connect_to_computer_message_1">Please select a computer you want to connect, then press \"CONNECT\" to connect to the computer.</string>
+	<string name="page_change_computer_header">Change Connected Computer</string>
+	<string name="page_change_computer_message_1">Please select a computer you want to connect, then press \"CHANGE\" to connect to the computer.</string>
+	<string name="page_initial_page_message">Filelug is a rapid and secure system to transfer files between devices and computers.</string>
+	<string name="page_change_account_header">Change Account</string>
+	<string name="page_change_account_message_1">Please select new account you want to login, then press \"CHANGE\" to log into Filelug.</string>
+	<string name="page_account_login_header">Log into Filelug</string>
+	<string name="page_account_login_message_1">Please select account you want to login, then press \"LOGIN\" to log into Filelug.</string>
+	<string name="page_add_new_computer">Add New Computer</string>
+	<string name="page_verify_email">Verify E-mail Address</string>
+	<string name="page_verify_email_message_1">Enter your current e-mail address and press \"SEND ME SECURITY CODE\". We will send a security code to this e-mail address.</string>
+	<string name="page_enter_security_code">Enter Security Code</string>
+	<string name="page_change_computer_name_header">Change Computer Name</string>
+	<string name="page_change_computer_name_message_1">Please enter new computer name, then press \"CHANGE\" to change the computer name.</string>
+	<string name="page_delete_computer_header">Delete Computer</string>
+	<string name="page_delete_computer_message_1">Please select a computer you want to delete, then press \"DELETE\" to delete the remote computer.</string>
+
+	<string name="message_loading">Loading</string>
+	<string name="message_processing">Processing</string>
+	<string name="message_done">Done</string>
+	<string name="message_error">Error</string>
+	<string name="message_failed">Failed</string>
+	<string name="message_field_can_not_be_empty">Field can not be empty</string>
+	<string name="message_field_can_not_be_empty_2">Field \"%1$s\" can not be empty!</string>
+	<string name="message_invalid_email">Invalid e-mail</string>
+	<string name="message_can_not_find_created_accounts">Can not find created accounts, press \"ADD NEW ACCOUNT\" to register a new account or log in to Filelug.</string>
+	<string name="message_can_not_find_available_computers">Can not find available computers. Click \"ADD NEW COMPUTER\" to connect to the new computer.</string>
+	<string name="message_registered_computer_not_found">Can not find the registered computer!</string>
+	<string name="message_only_one_filelug_account">Only one Filelug allowed on a device!</string>
+	<string name="message_account_not_created">Account not created</string>
+	<string name="message_not_set">Not Set</string>
+	<string name="message_account_logged_in">Account \"%1$s\" logged in!</string>
+	<string name="message_account_logged_in_but_computer_not_set">Account \"%1$s\" has logged in, but computer not set!</string>
+	<string name="message_account_logged_in_but_computer_not_connected">Account \"%1$s\" has logged in, but computer not connected!</string>
+	<string name="message_computer_not_connected">Not Connected</string>
+	<string name="message_email_not_verified">Not Verified</string>
+	<string name="message_auth_failure_error">Authentication failure!</string>
+	<string name="message_parse_error">Error parsing response data!</string>
+	<string name="message_server_error">Server error! Please try again later.</string>
+	<string name="message_timeout_error">Connection timed out. Please try again later.</string>
+	<string name="message_interrupted_error">Service has been interrupted.</string>
+	<string name="message_account_or_password_error">Account or password error</string>
+	<string name="message_no_connection">Cannot connect to server! Please check if your network is available.</string>
+	<string name="message_network_error">Network unavailable! Please check if your network is available.</string>
+	<string name="message_sign_in_failed">Sign-in failed! Please try again later.</string>
+	<string name="message_computer_not_logged_in">Not logged in</string>
+	<string name="message_successfully_sent_security_code_to">Successfully sent security code to %1$s</string>
+	<string name="message_computer_has_been_connected">Computer \"%1$s\" has been connected!</string>
+	<string name="message_phone_number_cannot_change">New phone number already exists. It cannot be changed!</string>
+	<string name="message_successfully_change_phone_number">Successfully change phone number to %1$s</string>
+	<string name="message_email_verified">E-mail address has been verified!</string>
+	<string name="message_successfully_change_email">Successfully change e-mail to %1$s</string>
+	<string name="message_successfully_change_nickname">Successfully change nickname to %1$s</string>
+	<string name="message_delete_account">\"&lt;font color=\"#007aff\">%1$s&lt;/font>\" will delete its settings, downloaded files. &lt;br/>\"&lt;font color=\"#007aff\">%2$s&lt;/font>\" will delete all of its settings, downloaded files, upload and download histories, and the account will not be used by other devices!</string>
+	<string name="message_success_deleting_account">Account deleted.</string>
+	<string name="message_failed_to_delete_account">Failed to delete the account.\n%1$s</string>
+	<string name="message_confirm_delete_this_account_2">After you delete the account, you need to re-startup and setup the Filelug application(s) in the following computer(s):&lt;br/>&lt;font color=\"#007aff\">%1$s&lt;/font></string>
+	<string name="message_account_deleted">Please connect using another account or register a new account.</string>
+	<string name="message_account_has_been_deleted">Account \"%1$s\" has been deleted in system settings!</string>
+	<string name="message_unable_to_send_security_code">Unable to send security code!</string>
+	<string name="message_folder_or_file_can_not_be_read">Folder or file \"%1$s\" cannot be read!</string>
+	<string name="message_no_files">No Files</string>
+	<string name="message_back_to_parent_folder">(Parent Folder)</string>
+	<string name="message_no_file_selected">No file selected!</string>
+	<string name="message_storage_usage">%1$s free of %2$s</string>
+	<string name="message_no_records">No records</string>
+	<string name="message_history_download_description">%1$s at %2$s from %3$s</string>
+	<string name="message_history_upload_description">%1$s at %2$s to %3$s</string>
+	<string name="message_history_search_type">Search: %1$s</string>
+	<string name="message_history_file_downloaded">%1$d file downloaded successfully, size: %2$s</string>
+	<string name="message_history_files_downloaded">%1$d files downloaded successfully, total size: %2$s</string>
+	<string name="message_history_file_uploaded">%1$d file uploaded successfully, size: %2$s</string>
+	<string name="message_history_files_uploaded">%1$d files uploaded successfully, total size: %2$s</string>
+	<string name="message_login_then_upload">Please login and start uploading files!</string>
+	<string name="message_login_then_save_to_filelug">Please login and start saving files to Filelug!</string>
+	<string name="message_login_then_download">Please login and start downloading files!</string>
+	<string name="message_file_prepare_to_upload_1">Filelug - Prepare to upload</string>
+	<string name="message_file_prepare_to_upload_2">File \"%1$s\"</string>
+	<string name="message_file_upload_error">Filelug - File upload failed</string>
+	<string name="message_file_upload_ping_error_1">Filelug - File \"%1$s\" upload failed</string>
+	<string name="message_file_upload_ping_error_2">Unable to connect to the computer! Please check the following possible effects and then upload again: (1)The computer is not on. (2)The computer is asleep, or is in hibernation. (3)Network is broken. (4)Filelug is not running on the computer.</string>
+	<string name="message_file_uploading_1">Filelug - File uploading</string>
+	<string name="message_file_uploading_2">File \"%1$s\" uploading...</string>
+	<string name="message_file_upload_completed_1">Filelug - File \"%1$s\" uploaded</string>
+	<string name="message_file_upload_completed_2">Wait for the remote computer to confirm...</string>
+	<string name="message_file_upload_transfer_error_1">Filelug - File \"%1$s\" upload failed</string>
+	<string name="message_file_upload_transfer_error_2">File access or transfer error! Please check the uploaded files, and that the device network is online, then try uploading again.</string>
+	<string name="message_file_upload_response_error_1">Filelug - File \"%1$s\" upload failed</string>
+	<string name="message_file_upload_response_error_2">Remote response error! %1$s</string>
+	<string name="message_file_upload_canceled_1">Filelug - Upload canceled</string>
+	<string name="message_file_upload_canceled_2">File \"%1$s\" upload canceled!</string>
+	<string name="message_file_prepare_to_download_1">Filelug - Prepare to download</string>
+	<string name="message_file_prepare_to_download_2">File \"%1$s\"</string>
+	<string name="message_file_download_error">Filelug - File download failed</string>
+	<string name="message_file_download_ping_error_1">Filelug - File \"%1$s\" download failed</string>
+	<string name="message_file_download_ping_error_2">Unable to connect to the computer! Please check the following possible effects and then download again: (1)The computer is not on. (2)The computer is asleep, or is in hibernation. (3)Network is broken. (4)Filelug is not running on the computer.</string>
+	<string name="message_file_downloading_1">Filelug - File downloading</string>
+	<string name="message_file_downloading_2">File \"%1$s\" downloading...</string>
+	<string name="message_file_download_completed_1">Filelug - File \"%1$s\" downloaded</string>
+	<string name="message_file_download_completed_2">Wait for the remote computer to confirm...</string>
+	<string name="message_file_download_transfer_error_1">Filelug - File \"%1$s\" download failed</string>
+	<string name="message_file_download_transfer_error_2">File access or transfer error! Please check the downloaded files, and that the device network is online, then try downloading again.</string>
+	<string name="message_file_download_response_error_1">Filelug - File \"%1$s\" download failed</string>
+	<string name="message_file_download_response_error_2">Remote response error! %1$s</string>
+	<string name="message_file_download_canceled_1">Filelug - Download canceled</string>
+	<string name="message_file_download_canceled_2">File \"%1$s\" download canceled!</string>
+	<string name="message_exceed_upload_size_limit">Cannot upload the following files. File size too large:%1$s</string>
+	<string name="message_exceed_download_size_limit">Cannot download the following files. File size too large:%1$s</string>
+	<string name="message_gcm_device_token_refresh_failed">GCM device token refresh failed!</string>
+	<string name="message_failed_to_update_device_token">Failed to update device token!\n%1$s</string>
+	<string name="message_failed_to_read_file">Failed to read file! [%1$s]</string>
+	<string name="message_failed_to_read_files">Failed to read %1$d files! File list:\n%2$s</string>
+	<string name="message_pref_show_hidden_files">Show files and folders which start with \".\"</string>
+	<string name="message_pref_show_local_system_folder">Show local device system folder</string>
+	<string name="message_pref_show_thumbnail">Show thumbnails for image and video files</string>
+	<string name="message_pref_show_modified_date_and_permission">Show file modified date &#38; permission</string>
+	<string name="message_pref_remember_recent_folder">Save the last browse folder in this device or remote device</string>
+	<string name="message_pref_app_open_password">Require a password to open Filelug App</string>
+	<string name="message_pref_transfer_password">Require a password before file upload or download</string>
+	<string name="message_pref_file_open_password">Require a password to open file</string>
+	<string name="message_app_version">Version: %1$s</string>
+	<string name="message_feedback_subject">Feedback&#47;BugReport</string>
+	<string name="message_feedback_text">Give us your feedback here!</string>
+	<string name="message_share_app_to_friends_subject">Try this simple and useful APP</string>
+	<string name="message_share_app_to_friends_text_1">Introduction Video</string>
+	<string name="message_share_app_to_friends_text_2">Facebook Fan Page</string>
+	<string name="message_share_app_to_friends_text_3">Official Site</string>
+	<string name="message_share_app_to_friends_text_4">Free Download</string>
+	<string name="message_please_login_to_filelug">Please login to Filelug!</string>
+	<string name="message_press_back_again_to_exit">Press \"BACK\" again to exit</string>
+	<string name="message_permission_setup_description">Press the "Permissions" option, and then granting this App \"Camera\", \"Contacts\", \"SMS\" and \"Storage\" permissions. When finished press on the \"Back\" icon to return to the App.</string>
+	<string name="message_deny_permission_setup">Are you sure? You will not be able to use App if you deny permission.</string>
+	<string name="message_cannot_find_any_app">Cannot find any App to open this file!</string>
+	<string name="message_unable_to_open_this_file">Unable to open this file!</string>
+	<string name="message_stop_all_upload_tasks">If press \"STOP\", App will stop the current upload tasks, and all tasks waiting for uploading.</string>
+	<string name="message_stop_all_download_tasks">If press \"STOP\", App will stop the current download tasks, and all tasks waiting for downloading.</string>
+	<string name="message_download_file_save_as">%1$s save as %2$s</string>
+	<string name="message_request_connection_1">Wait for the computer to reconnect...</string>
+	<string name="message_request_connection_2">Wait for the computer \"%1$s\" to reconnect...</string>
+	<string name="message_request_connection_failed_1">Failed to connect to the computer. Please try again later.</string>
+	<string name="message_request_connection_failed_2">Failed to connect to computer \"%1$s\" . Please try again later.</string>
+	<string name="message_request_connection_failed_details">Unable to connect to the computer. Please check the following possible effects and then try again: (1)The computer is not on. (2)The computer is asleep, or is in hibernation. (3)Network is broken. (4)Filelug is not running on the computer</string>
+	<string name="message_cannot_change_account">Files being transferred, the current logged in account cannot be changed!</string>
+	<string name="message_cannot_change_computer">Files being transferred, the current connected computer cannot be changed!</string>
+	<string name="message_start_transfer_files">Start transfer files</string>
+	<string name="message_start_receiving_files">Start receiving files</string>
+	<string name="message_download_failed">The following file download failed! Please try again.\n\n%1$s</string>
+	<string name="message_server_error_503">Server connection not exists.</string>
+	<string name="message_notify_file_download_success">File \"%1$s\" downloaded successfully.</string>
+	<string name="message_notify_all_files_downloaded_successfully">All %1$d files (%2$s ...) downloaded successfully.</string>
+	<string name="message_notify_all_files_downloaded_successfully_2">All %1$d files downloaded successfully.</string>
+	<string name="message_notify_all_files_uploaded_successfully_2">All %1$d files uploaded successfully.</string>
+	<string name="message_could_not_create_subdirectory">Could not create subdirectory! Permission may not have been granted, or there is some other cause.</string>
+	<string name="message_could_not_create_description_file">Could not create description file! Permission may not have been granted, or there is some other cause.</string>
+	<string name="message_specified_file_not_found">The specified file could not be found!</string>
+	<string name="message_unable_to_read_file">The specified file could not be found!</string>
+	<string name="message_actions_for_download_success">The file has been successfully downloaded. &lt;br/>&lt;br/>Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to open the downloaded file. &lt;br/>Click \"&lt;font color=\"#007aff\">%2$s&lt;/font>\" to re-download the file from the remote computer. &lt;br/>Click \"&lt;font color=\"#007aff\">%3$s&lt;/font>\" to display the download information for this file.</string>
+	<string name="message_actions_for_downloading">The file is being downloaded. Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to stop downloading this file.</string>
+	<string name="message_actions_for_download_failed">File download failed or canceled. &lt;br/>&lt;br/>Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\", will re-download the file from the remote computer. &lt;u>If the file download failure is forced to interrupt, it will continue to download.&lt;/u> &lt;br/>Click \"&lt;font color=\"#007aff\">%2$s&lt;/font>\" to display the download information for this file.</string>
+	<string name="message_actions_for_wait_for_download">The file is waiting for download. Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to cancel the download.</string>
+	<string name="message_actions_for_upload_success">The file has been uploaded successfully. &lt;br/>&lt;br/>Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to upload the file to the remote computer again. &lt;br/>Click \"&lt;font color=\"#007aff\">%2$s&lt;/font>\" to display the download information for this file.</string>
+	<string name="message_actions_for_uploading">The file is being uploaded. Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to stop uploading this file.</string>
+	<string name="message_actions_for_upload_failed">File upload failed or canceled. &lt;br/>&lt;br/>Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to upload the file to the remote computer again. &lt;u>If the file upload failed to be forced to interrupt, it will continue upload.&lt;/u> &lt;br/>Click \"&lt;font color=\"#007aff\">%2$s&lt;/font>\" to display the download information for this file.</string>
+	<string name="message_actions_for_wait_for_upload">The file is waiting for upload. Click \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" to cancel uploading this file.</string>
+	<string name="message_cannot_find_download_record">Cannot find the specified download record!</string>
+	<string name="message_cannot_find_upload_record">Cannot find the specified upload record!</string>
+	<string name="message_google_play_services_not_available">Google Play Services is not available! This will disable the notification function when the file upload or download is complete! (%1$d—%2$s)</string>
+	<string name="message_read_shared_files">Reading shared files...</string>
+	<string name="message_shared_file_not_found">The shared file cannot be found!\nFile: %1$s</string>
+	<string name="message_failed_to_read_shared_file">Failed to read shared file!\nFile: %1$s</string>
+	<string name="message_failed_to_create_upload_temporary">Failed to create temporary upload file!\nFile: %1$s</string>
+	<string name="message_failed_to_write_upload_temporary">Failed to write temporary upload file!\nFile: %1$s</string>
+	<string name="message_can_not_use_cameras">Unable to add new computers. The APP cannot use the camera to scan the QR code displayed on your computer!</string>
+	<string name="message_can_not_get_accounts">Unable to create, find or delete Filelug account on the device, because the App has not been granted permission \"Contacts\"!</string>
+	<string name="message_add_new_computer_step_0">We will help you set up a new computer. It takes only a few steps.</string>
+	<string name="message_add_new_computer_step_1">On your desktop or laptop computer, download and install the application from the web page at \"filelug.com/p.html\".</string>
+	<string name="message_add_new_computer_step_2">Start up the application you just installed and wait for the QR code to display on the screen. The QR code looks like the one above.</string>
+	<string name="message_add_new_computer_step_3">Align the scan area above with the QR Code on your computer and wait a few moments.</string>
+	<string name="message_logging_in">Logging in, please wait!</string>
+	<string name="message_try_to_connect_to_computer">Connecting to \"%1$s\", please wait ...</string>
+	<string name="message_filelug_permission_denied">App has not been granted the \"Contacts\" or \"Storage\" permissions. The App cannot work.</string>
+	<string name="message_session_not_exists">Account not exists, please login again!</string>
+	<string name="message_verify_current_account">To confirm that you are the owner of this account, please verify your phone number again!</string>
+	<string name="message_confirm_delete_local_account">Are you sure to delete the account from device?</string>
+	<string name="message_confirm_delete_local_data">Are you sure to delete local cached data?</string>
+	<string name="message_local_cached_data_delete">Local cached data deleted!</string>
+	<string name="message_confirm_delete_remote_computer">The Filelug application on computer \"&lt;font color=\"#007aff\">%1$s&lt;/font>\" will restore the initial settings and close itself after you delete it. You can open Filelug again in order to set it up.\n\nAre you sure you want to delete it?</string>
+	<string name="message_successfully_change_computer_name">Successfully change computer name to %1$s</string>
+	<string name="message_computer_has_been_deleted">Computer \"%1$s\" has been deleted!</string>
+	<string name="message_computer_not_set">Computer not set!</string>
+	<string name="message_expired_qrcode_and_need_refresh">The QR code has expired. Click the button \"Refresh QR code\" in the QR code window of the computer you want to connect to, then scan the new QR code again.</string>
+	<string name="message_describe_wrong_login_account">The account you want to use is \"%1$s\", but is logged in with another account \"%2$s\". Please login with the correct account.</string>
+	<string name="message_verification_error">Verification error!</string>
+
+	<string name="title_info">Information</string>
+	<string name="title_warning">Warning</string>
+	<string name="title_error">Error</string>
+	<string name="title_delete_account">Delete the account %1$s</string>
+	<string name="title_permissions_dialog">Please grant the following permissions</string>
+	<string name="title_permissions_step_description">Permission setup steps</string>
+	<string name="title_stop_all_uploads">Stop all upload tasks?</string>
+	<string name="title_stop_all_downloads">Stop all download tasks?</string>
+	<string name="title_which_application">Complete action using</string>
+	<string name="title_unable_to_connect_to_computer">Unable to connect to remote computer</string>
+
+	<string name="hint_enter_customized_name">Enter customized name</string>
+	<string name="hint_enter_customized_description">Enter customized description</string>
+
+	<string name="content_header_file_upload_list">—— Files Upload List ——</string>
+	<string name="content_header_file_download_list">—— Files Download List ——</string>
+
+	<string name="wizard_register">Sign in with your phone number.</string>
+	<string name="wizard_download_desktop">On your desktop or laptop computer, download and install the application from the web page at \"filelug.com/p.html\".</string>
+	<string name="wizard_setup_desktop">Start up the application you just installed and wait for the QR code to display on the screen.</string>
+	<string name="wizard_connect_to_desktop">Connect to your computer by scanning the QR code from the Filelug APP on your mobile device.</string>
+	<string name="wizard_start_to_transfer">Start to download and upload files with Filelug APP.</string>
+
+	<string name="permission_group_contacts">Contacts</string>
+	<string name="permission_group_storage">Storage</string>
+	<string name="permission_group_sms">SMS</string>
+	<string name="permission_group_camera">Camera</string>
+	<string name="permission_desc_contacts">If this permission is granted, the App will only manage Filelug account. It does not access other account data.</string>
+	<string name="permission_desc_storage">If this permission is granted, App can upload the files (read the device\'s photos, music, videos, documents) to the remote computer, or download files from the remote computer (saved to the device).</string>
+	<string name="permission_desc_sms">If this permission is granted, App can automatically entered in verification code after the SMS received.</string>
+	<string name="permission_desc_camera">If this permission is granted, the App will only use the camera to scan the QR code displayed on your computer when you perform \"ADD NEW COMPUTER\".</string>
+	<string name="permission_warning_description">If not granted, the App will not work.</string>
+	<string name="permission_warning_description_sms">If this permission is not granted, you can enter manually after receiving the SMS verification code.</string>
+	<string name="permission_warning_description_camera">If this permission is not granted, the App will not be able to connect to the new computer with \"ADD NEW COMPUTER\".</string>
+	<string name="permission_granted">Granted</string>
+	<string name="permission_not_granted">Not Granted</string>
+
+	<!-- Local Files -->
+	<string name="action_select_all">Select All</string>
+	<string name="action_invert_selection">Invert Selection</string>
+	<string name="action_details">Details</string>
+	<string name="action_open_file">Open</string>
+	<string name="action_cancel_selection">Cancel Selection</string>
+	<string name="action_sort">Sort</string>
+	<string name="sortDialog_title">Sort By</string>
+	<string name="sort_by_name">Name</string>
+	<string name="sort_by_date">Date</string>
+	<string name="sort_by_size">Size</string>
+	<string name="sort_by_type">Type</string>
+	<string name="sort_type_ascending">Ascending</string>
+	<string name="sort_type_descending">Descending</string>
+	<string name="action_refresh">Refresh</string>
+
+	<string name="fileItem_display_name">Name</string>
+	<string name="fileItem_path">Path</string>
+	<string name="fileItem_object_type">Type</string>
+	<string name="fileItem_real_name">Real Name</string>
+	<string name="fileItem_real_path">Real Path</string>
+	<string name="fileItem_size">File Size</string>
+	<string name="fileItem_modified_date">Last Modified Date</string>
+	<string name="fileItem_isHidden">Hidden</string>
+	<string name="fileItem_canRead">Readable</string>
+	<string name="fileItem_canWrite">Writable</string>
+
+	<string name="yn_yes">Yes</string>
+	<string name="yn_no">No</string>
+
+	<string name="fileType_device_root">Mobile Device</string>
+	<string name="fileType_local_bookmarks">Bookmarks (Mobile Device)</string>
+	<string name="fileType_local_images">Images</string>
+	<string name="fileType_local_music">Music</string>
+	<string name="fileType_local_movies">Movies</string>
+	<string name="fileType_local_documents">Documents</string>
+	<!--<string name="fileType_local_dcim">Camera</string>-->
+	<!--<string name="fileType_local_bluetooth">Bluetooth</string>-->
+	<string name="fileType_local_downloads">Downloads</string>
+	<!--<string name="fileType_local_screenshot">Screenshots</string>-->
+	<!--<string name="fileType_local_podcasts">Podcasts</string>-->
+	<!--<string name="fileType_local_ringtones">Ringtones</string>-->
+	<!--<string name="fileType_local_alarms">Alarms</string>-->
+	<!--<string name="fileType_local_notifications">Notifications</string>-->
+
+	<string name="fileType_local_internal_storage">Internal Storage</string>
+	<string name="fileType_local_sdcard_storage">SD Card</string>
+	<string name="fileType_local_usb_storage">USB Storage</string>
+	<string name="fileType_local_root">System Folder</string>
+
+	<string name="fileType_local_dir">Folder</string>
+	<string name="fileType_local_file">File</string>
+	<string name="fileType_local_symbolic_link_dir">Symbolic Link Folder</string>
+	<string name="fileType_local_symbolic_link_file">Symbolic Link File</string>
+
+	<string name="fileType_desktop_root">Remote Device</string>
+	<string name="fileType_remote_bookmarks">Bookmarks (Desktop)</string>
+	<string name="fileType_remote_roots">Folders (Desktop)</string>
+	<string name="fileType_remote_dir">Remote Folder</string>
+	<string name="fileType_remote_file">Remote File</string>
+	<string name="fileType_remote_windows_shortcut_dir">Remote Windows Shortcut Folder</string>
+	<string name="fileType_remote_windows_shortcut_file">Remote Windows Shortcut File</string>
+	<string name="fileType_remote_unix_symbolic_link_dir">Remote Unix Symbolic Link Folder</string>
+	<string name="fileType_remote_unix_symbolic_link_file">Remote Unix Symbolic Link File</string>
+	<string name="fileType_remote_mac_alias_dir">Remote Mac Alias Folder</string>
+	<string name="fileType_remote_mac_alias_file">Remote Mac Alias File</string>
+	<string name="fileType_parent_dir">Go Back</string>
+	<string name="fileType_windows_shortcut">Shortcut</string>
+	<string name="fileType_unix_symbolic_link">Symbolic Link</string>
+	<string name="fileType_mac_alias">Alias</string>
+
+	<string name="fileType_unknown">Not File or Folder</string>
+
+	<string name="format_file_count_item">%,d Item</string>
+	<string name="format_file_count_items">%,d Items</string>
+	<string name="format_selected_file_count">%,d selected</string>
+	<string name="format_req_connect_timeout">%1$d seconds</string>
+
+	<string name="durationDays">%1$d days</string>
+    <string name="durationDayHours">%1$d day %2$d hrs</string>
+    <string name="durationDayHour">%1$d day %2$d hr</string>
+	<string name="durationHours">%1$d hrs</string>
+    <string name="durationHourMinutes">%1$d hr %2$d mins</string>
+    <string name="durationHourMinute">%1$d hr %2$d min</string>
+	<string name="durationMinutes">%1$d mins</string>
+	<string name="durationMinute">%1$d min</string>
+    <string name="durationMinuteSeconds">%1$d min %2$d secs</string>
+    <string name="durationMinuteSecond">%1$d min %2$d sec</string>
+	<string name="durationSeconds">%1$d secs</string>
+	<string name="durationSecond">%1$d sec</string>
+
+	<string name="openAsDialog_title">Open As</string>
+	<string name="fileOpenType_image">Image</string>
+	<string name="fileOpenType_music">Music</string>
+	<string name="fileOpenType_movie">Movie</string>
+	<string name="fileOpenType_document">Document</string>
+	<string name="fileOpenType_other">Other</string>
+
+	<!-- Download Histories -->
+	<string name="action_history_search_range">Search Range</string>
+	<string-array name="history_search_range_array">
+		<item>Last 20 files</item>
+		<item>Last 7 days</item>
+		<item>Last 30 days</item>
+		<item>All</item>
+	</string-array>
+
+	<string-array name="upload_status_array">
+		<item>Prepare to upload</item>
+		<item>File is uploading</item>
+		<item>File uploaded</item>
+		<item>Upload failed</item>
+		<item>Upload canceled</item>
+		<item>Original file not found</item>
+		<item>Confirming file upload status</item>
+	</string-array>
+	<string-array name="download_status_array">
+		<item>Prepare to download</item>
+		<item>File is downloading</item>
+		<item>File downloaded</item>
+		<item>Download failed</item>
+		<item>Download canceled</item>
+		<item>Original file not found</item>
+		<item>Confirming file download status</item>
+	</string-array>
+	<string name="transfer_status_confirming">Confirming status</string>
+	<string name="transfer_progress">(%1$d%%)</string>
+
+	<string-array name="subfolder_type_array">
+		<item>No Subfolder (Do Not Create)</item>
+		<item>Current Timestamp</item>
+		<item>Customized Name</item>
+		<item>Current Timestamp + Customized Name</item>
+		<item>Customized Name + Current Timestamp</item>
+	</string-array>
+	<string-array name="description_type_array">
+		<item>No Description</item>
+		<item>Filename List</item>
+		<item>Customized Description</item>
+		<item>Customized Description + Filename List</item>
+	</string-array>
+	<string-array name="notification_type_array">
+		<item>No Notification</item>
+		<item>On Each File</item>
+		<item>On All Files</item>
+	</string-array>
+
+	<string-array name="display_language_array">
+		<item>English</item>
+		<item>Simplified Chinese</item>
+		<item>Traditional Chinese</item>
+	</string-array>
+
+	<string name="url_terms_of_service">https://www.filelug.com/en/terms-of-use.html</string>
+	<string name="url_privacy_policy">https://www.filelug.com/en/privacy-policy.html</string>
+
+	<string name="file_download_group_description_base_name">description</string>
+
+</resources>

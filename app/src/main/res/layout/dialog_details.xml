@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/activity_horizontal_margin">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView">
+
+		<LinearLayout
+			android:id="@+id/layout_detail_list"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+<!--
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="@dimen/keyline_1_minus_8dp"
+				android:paddingRight="0dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/label_upload_to_folder"
+					style="@style/CustomListItem.Name2"/>
+
+				<TextView
+					android:id="@+id/upload_to_folder"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="C:\UploadFiles"
+					style="@style/CustomListItem.Description"/>
+
+				<View
+					android:background="@color/material_grey_200"
+					android:layout_width="fill_parent"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="2dp"
+					android:layout_height="1dp"/>
+
+			</LinearLayout>
+-->
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

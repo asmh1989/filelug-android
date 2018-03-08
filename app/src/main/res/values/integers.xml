@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="sync_timeout_a">2500</integer>
+	<integer name="sync_timeout_b">5000</integer>
+	<integer name="sync_timeout_c">30000</integer>
+	<integer name="upload_read_timeout">60000</integer>
+	<integer name="download_read_timeout">60000</integer>
+	<integer name="transfer_connection_timeout">2500</integer>
+	<integer name="req_connect_timeout">15000</integer>
+	<integer name="max_retries">0</integer>
+	<integer name="file_max_retries">0</integer>
+	<integer name="retryDelay">2500</integer>
+	<!--<integer name="bufferSize">4096</integer>-->
+	<integer name="bufferSize">40960</integer>
+</resources>

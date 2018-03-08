@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@color/main_color_grey_300" >
+
+	<com.filelug.android.ui.widget.RobotoTextView
+		android:id="@+id/title"
+		style="@style/TextViewAppearance.Body1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="@dimen/keyline_1"
+		android:paddingRight="@dimen/keyline_1"
+		android:textColor="@drawable/selector_text_empty"
+		app:typeface="robotoBold"/>
+
+	<TextView
+		android:id="@+id/tag"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"/>
+
+</LinearLayout>

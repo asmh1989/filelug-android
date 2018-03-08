@@ -1,0 +1,920 @@
+-- Listing system properties --
+java.vendor = Oracle Corporation
+sun.java.launcher = SUN_STANDARD
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+idea.paths.selector = AndroidStudio2.3
+jnidispatch.path = C:\Users\Chang\.AndroidStudio2.3\system\tmp\jna6867068948089241388.dll
+winp.unpack.dll.to.parent.dir = false
+os.name = Windows 10
+sun.boot.class.path = C:\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Java\jdk1.8.0_102\jre\classes
+sun.desktop = windows
+java.vm.specification.vendor = Oracle Corporation
+java.runtime.version = 1.8.0_102-b14
+jb.vmOptionsFile = C:\Android\Android Studio\bin\studio64.exe.vmoptions
+io.netty.serviceThreadPrefix = Netty 
+user.name = Chang
+java.rmi.server.disableHttp = true
+idea.use.default.antialiasing.in.editor = false
+user.language = zh
+sun.boot.library.path = C:\Java\jdk1.8.0_102\jre\bin
+jna.nosys = true
+idea.fatal.error.notification = disabled
+java.version = 1.8.0_102
+swing.bufferPerWindow = false
+user.timezone = Asia/Taipei
+java.net.preferIPv4Stack = true
+sun.arch.data.model = 64
+java.util.concurrent.ForkJoinPool.common.threadFactory = com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory
+jna.tmpdir = C:\Users\Chang\.AndroidStudio2.3\system\tmp
+java.endorsed.dirs = C:\Java\jdk1.8.0_102\jre\lib\endorsed
+sun.cpu.isalist = amd64
+sun.jnu.encoding = MS950
+file.encoding.pkg = sun.io
+file.separator = \
+java.specification.name = Java Platform API Specification
+java.class.version = 52.0
+user.country = TW
+jna.boot.library.path = 
+java.home = C:\Java\jdk1.8.0_102\jre
+java.util.concurrent.ForkJoinPool.common.parallelism = 8
+java.vm.info = mixed mode
+os.version = 10.0
+jna.debug_load = true
+path.separator = ;
+java.vm.version = 25.102-b14
+jna.debug_load.jna = true
+idea.no.launcher = false
+user.variant = 
+java.awt.printerjob = sun.awt.windows.WPrinterJob
+sun.io.unicode.encoding = UnicodeLittle
+awt.toolkit = sun.awt.windows.WToolkit
+idea.cycle.buffer.size = 1024
+ide.new.welcome.screen.force = true
+io.netty.processId = 51535
+log4j.defaultInitOverride = true
+user.script = 
+idea.platform.prefix = AndroidStudio
+idea.dynamic.classpath = false
+user.home = C:\Users\Chang
+__idea.mac.env.lock = unlocked
+java.specification.vendor = Oracle Corporation
+library.jansi.path = C:\Users\Chang\.gradle\native\jansi\1.14\windows64
+java.library.path = C:\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Android\sdk\tools;C:\Android\sdk\platform-tools;C:\Workspace\_Workspace\APIs\apache-maven-3.3.3\bin;C:\Workspace\_Workspace\APIs\apache-ant-1.9.6\bin;C:\Java\jdk1.8.0_102\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\Chang\AppData\Local\Microsoft\WindowsApps;;.
+java.vendor.url = http://java.oracle.com/
+java.vm.vendor = Oracle Corporation
+external.system.remote.process.idle.ttl.ms = -1
+java.runtime.name = Java(TM) SE Runtime Environment
+sun.java.command = org.gradle.launcher.daemon.bootstrap.GradleDaemon 3.3
+java.class.path = C:\Users\Chang\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\lib\gradle-launcher-3.3.jar
+io.netty.machineId = 9e43d860
+java.vm.specification.name = Java Virtual Machine Specification
+idea.xdebug.key = -Xdebug
+idea.popup.weight = heavy
+java.vm.specification.version = 1.8
+sun.cpu.endian = little
+sun.os.patch.level = 
+java.io.tmpdir = C:\Users\Chang\AppData\Local\Temp\
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+java.rmi.server.hostname = localhost
+os.arch = amd64
+java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+idea.max.intellisense.filesize = 2500
+java.ext.dirs = C:\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+idea.jre.check = false
+user.dir = C:\Workspace\_ASProjects\Working\FilelugApp
+line.separator = 
+
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+file.encoding = MS950
+studio.record.file = C:\Users\Chang\.AndroidStudio2.3\system\tmp\AndroidStudio.5ca702f7-3a3d-45ce-8472-7bbee584dc29
+java.specification.version = 1.8
+
+defaultCharset=UTF-8
+
+Maximum memory is 1864192K.
+
+[2017.05.23 09:43:15] Zelix KlassMaster 8.0.0c - License #15047
+                      Single - Small Developer 
+                      (company of less than 3 people)
+                      WU-BEN CO., LTD.
+                      Xuefu Rd. / 2F., No.65, Ln. 126, Sec 1 New Taipei City Tucheng Dist. Taiwan
+                      Copyright 1997-2016 Zelix Pty Ltd (ABN 47 078 740 093)
+                      All rights reserved
+
+Temporary input file 'C:\Users\Chang\AppData\Local\Temp\ZKM1623124314044493845.tmp' contents.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-include C:\Users\Chang\AppData\Local\Temp\~ProguardStub4015439284981935427.tmp
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Expanding '-include' 'C:\Users\Chang\AppData\Local\Temp\ZKM1623124314044493845.tmp'
+Expanding '-include' 'C:\Users\Chang\AppData\Local\Temp\~ProguardStub4015439284981935427.tmp'
+
+Expanded and preprocessed ProGuard style input.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-injars "C:\Users\Chang\.android\build-cache\0b38ea45c3276da863f6a5277842086dcc9647be\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\a5a8a5b05907c4676d5d1cf9f405024604c44027\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\1c66ab788e3a7aa101e53d12828b7b2376a9e81c\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\ddc6c473accef9df6c2a771d703ee192f58203b0\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\2f194b10abff7609ea092648b7789fee36ab24ce\output\jars\classes.jar(**.class)"
+-injars "C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\e2cc489d064a9e787fd90ceb4a2c5db589093fd1\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\7d867637c6ba2865c9231aec74143a189e182c3c\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\567ee54f57df8d80a038a701dbeffe96393033df\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\86bf0bcc7f78e9bf5e52f4e6d1cc1f23a1239dbf\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\8ebbe4c1ae99b70a802b75b5d687fe15c0d57d3d\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\63971a790638f25a2298c2d909afb3d727ea2520\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\f3f8e2208b9eacd987a5e611de01060058215060\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\0788ef702ef0dd24a16462951c4cb0e2217f1ff6\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\77069b8acedf02a72b919b6f06c41e2bd583e59b\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\caf86a0349fc1f2d9501ebe1a4cc9347e756361d\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\7781b578d33c69ada33b31d80dab9e0527d3dafb\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\e49f75905b1df39266ce8b1dacd2f40f02ea158f\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\89a6346455799a8036d9120c5b55f63e18d45b5b\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\92261cb7b80062e9716b707205604e1119c352fc\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\4a8d10010c6a89d5f8d36fcc96ad346e71dbfab3\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\a510ef9c774345a9210d1366349a5916695a7c94\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\a21762421182e3fde7f33be478de2aece6b6e1d8\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\38d78a6c8c7468ca5a3aa0fd1f1f86aafe003507\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\888d9bac44f1b97e107a3af3badbe9801c2bf433\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\1d46262f0752a59422af161b5e90e84d5f032acf\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\a9413586f8eae373b62d609b42ff36f0fb72778d\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\bae050c162d0c91936ac481001052f616507e0b0\output\jars\classes.jar(**.class)"
+-injars "C:\Users\Chang\.android\build-cache\c7addaa2b1cbefca2279837b685b8a37e5eae641\output\jars\classes.jar(**.class)"
+-injars "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\transforms\mergeJavaRes\release\jars\2\1f\main.jar(!**.class)"
+-injars "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\classes\release(**.class)"
+-outjars "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar"
+-libraryjars "C:\Android\sdk\platforms\android-25\android.jar"
+-libraryjars "C:\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+-dontskipnonpubliclibraryclassmembers
+-forceprocessing
+-printusage "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\outputs\mapping\release\usage.txt"
+-optimizations "!code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*"
+-optimizationpasses 5
+-allowaccessmodification
+-printmapping "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\outputs\mapping\release\mapping.txt"
+-dontusemixedcaseclassnames
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable,InnerClasses,*Annotation*,*Annotation*
+-dontpreverify
+-verbose
+-dontnote "com.android.vending.licensing.ILicensingService,com.google.vending.licensing.ILicensingService,com.google.android.vending.licensing.ILicensingService,android.support.**"
+-dontwarn "android.support.**,android.**,android.support.**,android.support.v4.**,android.support.v7.**,android.support.v13.**,org.apache.http.**,com.android.volley.toolbox.**,android.security.NetworkSecurityPolicy,android.app.Notification,okio.**,com.google.firebase.perf.network.**,android.security.NetworkSecurityPolicy,android.app.Notification,okio.**,com.google.firebase.perf.network.**,android.security.NetworkSecurityPolicy,android.app.Notification,okio.**,com.google.firebase.perf.network.**,android.security.NetworkSecurityPolicy,android.app.Notification,okio.**,com.google.firebase.perf.network.**,android.security.NetworkSecurityPolicy,android.app.Notification,okio.**,com.google.firebase.perf.network.**"
+-dump "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\outputs\mapping\release\dump.txt"
+-printseeds "C:\Workspace\_ASProjects\Working\FilelugApp\app\build\outputs\mapping\release\seeds.txt"
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keep public class com.google.android.vending.licensing.ILicensingService
+-keepclasseswithmembers,allowshrinking class * {
+native <methods>;
+}
+-keepclassmembers public class * extends android.view.View {
+void set*(***);
+*** get*();
+}
+-keepclassmembers class * extends android.app.Activity {
+public void *(android.view.View);
+}
+-keepclassmembers enum  * {
+public static **[] values();
+public static ** valueOf(java.lang.String);
+}
+-keepclassmembers class * extends android.os.Parcelable {
+public static final ** CREATOR;
+}
+-keepclassmembers class **.R$* {
+public static <fields>;
+}
+-keepclassmembers class * {
+@android.webkit.JavascriptInterface
+<methods>;
+}
+-keep class android.support.annotation.Keep
+-keep @android.support.annotation.Keep class * {
+<fields>;
+<methods>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<init>(...);
+}
+-keep class com.filelug.android.service.NotificationConfig {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class com.filelug.android.service.FileToDownload {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class com.filelug.android.service.FileToUpload {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class com.filelug.android.service.NameValue {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class com.filelug.android.ui.model.LocalFileObject {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class com.filelug.android.ui.model.RemoteFileObject {
+public static final android.os.Parcelable$Creator CREATOR;
+}
+-keep class android.** {
+<fields>;
+<methods>;
+}
+-keep interface  android.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.v4.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.v4.app.** {
+<fields>;
+<methods>;
+}
+-keep interface  android.support.v4.app.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.v7.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.v7.internal.** {
+<fields>;
+<methods>;
+}
+-keep interface  android.support.v7.internal.** {
+<fields>;
+<methods>;
+}
+-keep class android.support.v13.** {
+<fields>;
+<methods>;
+}
+-keep class * extends java.util.ListResourceBundle {
+protected Object[][] getContents();
+}
+-keep class com.google.android.gms.** {
+<fields>;
+<methods>;
+}
+-keep class com.google.firebase.** {
+<fields>;
+<methods>;
+}
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.preference.Preference
+-keepclasseswithmembers,allowshrinking class * {
+native <methods>;
+}
+-keepclasseswithmembers class * {
+public <init>(android.content.Context,android.util.AttributeSet,int);
+public <init>(android.content.Context,android.util.AttributeSet);
+public <init>(android.content.Context);
+}
+-keepclassmembers class * extends android.app.Activity {
+public void *(android.view.View);
+}
+-keepclassmembers class **.R$* {
+public static <fields>;
+}
+-keepclassmembers class * extends java.io.Serializable {
+private static final java.io.ObjectStreamField[] serialPersistentFields;
+private void writeObject(java.io.ObjectOutputStream);
+private void readObject(java.io.ObjectInputStream);
+java.lang.Object writeReplace();
+java.lang.Object readResolve();
+}
+-keep,allowshrinking class * extends android.os.Parcelable {
+public static final ** CREATOR;
+}
+-keepclassmembers enum  * {
+public static **[] values();
+public static ** valueOf(java.lang.String);
+}
+-keep class com.android.volley.** {
+<fields>;
+<methods>;
+}
+-keep class com.afollestad.materialdialogs.** {
+<fields>;
+<methods>;
+}
+-keep class com.dd.processbutton.** {
+<fields>;
+<methods>;
+}
+-keep class com.marvinlabs.widget.floatinglabel.** {
+<fields>;
+<methods>;
+}
+-keep class com.melnykov.fab.** {
+<fields>;
+<methods>;
+}
+-keep class com.nineoldandroids.** {
+<fields>;
+<methods>;
+}
+-keep class com.nostra13.universalimageloader.** {
+<fields>;
+<methods>;
+}
+-keep class me.zhanghai.android.materialprogressbar.** {
+<fields>;
+<methods>;
+}
+-keep class com.facebook.accountkit.** {
+<fields>;
+<methods>;
+}
+-keep class com.google.zxing.** {
+<fields>;
+<methods>;
+}
+-keep class com.journeyapps.barcodescanner.** {
+<fields>;
+<methods>;
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * extends android.os.Parcelable {
+public static final *** CREATOR;
+}
+-keep @interface  android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembers,allowshrinking class * {
+@com.google.android.gms.common.annotation.KeepName
+<fields>;
+@com.google.android.gms.common.annotation.KeepName
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+public <fields>;
+public <methods>;
+}
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+public void handleIntent(android.content.Intent);
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * extends android.os.Parcelable {
+public static final *** CREATOR;
+}
+-keep @interface  android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembers,allowshrinking class * {
+@com.google.android.gms.common.annotation.KeepName
+<fields>;
+@com.google.android.gms.common.annotation.KeepName
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+public <fields>;
+public <methods>;
+}
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+public void handleIntent(android.content.Intent);
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * extends android.os.Parcelable {
+public static final *** CREATOR;
+}
+-keep @interface  android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembers,allowshrinking class * {
+@com.google.android.gms.common.annotation.KeepName
+<fields>;
+@com.google.android.gms.common.annotation.KeepName
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+public <fields>;
+public <methods>;
+}
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+public void handleIntent(android.content.Intent);
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * extends android.os.Parcelable {
+public static final *** CREATOR;
+}
+-keep @interface  android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembers,allowshrinking class * {
+@com.google.android.gms.common.annotation.KeepName
+<fields>;
+@com.google.android.gms.common.annotation.KeepName
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+public <fields>;
+public <methods>;
+}
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+public void handleIntent(android.content.Intent);
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * extends android.os.Parcelable {
+public static final *** CREATOR;
+}
+-keep @interface  android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<fields>;
+}
+-keepclasseswithmembers class * {
+@android.support.annotation.Keep
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembers,allowshrinking class * {
+@com.google.android.gms.common.annotation.KeepName
+<fields>;
+@com.google.android.gms.common.annotation.KeepName
+<methods>;
+}
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+public <fields>;
+public <methods>;
+}
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+public void handleIntent(android.content.Intent);
+}
+-keep class me.zhanghai.android.materialprogressbar.** {
+<fields>;
+<methods>;
+}
+-keep class me.zhanghai.android.materialprogressbar.** {
+<fields>;
+<methods>;
+}
+-keep class com.facebook.FacebookSdk {
+boolean isInitialized();
+}
+-keep class com.facebook.appevents.AppEventsLogger {
+com.facebook.appevents.AppEventsLogger newLogger(android.content.Context);
+void logSdkEvent(java.lang.String,java.lang.Double,android.os.Bundle);
+}
+-keep public class * extends android.support.design.widget.CoordinatorLayout$Behavior {
+public <init>(android.content.Context,android.util.AttributeSet);
+public <init>();
+}
+-keepclassmembers class android.support.graphics.drawable.VectorDrawableCompat$* {
+void set*(***);
+*** get*();
+}
+-keep public class * extends android.support.v7.widget.RecyclerView$LayoutManager {
+public <init>(...);
+}
+-keep class android.support.design.internal.BaselineLayout {
+<init>(...);
+}
+-keep class android.support.design.internal.NavigationMenuItemView {
+<init>(...);
+}
+-keep class android.support.design.internal.NavigationMenuView {
+<init>(...);
+}
+-keep class android.support.design.internal.SnackbarContentLayout {
+<init>(...);
+}
+-keep class android.support.design.widget.CheckableImageButton {
+<init>(...);
+}
+-keep class android.support.design.widget.CoordinatorLayout {
+<init>(...);
+}
+-keep class android.support.design.widget.Snackbar$SnackbarLayout {
+<init>(...);
+}
+-keep class android.support.v4.view.ViewPager {
+<init>(...);
+}
+-keep class android.support.v4.widget.DrawerLayout {
+<init>(...);
+}
+-keep class android.support.v4.widget.NestedScrollView {
+<init>(...);
+}
+-keep class android.support.v4.widget.Space {
+<init>(...);
+}
+-keep class android.support.v7.app.AlertController$RecycleListView {
+<init>(...);
+}
+-keep class android.support.v7.view.menu.ActionMenuItemView {
+<init>(...);
+}
+-keep class android.support.v7.view.menu.ExpandedMenuView {
+<init>(...);
+}
+-keep class android.support.v7.view.menu.ListMenuItemView {
+<init>(...);
+}
+-keep class android.support.v7.widget.ActionBarContainer {
+<init>(...);
+}
+-keep class android.support.v7.widget.ActionBarContextView {
+<init>(...);
+}
+-keep class android.support.v7.widget.ActionBarOverlayLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.ActionMenuView {
+<init>(...);
+}
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.AlertDialogLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.AppCompatCheckBox {
+<init>(...);
+}
+-keep class android.support.v7.widget.AppCompatRadioButton {
+<init>(...);
+}
+-keep class android.support.v7.widget.ButtonBarLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.CardView {
+<init>(...);
+}
+-keep class android.support.v7.widget.ContentFrameLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.DialogTitle {
+<init>(...);
+}
+-keep class android.support.v7.widget.FitWindowsFrameLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.FitWindowsLinearLayout {
+<init>(...);
+}
+-keep class android.support.v7.widget.RecyclerView {
+<init>(...);
+}
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete {
+<init>(...);
+}
+-keep class android.support.v7.widget.Toolbar {
+<init>(...);
+}
+-keep class android.support.v7.widget.ViewStubCompat {
+<init>(...);
+}
+-keep class com.afollestad.materialdialogs.color.FillGridView {
+<init>(...);
+}
+-keep class com.afollestad.materialdialogs.internal.MDButton {
+<init>(...);
+}
+-keep class com.afollestad.materialdialogs.internal.MDRootLayout {
+<init>(...);
+}
+-keep class com.dd.processbutton.iml.ActionProcessButton {
+<init>(...);
+}
+-keep class com.facebook.accountkit.internal.AccountKitInitProvider {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.AccountKitActivity {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.AccountKitEmailRedirectActivity {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.AspectFrameLayout {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.ConstrainedLinearLayout {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.CountryCodeSpinner {
+<init>(...);
+}
+-keep class com.facebook.accountkit.ui.NotifyingEditText {
+<init>(...);
+}
+-keep class com.filelug.android.MainApplication {
+<init>(...);
+}
+-keep class com.filelug.android.auth.AccountWatcher {
+<init>(...);
+}
+-keep class com.filelug.android.auth.AuthService {
+<init>(...);
+}
+-keep class com.filelug.android.docsprovider.RemoteFilesProvider {
+<init>(...);
+}
+-keep class com.filelug.android.fileprovider.LocalFilesProvider {
+<init>(...);
+}
+-keep class com.filelug.android.messaging.GCMInstanceIDListenerService {
+<init>(...);
+}
+-keep class com.filelug.android.messaging.GCMListenerService {
+<init>(...);
+}
+-keep class com.filelug.android.messaging.GCMRegistrationIntentService {
+<init>(...);
+}
+-keep class com.filelug.android.provider.RepositoryContentProvider {
+<init>(...);
+}
+-keep class com.filelug.android.service.DownloadNotificationService {
+<init>(...);
+}
+-keep class com.filelug.android.service.DownloadService {
+<init>(...);
+}
+-keep class com.filelug.android.service.DownloadStatusReceiver {
+<init>(...);
+}
+-keep class com.filelug.android.service.UploadService {
+<init>(...);
+}
+-keep class com.filelug.android.service.UploadStatusReceiver {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.AddNewComputerActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ChangeAccountActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ChangeComputerActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ChangeComputerNameActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ChangeEmailActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ChangeNicknameActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ConfirmDownloadActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ConfirmUploadActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.DeleteComputerActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.GettingStartedActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.HistoryActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.InitialPageActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.LoginActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.MainActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ManageCurrentAccountActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.ManageCurrentComputerActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.OpenFromFilelugActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.SettingsActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.SplashActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.activity.VerifyEmailActivity {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.AboutDialogPreference {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.CircleNumberView {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.ListPreference {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.LocalFilesLayout {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.LocalFolderPreference {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.MultiSwipeRefreshLayout {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.NoScrollViewPager {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.RemoteFilesLayout {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.RemoteFolderPreference {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.RippleLayout {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.RobotoTextView {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.ScrimInsetsScrollView {
+<init>(...);
+}
+-keep class com.filelug.android.ui.widget.WebViewDialogPreference {
+<init>(...);
+}
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+<init>(...);
+}
+-keep class com.google.android.gms.gcm.GcmReceiver {
+<init>(...);
+}
+-keep class com.journeyapps.barcodescanner.BarcodeView {
+<init>(...);
+}
+-keep class com.journeyapps.barcodescanner.CaptureActivity {
+<init>(...);
+}
+-keep class com.journeyapps.barcodescanner.DecoratedBarcodeView {
+<init>(...);
+}
+-keep class com.journeyapps.barcodescanner.ViewfinderView {
+<init>(...);
+}
+-keep class com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText {
+<init>(...);
+}
+-keep class com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker {
+<init>(...);
+}
+-keep class com.melnykov.fab.FloatingActionButton {
+<init>(...);
+}
+-assumenosideeffects class android.util.Log {
+public static *** isLoggable(...);
+public static *** i(...);
+public static *** d(...);
+public static *** v(...);
+public static *** e(...);
+public static *** w(...);
+public static *** wtf(...);
+}
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\0b38ea45c3276da863f6a5277842086dcc9647be\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\a5a8a5b05907c4676d5d1cf9f405024604c44027\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\1c66ab788e3a7aa101e53d12828b7b2376a9e81c\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\ddc6c473accef9df6c2a771d703ee192f58203b0\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\2f194b10abff7609ea092648b7789fee36ab24ce\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\e2cc489d064a9e787fd90ceb4a2c5db589093fd1\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\7d867637c6ba2865c9231aec74143a189e182c3c\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\567ee54f57df8d80a038a701dbeffe96393033df\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\86bf0bcc7f78e9bf5e52f4e6d1cc1f23a1239dbf\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\8ebbe4c1ae99b70a802b75b5d687fe15c0d57d3d\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\63971a790638f25a2298c2d909afb3d727ea2520\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\f3f8e2208b9eacd987a5e611de01060058215060\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\0788ef702ef0dd24a16462951c4cb0e2217f1ff6\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\77069b8acedf02a72b919b6f06c41e2bd583e59b\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\caf86a0349fc1f2d9501ebe1a4cc9347e756361d\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\7781b578d33c69ada33b31d80dab9e0527d3dafb\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\e49f75905b1df39266ce8b1dacd2f40f02ea158f\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\89a6346455799a8036d9120c5b55f63e18d45b5b\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\92261cb7b80062e9716b707205604e1119c352fc\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\4a8d10010c6a89d5f8d36fcc96ad346e71dbfab3\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\a510ef9c774345a9210d1366349a5916695a7c94\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\a21762421182e3fde7f33be478de2aece6b6e1d8\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\38d78a6c8c7468ca5a3aa0fd1f1f86aafe003507\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\888d9bac44f1b97e107a3af3badbe9801c2bf433\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\1d46262f0752a59422af161b5e90e84d5f032acf\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\a9413586f8eae373b62d609b42ff36f0fb72778d\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\bae050c162d0c91936ac481001052f616507e0b0\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Users\Chang\.android\build-cache\c7addaa2b1cbefca2279837b685b8a37e5eae641\output\jars\classes.jar(**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\transforms\mergeJavaRes\release\jars\2\1f\main.jar(!**.class)'
+WARNING: Filters not supported in ProGuard '-injars' command : 'C:\Workspace\_ASProjects\Working\FilelugApp\app\build\intermediates\classes\release(**.class)'
+WARNING: ProGuard '-skipnonpubliclibraryclassmembers' command is not supported.
+WARNING: ProGuard '-forceprocessing' command is not supported.
+WARNING: ProGuard '-optimizations' command is not supported.
+WARNING: ProGuard '-optimizationpasses' command is not supported.
+WARNING: ProGuard '-allowaccessmodification' command is not supported.
+WARNING: ProGuard '-dontnote' command is not supported.
+WARNING: ProGuard '-dontwarn' command is not supported.
+WARNING: ProGuard '-dump' command is not supported.
+WARNING: Method return types other than '***' are not supported in a method specification : 'void'
+WARNING: Method return types other than '***' are not supported in a method specification : '**[]'
+WARNING: Method return types other than '***' are not supported in a method specification : '**'
+WARNING: Method return types other than '***' are not supported in a method specification : 'Object[][]'
+WARNING: Method return types other than '***' are not supported in a method specification : 'java.lang.Object'
+WARNING: Method return types other than '***' are not supported in a method specification : 'boolean'
+WARNING: Method return types other than '***' are not supported in a method specification : 'com.facebook.appevents.AppEventsLogger'
+WARNING: ProGuard '-assumenosideeffects' command is not supported.
+MESSAGE: Will examine contents of file 'C:\Workspace\_ASProjects\Working\FilelugApp\ZKMScript.txt' for possible 'trimExclude', 'trimUnexclude', 'trim', 'exclude', 'unexclude', 'stringEncryptionExclude', 'stringEncryptionUnexclude', 'obfuscateFlowExclude', 'obfuscateFlowUnexclude', 'accessedByReflection', 'accessedByReflectionExclude', 'obfuscateReferencesInclude', 'obfuscateReferencesExclude' or 'obfuscate' statements.
+MESSAGE: Using 'obfuscate' statement found in 'C:\Workspace\_ASProjects\Working\FilelugApp\ZKMScript.txt'
+WARNING: 'keepGenericsInfo' set to 'false' because both 'LocalVariableTypeTable' and 'Bridge' attributes not also retained.
+
+[2017.05.23 09:43:15] Default directory set to 'C:\Workspace\_ASProjects\Working\FilelugApp'
+[2017.05.23 09:43:15] Zelix KlassMaster log file is 'C:\Workspace\_ASProjects\Working\FilelugApp\app\build\outputs\mapping\release\seeds.txt'

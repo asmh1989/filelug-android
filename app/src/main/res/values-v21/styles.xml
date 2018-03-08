@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Default application theme -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+		<item name="colorPrimary">@color/main_color_500</item>
+		<item name="colorPrimaryDark">@color/main_color_600</item>
+		<!--<item name="colorAccent">@color/main_color_A400</item>-->
+		<item name="colorAccent">@color/main_color_500</item>
+		<item name="android:textColorPrimary">@color/white</item>
+		<item name="android:textColor">@color/main_color_grey_900</item>
+		<item name="android:windowBackground">@color/white</item>
+		<item name="windowActionModeOverlay">true</item>
+		<item name="actionMenuTextColor">@color/white</item>
+		<item name="actionModeBackground">@color/main_color_500</item>
+		<item name="actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+		<item name="actionOverflowMenuStyle">@style/PopupMenuOverflowStyle</item>
+
+		<item name="android:statusBarColor">@color/main_color_600</item>
+		<item name="android:navigationBarColor">@color/main_color_500</item>
+		<item name="windowActionBar">false</item>
+		<item name="android:windowContentTransitions">true</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="md_dark_theme">false</item>
+		<item name="md_title_color">@color/main_color_500</item>
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

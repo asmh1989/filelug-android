@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="intent_save_to_filelug">儲存至 Filelug</string>
+	<string name="intent_open_from_filelug">從 Filelug 開啟</string>
+
+	<!-- Navigation Menu -->
+	<string name="drawer_section_main_task">主要工作</string>
+	<string name="drawer_section_download">下載</string>
+	<string name="drawer_title_download_file">下載檔案</string>
+	<string name="drawer_title_downloaded_files_history">下載紀錄</string>
+	<string name="drawer_section_upload">上傳</string>
+	<string name="drawer_title_upload_file">上傳檔案</string>
+	<string name="drawer_title_uploaded_files_history">上傳紀錄</string>
+	<string name="drawer_section_browse">瀏覽檔案</string>
+	<string name="drawer_title_browse_remote_root_folder">資料夾(遠端)</string>
+	<string name="drawer_title_browse_local_folder">資料夾(本裝置)</string>
+	<string name="drawer_title_bookmark">書籤</string>
+	<string name="drawer_section_others">其他</string>
+	<string name="drawer_title_settings">設定</string>
+	<string name="drawer_account_section_account_and_computer">帳號與電腦</string>
+	<string name="drawer_account_title_current_account">目前帳號</string>
+	<string name="drawer_account_title_login">登入</string>
+	<string name="drawer_account_title_current_computer">目前電腦</string>
+	<string name="drawer_account_title_change_nickname">暱稱</string>
+	<string name="drawer_account_title_change_email">電子郵件</string>
+	<string name="drawer_account_title_change_password">密碼</string>
+	<string name="drawer_account_section_connect_to_others">其他帳號</string>
+	<string name="drawer_account_title_login_with_another_account">使用其他帳號登入</string>
+	<string name="drawer_account_title_getting_started">使用簡介</string>
+	<string name="drawer_account_title_change_computer_name">變更電腦名稱</string>
+	<string name="drawer_account_title_manage_current_account">管理目前帳號</string>
+	<string name="drawer_account_title_manage_current_computer">管理目前電腦</string>
+
+	<string name="drawer_open">開啟選單</string>
+	<string name="drawer_close">關閉選單</string>
+
+	<string name="label_phone_number">手機號碼</string>
+	<string name="label_nickname">暱稱</string>
+	<string name="label_email_address">電子郵件</string>
+	<string name="label_connected_computer">目前連線的電腦</string>
+	<string name="label_verify_code">在此輸入驗證碼</string>
+	<string name="label_current_nickname">目前暱稱</string>
+	<string name="label_change_to">變更為</string>
+	<string name="label_current_email_address">目前電子郵件地址</string>
+	<string name="label_new_email_address">新電子郵件地址</string>
+	<string name="label_connect_to_computer">欲連線的電腦</string>
+	<string name="label_current_country_region">目前國家或地區</string>
+	<string name="label_choose_computer_name">選擇您要連線的電腦</string>
+	<string name="label_choose_account">選擇您要使用的帳號</string>
+	<string name="label_other">其他</string>
+	<string name="label_files_to_upload">要上傳的檔案</string>
+	<string name="label_upload_to_folder">上傳到資料夾</string>
+	<string name="label_subfolder_type">建立子資料夾名稱</string>
+	<string name="label_upload_description_type">上傳備忘說明</string>
+	<string name="label_upload_notification_type">上傳結果通知</string>
+	<string name="label_files_to_download">要下載的檔案</string>
+	<string name="label_download_to_folder">下載到資料夾</string>
+	<string name="label_download_description_type">下載備忘說明</string>
+	<string name="label_download_notification_type">下載結果通知</string>
+	<string name="label_current_account">目前連線的帳號</string>
+	<string name="label_login_to_new_account">欲連線的新帳號</string>
+	<string name="label_pref_category_display_settings">顯示設定</string>
+	<string name="label_pref_category_security_settings">安全設定</string>
+	<string name="label_pref_category_others">其他</string>
+	<string name="label_pref_category_account_profile">基本資料</string>
+	<string name="label_pref_category_history">歷史紀錄</string>
+	<string name="label_pref_category_computer_profile">基本資料</string>
+	<string name="label_pref_category_download_settings">檔案下載</string>
+	<string name="label_pref_category_upload_settings">檔案上傳</string>
+	<string name="label_pref_category_deletion">删除</string>
+	<string name="label_pref_show_hidden_files">顯示隠藏檔案</string>
+	<string name="label_pref_show_local_system_folder">顯示系統資料夾</string>
+	<string name="label_pref_show_thumbnail">顯示檔案縮圖</string>
+	<string name="label_pref_show_modified_date_and_permission">顯示檔案日期及權限</string>
+	<string name="label_pref_remember_recent_folder">記住最近瀏覽的資料夾</string>
+	<string name="label_pref_display_language">顯示語言</string>
+	<string name="label_pref_app_open_password">App開啟保護</string>
+	<string name="label_pref_transfer_password">檔案上傳下載保護</string>
+	<string name="label_pref_file_open_password">檔案開啟保護</string>
+	<string name="label_pref_upload_path">上傳至資料夾</string>
+	<string name="label_pref_download_path">下載至資料夾</string>
+	<string name="label_pref_getting_started">使用簡介</string>
+	<string name="label_pref_rate_us_on_google_play">在Play商店上評分支持</string>
+	<string name="label_pref_share_app_to_friends">介紹給朋友</string>
+	<string name="label_pref_frequently_asked_questions">常見問題</string>
+	<string name="label_pref_send_feedback">意見回饋</string>
+	<string name="label_pref_terms_of_service">使用者條款</string>
+	<string name="label_pref_privacy_policy">隠私權政策</string>
+	<string name="label_pref_third_party_notice">開放原始碼軟體與第三方軟體</string>
+	<string name="label_pref_about">關於Filelug</string>
+	<string name="label_pref_delete_account">刪除帳號</string>
+	<string name="label_pref_delete_computer">刪除電腦</string>
+	<string name="label_pref_delete_local_cached_data">刪除本機暫存資料</string>
+	<string name="label_save_as_default">儲存為預設值</string>
+	<string name="label_transfer_group_section_1_file">（1 個檔案）</string>
+	<string name="label_transfer_group_section_many_files">（%1$d 個檔案）</string>
+	<string name="label_download_info">下載資訊</string>
+	<string name="label_source_file_info">來源檔案資訊</string>
+	<string name="label_download_summary_info">下載摘要資訊</string>
+	<string name="label_file_name">檔案名稱</string>
+	<string name="label_download_status">下載狀態</string>
+	<string name="label_start_download_timestamp">開始下載時間</string>
+	<string name="label_end_download_timestamp">結束下載時間</string>
+	<string name="label_download_from_computer">從電腦下載</string>
+	<string name="label_source_file_path">來源檔案路徑</string>
+	<string name="label_real_source_file_path">實際來源檔案路徑</string>
+	<string name="label_content_type">檔案類型</string>
+	<string name="label_file_downloaded_size">已下載檔案大小</string>
+	<string name="label_upload_info">上傳資訊</string>
+	<string name="label_upload_summary_info">上傳摘要資訊</string>
+	<string name="label_upload_status">上傳狀態</string>
+	<string name="label_start_upload_timestamp">開始上傳時間</string>
+	<string name="label_end_upload_timestamp">結束上傳時間</string>
+	<string name="label_upload_to_computer">上傳到電腦</string>
+	<string name="label_file_uploaded_size">已上傳檔案大小</string>
+	<string name="label_add_computer_step_1_install">①安裝</string>
+	<string name="label_add_computer_step_2_startup">②啟動</string>
+	<string name="label_add_computer_step_3_scan">③掃描</string>
+	<string name="label_current_computer_name">目前電腦名稱</string>
+	<string name="label_computer_to_delete">欲刪除的電腦</string>
+	<string name="label_choose_computer_to_delete">選擇您要刪除的電腦</string>
+	<string name="label_computer_name">電腦名稱</string>
+	<string name="label_downloaded_files_history">已下載檔案紀錄</string>
+	<string name="label_uploaded_files_history">已上傳檔案紀錄</string>
+
+	<string name="btn_label_send">傳送</string>
+	<string name="btn_label_verify">驗證</string>
+	<string name="btn_label_connect">連線</string>
+	<string name="btn_label_change">變更</string>
+	<string name="btn_label_send_me_security_code">寄送驗證碼給我</string>
+	<string name="btn_label_reset">重設</string>
+	<string name="btn_label_choose">選擇</string>
+	<string name="btn_label_cancel">取消</string>
+	<string name="btn_label_delete_account_from_device">刪除本機帳號</string>
+	<string name="btn_label_delete_account_from_remote_and_device">刪除伺服器及本機帳號</string>
+	<string name="btn_label_delete">删除</string>
+	<string name="btn_label_reload">重新載入</string>
+	<string name="btn_label_loading">載入中…</string>
+	<string name="btn_label_skip">略過</string>
+	<string name="btn_label_done">完成</string>
+	<string name="btn_label_sign_in">使用者登入</string>
+	<string name="btn_label_init_getting_started">使用簡介</string>
+	<string name="btn_label_go_to_settings">前往設定</string>
+	<string name="btn_label_deny">拒絕</string>
+	<string name="btn_label_yes_deny">是的，拒絕</string>
+	<string name="btn_label_no_try_again">重新再試</string>
+	<string name="btn_label_transfer_choose_file">選擇檔案</string>
+	<string name="btn_label_stop_all_uploads">停止所有上傳</string>
+	<string name="btn_label_stop_all_downloads">停止所有下載</string>
+	<string name="btn_label_stop">停止</string>
+	<string name="btn_label_open_file">開啓檔案</string>
+	<string name="btn_label_download_again">重新下載</string>
+	<string name="btn_label_cancel_download">取消下載</string>
+	<string name="btn_label_stop_download">停止下載</string>
+	<string name="btn_label_resume_download">恢復下載</string>
+	<string name="btn_label_upload_again">重新上傳</string>
+	<string name="btn_label_cancel_upload">取消上傳</string>
+	<string name="btn_label_stop_upload">停止上傳</string>
+	<string name="btn_label_resume_upload">恢復上傳</string>
+	<string name="btn_label_open_filelug">開啟Filelug</string>
+	<string name="btn_label_add_new_computer">加入新電腦</string>
+	<string name="btn_label_add_new_account">加入新帳號</string>
+	<string name="btn_label_login">登入</string>
+	<string name="btn_label_yes_delete">是的，删除</string>
+
+	<string name="page_login_filelug_header">使用者基本資料</string>
+	<string name="page_login_filelug_message">請確認您的電郵地址與暱稱後，點選「傳送」以完成登入。</string>
+	<string name="page_verify_phone_number_header">驗證手機號碼</string>
+	<string name="page_verify_phone_number_message">請點選「驗證」，確認手機號碼是您本人所擁有。</string>
+	<string name="page_verify_email_message">驗證碼已寄送到指定的電子郵件地址。請在以下區域中輸入此驗證碼，然後點擊「驗證」。</string>
+	<string name="page_change_nickname_header">變更暱稱</string>
+	<string name="page_change_nickname_message_1">填寫新的暱稱後點選「變更」即可。</string>
+	<string name="page_change_email_header">變更電子郵件</string>
+	<string name="page_change_email_message_1">填寫新的電子郵件地址，點擊「寄送驗證碼給我」。我們將寄送驗證碼至此電子郵件地址。</string>
+	<string name="page_connect_to_computer_header">連線電腦</string>
+	<string name="page_connect_to_computer_message_1">選擇您要連線的電腦後點選「連線」重新連線。</string>
+	<string name="page_change_computer_header">變更連線電腦</string>
+	<string name="page_change_computer_message_1">選擇您要連線的電腦後點選「變更」重新連線。</string>
+	<string name="page_initial_page_message">「Filelug 檔隨傳」是一個操作簡單、跨越資訊裝置、迅速安全的檔案互傳系統。</string>
+	<string name="page_change_account_header">變更帳號</string>
+	<string name="page_change_account_message_1">選擇您要連線的新帳號後點選「變更」，登入Filelug。</string>
+	<string name="page_account_login_header">登入Filelug</string>
+	<string name="page_account_login_message_1">選擇您要連線的帳號後點選「登入」，登入Filelug。</string>
+	<string name="page_add_new_computer">加入新電腦</string>
+	<string name="page_verify_email">驗證電子郵件</string>
+	<string name="page_verify_email_message_1">填寫目前電子郵件地址，點擊「寄送驗證碼給我」。我們將寄送驗證碼至此電子郵件地址。</string>
+	<string name="page_enter_security_code">輸入驗證碼</string>
+	<string name="page_change_computer_name_header">變更電腦名稱</string>
+	<string name="page_change_computer_name_message_1">填寫新的電腦名稱後點選「變更」即可。</string>
+	<string name="page_delete_computer_header">刪除電腦</string>
+	<string name="page_delete_computer_message_1">選擇您要刪除的電腦後點選「刪除」，刪除遠端連線的電腦。</string>
+
+	<string name="message_loading">載入中</string>
+	<string name="message_processing">處理中</string>
+	<string name="message_done">完成</string>
+	<string name="message_error">錯誤</string>
+	<string name="message_failed">失敗</string>
+	<string name="message_field_can_not_be_empty">欄位未輸入</string>
+	<string name="message_field_can_not_be_empty_2">欄位「%1$s」未輸入！</string>
+	<string name="message_invalid_email">電子郵件格式錯誤</string>
+	<string name="message_can_not_find_created_accounts">找不到已建立的帳號，按「加入新帳號」註冊新的帳號或登入Filelug。</string>
+	<string name="message_can_not_find_available_computers">找不到可用的電腦，按「加入新電腦」連線到新的電腦。</string>
+	<string name="message_registered_computer_not_found">找不到有註冊連線的電腦！</string>
+	<string name="message_only_one_filelug_account">一個裝置只能建立一個 Filelug 帳號！</string>
+	<string name="message_account_not_created">帳號未建立</string>
+	<string name="message_not_set">未設定</string>
+	<string name="message_account_logged_in">帳號「%1$s」已登入!</string>
+	<string name="message_account_logged_in_but_computer_not_set">帳號「%1$s」已登入。但電腦未設定！</string>
+	<string name="message_account_logged_in_but_computer_not_connected">帳號「%1$s」已登入。但電腦未連線！</string>
+	<string name="message_computer_not_connected">未連線</string>
+	<string name="message_email_not_verified">未驗證</string>
+	<string name="message_auth_failure_error">帳號驗證錯誤！</string>
+	<string name="message_parse_error">回傳資料解析錯誤！</string>
+	<string name="message_server_error">伺服器錯誤，請稍後再試。</string>
+	<string name="message_timeout_error">伺服器連線逾時，請稍後再試。</string>
+	<string name="message_interrupted_error">服務被強制中斷！</string>
+	<string name="message_account_or_password_error">帳號或密碼錯誤！</string>
+	<string name="message_no_connection">無法連線至伺服器，請檢查網路是否可用。</string>
+	<string name="message_network_error">網路無法使用，請檢查網路是否可用。</string>
+	<string name="message_sign_in_failed">登入失敗！請稍後再試。</string>
+	<string name="message_computer_not_logged_in">未登入</string>
+	<string name="message_successfully_sent_security_code_to">驗證碼已發送至：%1$s</string>
+	<string name="message_computer_has_been_connected">電腦「%1$s」已連線！</string>
+	<string name="message_phone_number_cannot_change">新手機號碼已存在，無法變更！</string>
+	<string name="message_successfully_change_phone_number">電話號碼成功變更為「%1$s」</string>
+	<string name="message_email_verified">電子郵件地址已驗證！</string>
+	<string name="message_successfully_change_email">成功變更電子郵件地址為「%1$s」</string>
+	<string name="message_successfully_change_nickname">暱稱成功變更為「%1$s」</string>
+	<string name="message_delete_account">「&lt;font color=\"#007aff\">%1$s&lt;/font>」會將本機上的帳號、相關設定、已下載的檔案全部刪除。&lt;br/>「&lt;font color=\"#007aff\">%2$s&lt;/font>」會將本機上的帳號、相關設定、已下載的檔案與伺服器上的帳號、所有的上傳下載紀錄都會一併刪除，其他裝置也無法使用此帳號。</string>
+	<string name="message_success_deleting_account">帳號已刪除。</string>
+	<string name="message_failed_to_delete_account">刪除帳號失敗。\n%1$s</string>
+	<string name="message_confirm_delete_this_account_2">刪除帳號後，您須要到下列電腦重新開啟並設定 Filelug 應用程式：&lt;br/>&lt;font color=\"#007aff\">%1$s&lt;/font></string>
+	<string name="message_account_deleted">請使用其他帳號連線或註冊新帳號。</string>
+	<string name="message_account_has_been_deleted">帳號「%1$s」已經在系統設定中被刪除！</string>
+	<string name="message_unable_to_send_security_code">無法寄送驗證碼！</string>
+	<string name="message_folder_or_file_can_not_be_read">資料夾或檔案「%1$s」無法讀取！</string>
+	<string name="message_no_files">沒有檔案</string>
+	<string name="message_back_to_parent_folder">(回上一層)</string>
+	<string name="message_no_file_selected">沒有選取檔案！</string>
+	<string name="message_storage_usage">剩餘 %1$s，共 %2$s</string>
+	<string name="message_no_records">沒有紀錄</string>
+	<string name="message_history_download_description">%1$s 於 %2$s 從 %3$s</string>
+	<string name="message_history_upload_description">%1$s 於 %2$s 至 %3$s</string>
+	<string name="message_history_search_type">搜尋：%1$s</string>
+	<string name="message_history_file_downloaded">%1$d 個檔案成功下載，檔案大小：%2$s</string>
+	<string name="message_history_files_downloaded">%1$d 個檔案成功下載，檔案大小合計：%2$s</string>
+	<string name="message_history_file_uploaded">%1$d 個檔案成功上傳，檔案大小：%2$s</string>
+	<string name="message_history_files_uploaded">%1$d 個檔案成功上傳，檔案大小合計：%2$s</string>
+	<string name="message_login_then_upload">請先登入，然後開始上傳檔案！</string>
+	<string name="message_login_then_save_to_filelug">請先登入，然後開始儲存檔案至 Filelug！</string>
+	<string name="message_login_then_download">請先登入，然後開始下載檔案！</string>
+	<string name="message_file_prepare_to_upload_1">Filelug - 準備上傳</string>
+	<string name="message_file_prepare_to_upload_2">檔案「%1$s」。</string>
+	<string name="message_file_upload_error">Filelug - 上傳失敗</string>
+	<string name="message_file_upload_ping_error_1">Filelug - 上傳失敗「%1$s」</string>
+	<string name="message_file_upload_ping_error_2">無法連線到遠端電腦！可能是電腦未開機、休眠或網路不通或電腦端應用程式未開啟，請排除問題後再重新上傳。</string>
+	<string name="message_file_uploading_1">Filelug - 上傳中</string>
+	<string name="message_file_uploading_2">正在上傳「%1$s」…</string>
+	<string name="message_file_upload_completed_1">Filelug - 上傳完成「%1$s」</string>
+	<string name="message_file_upload_completed_2">等待遠端電腦回覆確認…</string>
+	<string name="message_file_upload_transfer_error_1">Filelug - 上傳失敗「%1$s」</string>
+	<string name="message_file_upload_transfer_error_2">檔案存取或傳輸錯誤！請檢視上傳檔案、本裝置網路是否正常連線後再重新上傳。</string>
+	<string name="message_file_upload_response_error_1">Filelug - 上傳失敗「%1$s」</string>
+	<string name="message_file_upload_response_error_2">遠端回傳錯誤！%1$s</string>
+	<string name="message_file_upload_canceled_1">Filelug - 取消上傳</string>
+	<string name="message_file_upload_canceled_2">取消上傳「%1$s」！</string>
+	<string name="message_file_prepare_to_download_1">Filelug - 準備下載</string>
+	<string name="message_file_prepare_to_download_2">檔案「%1$s」。</string>
+	<string name="message_file_download_error">Filelug - 下載失敗</string>
+	<string name="message_file_download_ping_error_1">Filelug - 下載失敗「%1$s」</string>
+	<string name="message_file_download_ping_error_2">無法連線到遠端電腦！可能是電腦未開機、休眠或網路不通或電腦端應用程式未開啟，請排除問題後再重新下載。</string>
+	<string name="message_file_downloading_1">Filelug - 下載中</string>
+	<string name="message_file_downloading_2">正在下載「%1$s」…</string>
+	<string name="message_file_download_completed_1">Filelug - 下載完成「%1$s」</string>
+	<string name="message_file_download_completed_2">等待遠端電腦回覆確認…</string>
+	<string name="message_file_download_transfer_error_1">Filelug - 下載失敗「%1$s」</string>
+	<string name="message_file_download_transfer_error_2">檔案存取或傳輸錯誤！請檢視下載檔案、本裝置網路是否正常連線後再重新下載。</string>
+	<string name="message_file_download_response_error_1">Filelug - 下載失敗「%1$s」</string>
+	<string name="message_file_download_response_error_2">遠端回傳錯誤！%1$s</string>
+	<string name="message_file_download_canceled_1">Filelug - 取消下載</string>
+	<string name="message_file_download_canceled_2">取消下載「%1$s」！</string>
+	<string name="message_exceed_upload_size_limit">下列檔案大小超過限制，無法上傳：%1$s</string>
+	<string name="message_exceed_download_size_limit">下列檔案大小超過限制，無法下載：%1$s</string>
+	<string name="message_gcm_device_token_refresh_failed">無法取得裝置識別！</string>
+	<string name="message_failed_to_update_device_token">裝置識別更新失敗！\n%1$s</string>
+	<string name="message_failed_to_read_file">無法讀取指定的檔案！[%1$s]</string>
+	<string name="message_failed_to_read_files">無法讀取指定的 %1$d 個檔案！檔案如下:\n%2$s</string>
+	<string name="message_pref_show_hidden_files">是否顯示名稱以 . 開頭的資料夾與檔案</string>
+	<string name="message_pref_show_local_system_folder">是否顯示本裝置上的系統資料夾</string>
+	<string name="message_pref_show_thumbnail">是否顯示本裝置圖片、影片檔案縮圖</string>
+	<string name="message_pref_show_modified_date_and_permission">是否顯示檔案的修改日期及權限資訊</string>
+	<string name="message_pref_remember_recent_folder">是否記住本裝置及遠端電腦最近瀏覽的資料夾</string>
+	<string name="message_pref_app_open_password">當App開啟時是否需要輸入密碼</string>
+	<string name="message_pref_transfer_password">當檔案上傳下載時是否需要輸入密碼</string>
+	<string name="message_pref_file_open_password">當檔案開啟時是否需要輸入密碼</string>
+	<string name="message_app_version">版本：%1$s</string>
+	<string name="message_feedback_subject">回饋意見／錯誤通知</string>
+	<string name="message_feedback_text">請輸入您的寶貴意見！</string>
+	<string name="message_share_app_to_friends_subject">試試看這個好用的APP</string>
+	<string name="message_share_app_to_friends_text_1">【影片介紹】</string>
+	<string name="message_share_app_to_friends_text_2">【Facebook粉絲專頁】</string>
+	<string name="message_share_app_to_friends_text_3">【官方網站】</string>
+	<string name="message_share_app_to_friends_text_4">【免費下載】</string>
+	<string name="message_please_login_to_filelug">你必須先以 Filelug 帳號登入！</string>
+	<string name="message_press_back_again_to_exit">再按一次「返回」鍵離開</string>
+	<string name="message_permission_setup_description">點選「權限」選項後，授予App「儲存」、「相機」、「簡訊」及「聯絡人」權限。完成後點選「返回」圖示回到App。</string>
+	<string name="message_deny_permission_setup">是否確定？如果拒絕授權，將無法使用App。</string>
+	<string name="message_cannot_find_any_app">找不到任何App可以開啟這個檔案！</string>
+	<string name="message_unable_to_open_this_file">無法開啟此檔案！</string>
+	<string name="message_stop_all_upload_tasks">若點選「停止」，App將會停止目前上傳中，及全部等待中的上傳工作。</string>
+	<string name="message_stop_all_download_tasks">若點選「停止」，App將會停止目前下載中，及全部等待中的下載工作。</string>
+	<string name="message_download_file_save_as">%1$s 另存為 %2$s</string>
+	<string name="message_request_connection_1">等待電腦重新連線…</string>
+	<string name="message_request_connection_2">等待電腦「%1$s」重新連線…</string>
+	<string name="message_request_connection_failed_1">要求連線沒有回應！電腦可能正在重新連線，請稍候再試。</string>
+	<string name="message_request_connection_failed_2">要求連線沒有回應！電腦「%1$s」可能正在重新連線，請稍候再試。</string>
+	<string name="message_request_connection_failed_details">若重試幾次後仍無法連線，可能是電腦未開機、休眠、網路不通或電腦應用程式未開啟，請排除問題後再重新連線。</string>
+	<string name="message_cannot_change_account">檔案正在傳輸中，無法變更目前登入的帳號！</string>
+	<string name="message_cannot_change_computer">檔案正在傳輸中，無法變更目前連線的電腦！</string>
+	<string name="message_start_transfer_files">開始傳送檔案</string>
+	<string name="message_start_receiving_files">開始接收檔案</string>
+	<string name="message_download_failed">下列檔案下載失敗！請重新再試。\n\n%1$s</string>
+	<string name="message_server_error_503">電腦端連線不存在。</string>
+	<string name="message_notify_file_download_success">檔案「%1$s」已成功下載。</string>
+	<string name="message_notify_all_files_downloaded_successfully">%1$d個檔案（%2$s …）全部成功下載。</string>
+	<string name="message_notify_all_files_downloaded_successfully_2">%1$d個檔案全部成功下載。</string>
+	<string name="message_notify_all_files_uploaded_successfully_2">%1$d個檔案全部成功上傳。</string>
+	<string name="message_could_not_create_subdirectory">無法建立子資料夾！可能沒有權限或其他原因。</string>
+	<string name="message_could_not_create_description_file">無法建立下載備忘說明檔！可能是沒有權限或其他原因。</string>
+	<string name="message_specified_file_not_found">找不到指定的檔案！</string>
+	<string name="message_unable_to_read_file">無法讀取指定的文件！</string>
+	<string name="message_actions_for_download_success">檔案已經成功下載。&lt;br/>&lt;br/>點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會開啟已經下載的檔案。&lt;br/>點選「&lt;font color=\"#007aff\">%2$s&lt;/font>」，會從遠端電腦重新下載這個檔案。&lt;br/>點選「&lt;font color=\"#007aff\">%3$s&lt;/font>」，會顯示這個檔案的下載資訊。</string>
+	<string name="message_actions_for_downloading">檔案正在下載中。點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會停止下載這個檔案。</string>
+	<string name="message_actions_for_download_failed">檔案下載失敗或被取消。&lt;br/>&lt;br/>點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會從遠端電腦重新下載這個檔案。&lt;u>如果檔案下載失敗是被強迫中斷，則會接續下載。&lt;/u>&lt;br/>點選「&lt;font color=\"#007aff\">%2$s&lt;/font>」，會顯示這個檔案的下載資訊。</string>
+	<string name="message_actions_for_wait_for_download">檔案正在等待下載。點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會取消下載這個檔案。</string>
+	<string name="message_actions_for_upload_success">檔案已經成功上傳。&lt;br/>&lt;br/>點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會重新上傳這個檔案到遠端電腦。&lt;br/>點選「&lt;font color=\"#007aff\">%2$s&lt;/font>」，會顯示這個檔案的上傳資訊。</string>
+	<string name="message_actions_for_uploading">檔案正在上傳中。點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會停止上傳這個檔案。</string>
+	<string name="message_actions_for_upload_failed">檔案上傳失敗或被取消。&lt;br/>&lt;br/>點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會重新上傳這個檔案到遠端電腦。&lt;u>如果檔案上傳失敗是被強迫中斷，則會接續上傳。&lt;/u>&lt;br/>點選「&lt;font color=\"#007aff\">%2$s&lt;/font>」，會顯示這個檔案的上傳資訊。</string>
+	<string name="message_actions_for_wait_for_upload">檔案正在等待上傳。點選「&lt;font color=\"#007aff\">%1$s&lt;/font>」，會取消上傳這個檔案。</string>
+	<string name="message_cannot_find_download_record">找不到指定的下載記錄！</string>
+	<string name="message_cannot_find_upload_record">找不到指定的上傳記錄！</string>
+	<string name="message_google_play_services_not_available">Google Play 服務無法使用！這將使檔案上傳或下傳完成時的通知功能無法運作！（%1$d—%2$s）</string>
+	<string name="message_read_shared_files">讀取分享的檔案…</string>
+	<string name="message_shared_file_not_found">找不到分享的檔案！\n檔案：%1$s</string>
+	<string name="message_failed_to_read_shared_file">無法讀取分享的檔案！\n檔案：%1$s</string>
+	<string name="message_failed_to_create_upload_temporary">無法建立暫存上傳檔案！\n檔案：%1$s</string>
+	<string name="message_failed_to_write_upload_temporary">無法寫入暫存上傳檔案！\n檔案：%1$s</string>
+	<string name="message_can_not_use_cameras">無法加入新電腦，因為App無法使用相機掃描電腦上顯示的二維條碼！</string>
+	<string name="message_can_not_get_accounts">無法建立或尋找裝置上的Filelug帳戶，因為App未被授予「聯絡人」權限！</string>
+	<string name="message_add_new_computer_step_0">新增電腦只需要幾個步驟，讓我們帶著你完成。</string>
+	<string name="message_add_new_computer_step_1">在您的桌機或筆電瀏覽網頁「filelug.com/p.html」，下載並安裝應用程式。</string>
+	<string name="message_add_new_computer_step_2">啟動您剛才安裝的應用程式，等待顯示二維條碼，如上方所示。</string>
+	<string name="message_add_new_computer_step_3">將下方掃描區對準電腦上的二維條碼，然後稍待一會兒。</string>
+	<string name="message_logging_in">登入中，請稍候！</string>
+	<string name="message_try_to_connect_to_computer">連接到「%1$s」，請稍候…</string>
+	<string name="message_filelug_permission_denied">未被授予「聯絡人」或「儲存」權限，App無法運作。</string>
+	<string name="message_session_not_exists">查無此帳號，請重新登入。</string>
+	<string name="message_verify_current_account">為確認您是本帳號的擁有者，請再次驗證您的手機號碼！</string>
+	<string name="message_confirm_delete_local_account">確定刪除本機帳號？</string>
+	<string name="message_confirm_delete_local_data">確定刪除本機暫存資料？</string>
+	<string name="message_local_cached_data_delete">本機暫存資料已刪除！</string>
+	<string name="message_confirm_delete_remote_computer">電腦「&lt;font color=\"#007aff\">%1$s&lt;/font>」上的 Filelug 應用程式將會恢復初始設定並關閉。您必須開啟 Filelug 以重新設定。\n\n確定要刪除？</string>
+	<string name="message_successfully_change_computer_name">電腦名稱成功變更為「%1$s」</string>
+	<string name="message_computer_has_been_deleted">電腦「%1$s」已刪除！</string>
+	<string name="message_computer_not_set">電腦未設定！</string>
+	<string name="message_expired_qrcode_and_need_refresh">此二維條碼已經過期，請點選待連線電腦二維條碼畫面下方按鍵「重新產生二維條碼」以產生新的二維條碼，然後再掃描一次。</string>
+	<string name="message_describe_wrong_login_account">您想使用的帳號是「%1$s」，但卻使用另一個帳號「%2$s」登入。請使用正確帳號登入。</string>
+	<string name="message_verification_error">驗證錯誤！</string>
+
+	<string name="title_info">訊息</string>
+	<string name="title_warning">警示</string>
+	<string name="title_error">錯誤</string>
+	<string name="title_delete_account">删除帳號 %1$s</string>
+	<string name="title_permissions_dialog">請授予下列權限</string>
+	<string name="title_permissions_step_description">設定步驟說明</string>
+	<string name="title_stop_all_uploads">停止所有上傳工作？</string>
+	<string name="title_stop_all_downloads">停止所有下載工作？</string>
+	<string name="title_which_application">選擇要使用的App</string>
+	<string name="title_unable_to_connect_to_computer">無法連線到遠端電腦</string>
+
+	<string name="hint_enter_customized_name">輸入自訂名稱</string>
+	<string name="hint_enter_customized_description">輸入自訂說明</string>
+
+	<string name="content_header_file_upload_list">—— 上傳檔案列表 ——</string>
+	<string name="content_header_file_download_list">—— 下載檔案列表 ——</string>
+
+	<string name="wizard_register">使用您的手機號碼登入。</string>
+	<string name="wizard_download_desktop">在您的桌機或筆電瀏覽網站「filelug.com/p.html」，下載並安裝應用程式。</string>
+	<string name="wizard_setup_desktop">啟動您剛才安裝的應用程式，等待顯示二維條碼。</string>
+	<string name="wizard_connect_to_desktop">從手機或平板掃描二維條碼即可連接到您的桌機或筆電。</string>
+	<string name="wizard_start_to_transfer">開始上傳與下載檔案。</string>
+
+	<string name="permission_group_contacts">聯絡人</string>
+	<string name="permission_group_storage">儲存</string>
+	<string name="permission_group_sms">簡訊</string>
+	<string name="permission_group_camera">相機</string>
+	<string name="permission_desc_contacts">若授予此權限，App只會管理 Filelug 建立的帳號，不會存取其他帳號資料。</string>
+	<string name="permission_desc_storage">若授予此權限，App即可上傳檔案(讀取本裝置中的相片、音樂、影片、文件)至遠端的電腦，或從遠端的電腦下載檔案(儲存至本裝置)。</string>
+	<string name="permission_desc_sms">若授予此權限，App即可於收到驗證碼簡訊後自動輸入驗證碼。</string>
+	<string name="permission_desc_camera">若授予此權限，App只會在執行「加入新電腦」時才會使用相機掃描電腦上顯示的二維條碼。</string>
+	<string name="permission_warning_description">若未授予此權限，則App無法正常運作。</string>
+	<string name="permission_warning_description_sms">若未授予此權限，可於收到驗證碼簡訊後手動輸入驗證碼。</string>
+	<string name="permission_warning_description_camera">若未授予此權限，App將無法執行「加入新電腦」連線到新的電腦。</string>
+	<string name="permission_granted">已授權</string>
+	<string name="permission_not_granted">未授權</string>
+
+	<!-- Local Files -->
+	<string name="action_select_all">全選</string>
+	<string name="action_invert_selection">反向選擇</string>
+	<string name="action_details">詳細資訊</string>
+	<string name="action_open_file">開啟</string>
+	<string name="action_cancel_selection">取消選擇</string>
+	<string name="action_sort">排序</string>
+	<string name="sortDialog_title">排序方式</string>
+	<string name="sort_by_name">名稱</string>
+	<string name="sort_by_date">日期</string>
+	<string name="sort_by_size">檔案大小</string>
+	<string name="sort_by_type">類型</string>
+	<string name="sort_type_ascending">由小到大</string>
+	<string name="sort_type_descending">由大到小</string>
+	<string name="action_refresh">重新整理</string>
+
+	<string name="fileItem_display_name">名稱</string>
+	<string name="fileItem_path">路徑</string>
+	<string name="fileItem_object_type">類別</string>
+	<string name="fileItem_real_name">原名稱</string>
+	<string name="fileItem_real_path">原路徑</string>
+	<string name="fileItem_size">檔案大小</string>
+	<string name="fileItem_modified_date">最近修改日期</string>
+	<string name="fileItem_isHidden">是否隱藏</string>
+	<string name="fileItem_canRead">是否可讀</string>
+	<string name="fileItem_canWrite">是否可寫</string>
+
+	<string name="yn_yes">是</string>
+	<string name="yn_no">否</string>
+
+	<string name="fileType_device_root">本裝置</string>
+	<string name="fileType_local_bookmarks">書籤(手機/平板)</string>
+	<string name="fileType_local_images">圖片</string>
+	<string name="fileType_local_music">音樂</string>
+	<string name="fileType_local_movies">影片</string>
+	<string name="fileType_local_documents">文件</string>
+	<!--<string name="fileType_local_dcim">相機</string>-->
+	<!--<string name="fileType_local_bluetooth">藍芽</string>-->
+	<string name="fileType_local_downloads">下載</string>
+	<!--<string name="fileType_local_screenshot">螢幕截圖</string>-->
+	<!--<string name="fileType_local_podcasts">Podcasts</string>-->
+	<!--<string name="fileType_local_ringtones">來電鈴聲</string>-->
+	<!--<string name="fileType_local_alarms">鬧鐘鈴聲</string>-->
+	<!--<string name="fileType_local_notifications">通知及簡訊鈴聲</string>-->
+
+	<string name="fileType_local_internal_storage">內部儲存空間</string>
+	<string name="fileType_local_sdcard_storage">SD卡</string>
+	<string name="fileType_local_usb_storage">USB儲存裝置</string>
+	<string name="fileType_local_root">系統資料夾</string>
+
+	<string name="fileType_local_dir">資料夾</string>
+	<string name="fileType_local_file">檔案</string>
+	<string name="fileType_local_symbolic_link_dir">資料夾連結</string>
+	<string name="fileType_local_symbolic_link_file">檔案連結</string>
+
+	<string name="fileType_desktop_root">遠端裝置</string>
+	<string name="fileType_remote_bookmarks">書籤(遠端)</string>
+	<string name="fileType_remote_roots">資料夾(遠端)</string>
+	<string name="fileType_remote_dir">遠端資料夾</string>
+	<string name="fileType_remote_file">遠端檔案</string>
+	<string name="fileType_remote_windows_shortcut_dir">遠端 Windows 資料夾捷徑</string>
+	<string name="fileType_remote_windows_shortcut_file">遠端 Windows 檔案捷徑</string>
+	<string name="fileType_remote_unix_symbolic_link_dir">遠端 Unix 資料夾連結</string>
+	<string name="fileType_remote_unix_symbolic_link_file">遠端 Unix 檔案連結</string>
+	<string name="fileType_remote_mac_alias_dir">遠端 Mac 資料夾替身</string>
+	<string name="fileType_remote_mac_alias_file">遠端 Mac 檔案替身</string>
+	<string name="fileType_parent_dir">回上一層</string>
+	<string name="fileType_windows_shortcut">捷徑</string>
+	<string name="fileType_unix_symbolic_link">連結</string>
+	<string name="fileType_mac_alias">替身</string>
+
+	<string name="fileType_unknown">非檔案或資料夾</string>
+
+	<string name="format_file_count_item">%,d 項</string>
+	<string name="format_file_count_items">%,d 項</string>
+	<string name="format_selected_file_count">已選取 %,d 個</string>
+	<string name="format_req_connect_timeout">%1$d 秒</string>
+
+	<string name="durationDays">%1$d 天</string>
+	<string name="durationDayHours">%1$d 天 %2$d 小時</string>
+	<string name="durationDayHour">%1$d 天 %2$d 小時</string>
+	<string name="durationHours">%1$d 小時</string>
+	<string name="durationHourMinutes">%1$d 小時 %2$d 分鐘</string>
+	<string name="durationHourMinute">%1$d 小時 %2$d 分鐘</string>
+	<string name="durationMinutes">%1$d 分鐘</string>
+	<string name="durationMinute">%1$d 分鐘</string>
+	<string name="durationMinuteSeconds">%1$d 分鐘 %2$d 秒</string>
+	<string name="durationMinuteSecond">%1$d 分鐘 %2$d 秒</string>
+	<string name="durationSeconds">"%1$d 秒</string>
+	<string name="durationSecond">"%1$d 秒</string>
+
+	<string name="openAsDialog_title">開啟為</string>
+	<string name="fileOpenType_image">圖片</string>
+	<string name="fileOpenType_music">音樂</string>
+	<string name="fileOpenType_movie">影片</string>
+	<string name="fileOpenType_document">文件</string>
+	<string name="fileOpenType_other">其他</string>
+
+	<!-- Download Histories -->
+	<string name="action_history_search_range">搜尋範圍</string>
+	<string-array name="history_search_range_array">
+		<item>最近20筆</item>
+		<item>最近一週</item>
+		<item>最近一個月</item>
+		<item>全部</item>
+	</string-array>
+
+	<string-array name="upload_status_array">
+		<item>準備上傳</item>
+		<item>檔案上傳中</item>
+		<item>檔案已上傳</item>
+		<item>檔案上傳失敗</item>
+		<item>檔案上傳取消</item>
+		<item>查無上傳記錄</item>
+		<item>確認檔案上傳狀態中</item>
+	</string-array>
+	<string-array name="download_status_array">
+		<item>準備下載</item>
+		<item>檔案下載中</item>
+		<item>檔案已下載</item>
+		<item>檔案下載失敗</item>
+		<item>檔案下載取消</item>
+		<item>查無下載記錄</item>
+		<item>確認檔案下載狀態中</item>
+	</string-array>
+	<string name="transfer_status_confirming">確認狀態中</string>
+	<string name="transfer_progress">(%1$d％)</string>
+
+	<string-array name="subfolder_type_array">
+		<item>無 (不建立)</item>
+		<item>目前時間</item>
+		<item>自訂名稱</item>
+		<item>目前時間 + 自訂名稱</item>
+		<item>自訂名稱 + 目前時間</item>
+	</string-array>
+	<string-array name="description_type_array">
+		<item>無</item>
+		<item>檔案名稱清單</item>
+		<item>自訂備忘說明</item>
+		<item>自訂備忘說明 + 檔案名稱清單</item>
+	</string-array>
+	<string-array name="notification_type_array">
+		<item>不通知</item>
+		<item>個別通知</item>
+		<item>整批通知</item>
+	</string-array>
+
+	<string-array name="display_language_array">
+		<item>英文</item>
+		<item>簡體中文</item>
+		<item>繁體中文</item>
+	</string-array>
+
+	<string name="url_terms_of_service">https://www.filelug.com/zh-hant/terms-of-use.html</string>
+	<string name="url_privacy_policy">https://www.filelug.com/zh-hant/privacy-policy.html</string>
+
+	<string name="file_download_group_description_base_name">說明</string>
+
+</resources>

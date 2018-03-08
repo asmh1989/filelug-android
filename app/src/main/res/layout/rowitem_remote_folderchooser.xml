@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.filelug.android.ui.widget.RippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RippleStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/keyline_1"
+    android:paddingRight="@dimen/keyline_1"
+    android:paddingStart="@dimen/keyline_1"
+    android:paddingEnd="@dimen/keyline_1"
+    android:gravity="start|center_vertical"
+    android:background="@drawable/selector_background_empty" >
+
+    <LinearLayout
+        android:id="@+id/itemRoot"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+                android:layout_marginEnd="@dimen/keyline_1_minus_8dp"
+                android:src="@drawable/ic_folder"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/object_shortcut_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+                android:layout_marginEnd="@dimen/keyline_1_minus_8dp"
+                android:src="@drawable/ic_file_shortcut"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="@dimen/folderchooser_item_textsize" />
+
+    </LinearLayout>
+
+</com.filelug.android.ui.widget.RippleLayout>

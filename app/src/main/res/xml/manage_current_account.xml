@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_category_account_profile"
+        android:title="@string/label_pref_category_account_profile" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_mobile"
+            android:key="@string/pref_account_name"
+            android:persistent="false"
+            android:enabled="false"
+            android:shouldDisableView="true"
+            android:title="@string/label_phone_number" />
+        <!--android:enabled="false"-->
+        <!--android:shouldDisableView="false"-->
+        <!--android:selectable="false"-->
+
+        <Preference
+            android:icon="@drawable/menu_ic_email"
+            android:key="@string/pref_email"
+            android:persistent="false"
+            android:title="@string/label_email_address" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_nick_name"
+            android:key="@string/pref_nickname"
+            android:persistent="false"
+            android:title="@string/label_nickname" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_category_history"
+        android:title="@string/label_pref_category_history" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_download_history"
+            android:key="@string/pref_downloaded_files_history"
+            android:persistent="false"
+            android:title="@string/label_downloaded_files_history" />
+
+        <Preference
+            android:icon="@drawable/menu_ic_upload_history"
+            android:key="@string/pref_uploaded_files_history"
+            android:persistent="false"
+            android:title="@string/label_uploaded_files_history" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_category_delete"
+        android:title="@string/label_pref_category_deletion" >
+
+        <Preference
+            android:icon="@drawable/menu_ic_delete_account"
+            android:key="@string/pref_delete_account"
+            android:persistent="false"
+            android:title="@string/label_pref_delete_account" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

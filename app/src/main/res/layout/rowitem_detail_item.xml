@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_detail_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:gravity="center|center_vertical">
+
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomListItem.Name2"/>
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomListItem.Description"/>
+
+    <View
+        android:id="@+id/divider_line"
+        android:background="@color/material_grey_200"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
